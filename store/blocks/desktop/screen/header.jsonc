@@ -1,0 +1,14 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "responsive-layout.desktop#desktop__header--container"
+        ]
+    },
+    "responsive-layout.desktop#desktop__header--container": {
+      "title": "header container Desktop",
+      "children": [
+        "header-row#desktop__header--top",
+        "flex-layout.row#desktop__header--container"
+      ]
+    }
+}

@@ -152,7 +152,7 @@
     "hover-text": {
       "action-primary": "#e4147e",
       "action-secondary": "#dbe9fd",
-      "link": "#0c389f",
+      "link": "#727272",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -225,7 +225,7 @@
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
       "action-secondary": "#0F3E99",
-      "emphasis": "#ffffff",
+      "emphasis": "#e4147e",
       "disabled": "#979899",
       "success": "#ffffff",
       "success--faded": "#3f3f40",

@@ -1,0 +1,65 @@
+{
+    "header-row#desktop__header--top": {
+        "title": "Header top desktop",
+        "children": [
+            "flex-layout.row#header__top--container"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__header--top",
+            "verticalAlign": "center"
+        }
+    },
+
+    "flex-layout.row#header__top--container": {
+        "title": "header top container",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "header__top--container",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#header__top--image",
+            // "flex-layout.col#spacer",
+            "flex-layout.col#spacer__top",
+            "rich-text#header__top--text",
+            "link#header__top--link"
+
+        ]
+    },
+    "image#header__top--image": {
+        "title": "header top imagen",
+        "props": {
+            "src": "assets/img/header/liliYyoi.png"
+            // "width": "50%"
+        }
+    },
+
+    "flex-layout.col#spacer__top": {
+        "props": {
+            "width": "30%"
+        }
+    },
+
+    "rich-text#header__top--text": {
+        "title": "header top texto",
+        "props": {
+            "text": "GENERA INGRESOS ADICIONALES CON NOSOTROS",
+            "textColor": "c-on-emphasis",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "heading-4",
+            "blockClass": "header__top--text",
+            "width": "25%"
+        }
+    },
+    "link#header__top--link": {
+        "title": "header top link Tiendas",
+        "props": {
+            "href": "/",
+            "label": "Tiendas",
+            "blockClass": "header__top--link",
+            "width": "10%"
+        }
+    }
+}

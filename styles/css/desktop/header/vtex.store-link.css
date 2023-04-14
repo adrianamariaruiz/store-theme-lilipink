@@ -1,0 +1,14 @@
+/* .link--header__top--link{
+    background-color: green;
+} */
+.label--header__top--link{
+    color: #727272;
+    font-size: 14px;
+}
+
+.link--header__top--link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

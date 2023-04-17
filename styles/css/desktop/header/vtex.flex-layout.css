@@ -1,0 +1,20 @@
+/* .flexRow--header__top--container{
+    
+    background-color: palevioletred;
+} */
+
+/* .flexRowContent--header__top--container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(252, 160, 190);
+} */
+
+.flexRow--header__desktop{
+    padding: 0px 10px;
+}
+
+.flexRow--header__top--container{
+    width: 100%;
+}
+

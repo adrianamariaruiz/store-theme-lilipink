@@ -1,4 +1,16 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
+
+
+.styledLink--header__menu{
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+}
+/* .menuContainerNav--header__menu--items{
+    width: 100%;
 } */
+.menuContainer--header__menu--items{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid 1px green; */
+}
+

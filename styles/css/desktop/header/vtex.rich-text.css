@@ -1,3 +1,14 @@
 .wrapper--header__top--text{
     font-size: 14px;
 }
+
+/* .wrapper--menu__submenu--buscar{
+    background-color: paleturquoise;
+} */
+
+.paragraph--menu__submenu--buscar{
+    /* font-size: 11px; */
+    text-decoration: solid;
+    margin-left: 20px;
+    /* color: green; */
+}

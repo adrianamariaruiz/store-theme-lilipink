@@ -33,14 +33,16 @@
     "logo#header__logo": {
         "title": "Header logo desktop",
         "props": {
-            "url": "assets/img/header/logo.png"
+            "url": "assets/img/header/logo.png",
+            "href": "/"
         }
     },
 
     "login": {
         "title": "desktop login",
         "props": {
-            "iconLabel": "MI CUENTA"
+            "iconLabel": "MI CUENTA",
+            "showIconProfile": true
         }
     }
 }

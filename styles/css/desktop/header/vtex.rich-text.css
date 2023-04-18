@@ -2,13 +2,16 @@
     font-size: 14px;
 }
 
-/* .wrapper--menu__submenu--buscar{
-    background-color: paleturquoise;
-} */
-
-.paragraph--menu__submenu--buscar{
-    /* font-size: 11px; */
-    text-decoration: solid;
+.paragraph--menu__submenu--texto{
     margin-left: 20px;
-    /* color: green; */
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
 }
+
+.link--header__top--text{
+    text-decoration: none;
+    color: #e4147e;
+}
+

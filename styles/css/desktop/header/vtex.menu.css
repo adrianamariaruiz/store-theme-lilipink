@@ -1,16 +1,23 @@
-
-
 .styledLink--header__menu{
     font-size: 13px;
     font-weight: bold;
     color: #757575;
 }
-/* .menuContainerNav--header__menu--items{
-    width: 100%;
-} */
+.styledLink--header__menu:hover{
+    color: #e4147e;
+}
+
 .menuContainer--header__menu--items{
     display: flex;
-    justify-content: space-evenly;
-    /* border: solid 1px green; */
+    justify-content: center;
 }
+
+.styledLink--header__menu--rebajas{
+    color: red;
+}
+
+.styledLink--header__menu--bienestar:hover, .styledLink--header__menu--bioseguridad:hover{
+    color: #08ab97;
+}
+
 

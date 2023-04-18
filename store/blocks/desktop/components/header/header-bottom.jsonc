@@ -1,3 +1,32 @@
 {
-    
+    "flex-layout.row#desktop__header--menu": {
+        "title": "menu del header desktop",
+        "props": {
+            "blockClass": "desktop__header--menu",
+            "fullWidth": true
+        },
+        "children": [
+            "vtex.menu@2.x:menu#header__menu"
+        ]
+    },
+    "vtex.menu@2.x:menu#header__menu": {
+        "title": "menu contenedor items",
+        "props": {
+            "blockClass": "header__menu--items"
+        },
+        "children": [
+            "menu-item#brasieres",
+            "menu-item#tops",
+            "menu-item#panties",
+            "menu-item#kids-teen",
+            "menu-item#hombre",
+            "menu-item#pijamas-multiusos",
+            "menu-item#medias",
+            "menu-item#deportivo",
+            "menu-item#vestidos-baño",
+            "menu-item#belleza-bienestar",
+            "menu-item#rebajas",
+            "menu-item#bioseguridad"
+          ]
+    }
 }

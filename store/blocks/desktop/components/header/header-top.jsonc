@@ -20,7 +20,6 @@
         },
         "children": [
             "image#header__top--image",
-            // "flex-layout.col#spacer",
             "flex-layout.col#spacer__top",
             "rich-text#header__top--text",
             "link#header__top--link"
@@ -30,8 +29,10 @@
     "image#header__top--image": {
         "title": "header top imagen",
         "props": {
-            "src": "assets/img/header/liliYyoi.png"
-            // "width": "50%"
+            "src": "assets/img/header/liliYyoi.png",
+            "link": {
+                "url": "/"
+            }
         }
     },
 
@@ -44,7 +45,7 @@
     "rich-text#header__top--text": {
         "title": "header top texto",
         "props": {
-            "text": "GENERA INGRESOS ADICIONALES CON NOSOTROS",
+            "text": "[GENERA INGRESOS ADICIONALES CON NOSOTROS](https://storethemelilipink--itgloberspartnercl.myvtex.com)",
             "textColor": "c-on-emphasis",
             "textPosition": "CENTER",
             "textAlignment": "CENTER",

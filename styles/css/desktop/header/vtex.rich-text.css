@@ -1,3 +1,17 @@
 .wrapper--header__top--text{
     font-size: 14px;
 }
+
+.paragraph--menu__submenu--texto{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+}
+
+.link--header__top--text{
+    text-decoration: none;
+    color: #e4147e;
+}
+

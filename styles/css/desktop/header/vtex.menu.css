@@ -1,4 +1,23 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.styledLink--header__menu{
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+}
+.styledLink--header__menu:hover{
+    color: #e4147e;
+}
+
+.menuContainer--header__menu--items{
+    display: flex;
+    justify-content: center;
+}
+
+.styledLink--header__menu--rebajas{
+    color: red;
+}
+
+.styledLink--header__menu--bienestar:hover, .styledLink--header__menu--bioseguridad:hover{
+    color: #08ab97;
+}
+
+

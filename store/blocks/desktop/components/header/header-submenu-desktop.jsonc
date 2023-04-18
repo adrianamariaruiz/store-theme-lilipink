@@ -1,0 +1,236 @@
+{
+    "vtex.menu@2.x:submenu#brasieres": {
+        "title": "submenu brasieres",
+        "props": {
+            "width": "100%",
+            "blockClass": "submenu__brasieres"
+        },
+        "children": [
+            "flex-layout.row#submenu__brasieres"
+        ]
+    },
+    "flex-layout.row#submenu__brasieres": {
+        "title": "submenu brasieres contenedor de items",
+        "props": {
+            "width": "15%",
+            "blockClass": "submenu__brasieres--contenedor",
+            "horizontalAlign": "CENTER"
+        },
+        "children": [
+            "flex-layout.col#menu__buscar",
+            "flex-layout.col#menu__estilos",
+            "flex-layout.col#menu__compramas",
+            "flex-layout.col#spacer",
+            "flex-layout.row#menu__image"
+        ]
+    },
+    "flex-layout.row#menu__image": {
+        "title": "imagen del submenu brasieres",
+        "props": {
+            "width": "30%",
+            "blockClass": "brasieres__contenedor--item"
+        },
+        "children": [
+            "image#home__slider--one"
+        ]
+    },
+    "image#home__slider--one": {
+        "title": "submenu brasieres imagen",
+        "props": {
+            "src": "assets/img/home/slider1.png"
+        }
+    },
+    "flex-layout.col#menu__buscar": {
+        "title": "submenu brasieres - buscar",
+        "props": {
+            "orientation": "vertical",
+            "width": "15%",
+            "blockClass": "brasieres__contenedor--item"
+        },
+        "children": [
+            "rich-text#buscar",
+            "menu-item#buscar-todos",
+            "menu-item#buscar-masvendidos",
+            "menu-item#buscar-nuevos",
+            "menu-item#buscar-descuentos"
+        ]
+    },
+    "flex-layout.col#menu__estilos": {
+        "title": "submenu brasieres - estilos",
+        "props": {
+            "orientation": "vertical",
+            "width": "15%",
+            "blockClass": "brasieres__contenedor--item"
+        },
+        "children": [
+            "rich-text#estilos",
+            "menu-item#buscar-todos",
+            "menu-item#buscar-masvendidos",
+            "menu-item#buscar-nuevos",
+            "menu-item#buscar-descuentos"
+        ]
+    },
+    "flex-layout.col#menu__compramas": {
+        "title": "submenu brasieres - compra mas y ahorra",
+        "props": {
+            "orientation": "vertical",
+            "width": "15%",
+            "blockClass": "brasieres__contenedor--item"
+        },
+        "children": [
+            "rich-text#compramas",
+            "menu-item#compramas__individual",
+            "menu-item#compramas__paquetex2"
+        ]
+    },
+    "rich-text#buscar": {
+        "title": "submenu brasieres texto buscar",
+        "props": {
+            "text": "Buscar",
+            "textColor": "c-on-emphasis",
+            "blockClass": [
+                "menu__submenu--buscar",
+                "menu__submenu--texto"
+            ]
+        }
+    },
+    "rich-text#estilos": {
+        "title": "submenu brasieres texto estilos",
+        "props": {
+            "text": "Estilos",
+            "textColor": "c-on-emphasis",
+            "blockClass": ["menu__submenu--estilos", "menu__submenu--texto"]
+        }
+    },
+    "rich-text#compramas": {
+        "title": "submenu brasieres texto compra mas y ahorra",
+        "props": {
+            "text": "Compra Más Y Ahorra",
+            "textColor": "c-on-emphasis",
+            "blockClass": ["menu__submenu--compramas", "menu__submenu--texto"]
+        }
+    },
+    "menu-item#buscar-todos": {
+        "title": "submenu brasieres item ver todos",
+        "props": {
+            "blockClass": "submenu__brasieres--items",
+            "id": "menu-item-ver-Todos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ver-todos",
+                "text": "Ver todos"
+            }
+        }
+    },
+    "menu-item#buscar-masvendidos": {
+        "title": "submenu brasieres item los mas vendidos",
+        "props": {
+            "blockClass": "submenu__brasieres--items",
+            "id": "menu-item-mas-vendidos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "mas-vendidos",
+                "text": "Los mas vendidos"
+            }
+        }
+    },
+    "menu-item#buscar-nuevos": {
+        "title": "submenu brasieres item nuevos",
+        "props": {
+            "blockClass": "submenu__brasieres--items",
+            "id": "menu-item-nuevos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "nuevos",
+                "text": "Nuevos"
+            }
+        }
+    },
+    "menu-item#buscar-descuentos": {
+        "title": "submenu brasieres item descuentos",
+        "props": {
+            "blockClass": "submenu__brasieres--items",
+            "id": "menu-item-descuentos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "descuentos",
+                "text": "Descuentos"
+            }
+        }
+    },
+    "menu-item#compramas__individual": {
+        "title": "submenu brasieres compra mas item individual",
+        "props": {
+            "blockClass": "submenu__brasieres--items",
+            "id": "menu-item-compramas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "individual",
+                "text": "Individual"
+            }
+        }
+    },
+    "menu-item#compramas__paquetex2": {
+        "title": "submenu brasieres compra mas item paquetex2",
+        "props": {
+            "blockClass": "submenu__brasieres--items",
+            "id": "menu-item-compramas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "paquetex2",
+                "text": "Paquete x2"
+            }
+        }
+    },
+
+    "vtex.menu@2.x:submenu#tops": {
+        "title": "submenu tops",
+        "props": {
+            "width": "100%",
+            "blockClass": "submenu__brasieres"
+        },
+        "children": [
+            "flex-layout.row#submenu__brasieres"
+        ]
+    },
+
+    "flex-layout.row#brasieres": {
+        "title": "submenu tops contenedor de items",
+        "props": {
+            "width": "15%",
+            "blockClass": "submenu__brasieres--contenedor",
+            "horizontalAlign": "CENTER"
+        },
+        "children": [
+            "flex-layout.col#menu__buscar",
+            "flex-layout.col#menu__estilos",
+            "flex-layout.col#menu__compramas",
+            "flex-layout.col#spacer",
+            "flex-layout.row#menu__image"
+        ]
+    }
+}

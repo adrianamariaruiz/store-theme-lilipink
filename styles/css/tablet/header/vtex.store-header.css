@@ -1,0 +1,8 @@
+
+.headerRowContainer--desktop__header--top{
+    /* background-color: palegoldenrod; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}

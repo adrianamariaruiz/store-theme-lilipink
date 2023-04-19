@@ -1,0 +1,13 @@
+{
+  "responsive-layout.phone#phone__header--container": {
+        "title": "header container phone",
+        "props": {
+          "blockClass": "phone__header--container"
+        },
+        "children": [
+          "header-row#tablet__header--top",
+          "header-row#phone__header"
+          // "flex-layout.row#phone__header--container"
+        ]
+      }
+}

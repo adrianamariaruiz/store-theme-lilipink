@@ -1,0 +1,12 @@
+{
+  "responsive-layout.tablet#tablet__header--container": {
+        "title": "header container tablet",
+        "props": {
+          "blockClass": "tablet__header--container"
+        },
+        "children": [
+          "header-row#tablet__header--top",
+          "flex-layout.row#tablet__header--container"
+        ]
+      }
+}

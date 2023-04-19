@@ -1,0 +1,26 @@
+
+.flexColChild--phone__container--buscador{
+    /* border: solid 1px greenyellow; */
+    width: 155px;
+}
+
+.flexCol--phone__container--login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+.flexColChild--phone__container--login{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    justify-content: center;
+    
+}
+.flexColChild--phone__container--cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}

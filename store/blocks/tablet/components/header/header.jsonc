@@ -11,18 +11,12 @@
         },
         "children": [
             "flex-layout.col#trigger-mega-menu",
-            // "flex-layout.col#tablet__container--drawer",
-            // "search-bar#header__busqueda--mobile",
-            "search-bar",
+            "search-bar#header__busqueda--global",
             "flex-layout.col#spacer",
             "login",
             "minicart.v2"
         ]
     },
-    // "search-bar#header__busqueda--mobile": {
-    //     "blocks": ["autocomplete-result-list.v2"],
-    //     "openAutocompleteOnFocus": true
-    // },
     "flex-layout.col#trigger-mega-menu": {
         "title": "trigger-mega-menu",
         "props": {

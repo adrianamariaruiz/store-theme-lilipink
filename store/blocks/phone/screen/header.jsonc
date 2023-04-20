@@ -7,7 +7,6 @@
         "children": [
           "header-row#tablet__header--top",
           "header-row#phone__header"
-          // "flex-layout.row#phone__header--container"
         ]
       }
 }

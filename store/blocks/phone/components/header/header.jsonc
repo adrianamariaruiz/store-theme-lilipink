@@ -54,7 +54,7 @@
             "blockClass": "phone__container--buscador"
         },
         "children": [
-            "search-bar"
+            "search-bar#header__busqueda--global"
         ]
     }
     

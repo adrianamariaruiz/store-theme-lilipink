@@ -10,7 +10,7 @@
             "blockClass": "header__desktop"
         },
         "children": [
-            "search-bar",
+            "search-bar#header__busqueda--global",
             "flex-layout.col#spacer",
             "flex-layout.col#desktop__header--logo",
             "flex-layout.col#spacer",
@@ -45,4 +45,5 @@
             "showIconProfile": true
         }
     }
+
 }

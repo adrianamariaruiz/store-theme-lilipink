@@ -1,0 +1,11 @@
+{
+    "header-layout.mobile": {
+      "props": {
+        "blockClass": "header__mobile--layout"
+      },
+        "children": [
+          "responsive-layout.tablet#tablet__header--container",
+          "responsive-layout.phone#phone__header--container"
+        ]
+    }
+}

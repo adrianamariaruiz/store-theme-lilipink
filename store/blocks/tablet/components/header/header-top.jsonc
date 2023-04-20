@@ -1,0 +1,38 @@
+{
+    "header-row#tablet__header--top": {
+        "title": "Header top tablet",
+        "children": [
+            "flex-layout.row#tablet__header--top-container"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__header--top",
+            "verticalAlign": "center"
+        }
+    },
+
+    "flex-layout.row#tablet__header--top-container": {
+        "title": "header top container tablet",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "tablet__header--top-container",
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "verticalAlign": "center"
+        },
+        "children": [
+            "image#tablet__header--top-image"
+        ]
+    },
+    "image#tablet__header--top-image": {
+        "title": "header top imagen tablet",
+        "props": {
+            "blockClass": "tablet__header--top-image",
+            "src": "assets/img/header/liliYyoi.png",
+            "maxWidth": "100%",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}

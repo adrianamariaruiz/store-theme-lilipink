@@ -1,0 +1,92 @@
+{
+    "flex-layout.row#tablet__header--container": {
+        "title": "tablet header container",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "header__desktop"
+        },
+        "children": [
+            "flex-layout.col#trigger-mega-menu",
+            "search-bar#header__busqueda--global",
+            "flex-layout.col#spacer",
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "flex-layout.col#trigger-mega-menu": {
+        "title": "trigger-mega-menu",
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["mega-menu-trigger-btn"]
+    },
+    "mega-menu-trigger-btn": {
+        "props": {
+          "Drawer": "drawer"
+        }
+    },
+    "drawer": {
+        "title": "drawer",
+        "children": [
+            "mega-menu#mobile"
+        ],
+        "blocks": ["drawer-header#mobile__drawer"]
+    },
+    "mega-menu#mobile": {
+        "title": "mega menu de mobile",
+        "props": {
+            "defaultDepartmentActive": "...",
+            "orientation": "vertical",
+            "openOnly": "vertical"
+        }
+    },
+    "drawer-header#mobile__drawer": {
+        "children": ["flex-layout.row#mobile__drawer"]
+    },
+    "flex-layout.row#mobile__drawer": {
+        "title": "contenedor del drawer de mobile",
+        "children": [
+          "flex-layout.col#drawer__boton--regresar",
+          "flex-layout.col#spacer",
+          "flex-layout.col#drawer__boton--cerrar"
+        ],
+        "props": {
+          "blockClass": "drawer-header",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+    },
+    "flex-layout.col#drawer__boton--cerrar": {
+        "title": "boton de cerrar del drawer",
+        "children": ["drawer-close-button"],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "right"
+        }
+    },
+    "flex-layout.col#drawer__boton--regresar": {
+        "title": "boton de regresar del drawer",
+        "children": ["mega-menu-go-back-btn"],
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "left",
+          "paddingLeft": 4
+        }
+    },
+    "flex-layout.col#tablet__container--drawer": {
+        "title": "contenedor del drawer de tablet",
+        "props": {
+            "blockClass": "tablet__container--drawer",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "drawer"
+        ]
+    }
+}

@@ -1,29 +1,29 @@
 {
-  "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
-    "children": [
-      "rich-text#section-1",
-      "rich-text#section-2"
-    ]
-  },
-
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
-    "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+    "flex-layout.row#desktop__home--promo-text": {
+        "title": "desktop contenedor texto promocion",
+        "children": [
+            "rich-text#home__promo--text",
+            "rich-text#home__promo--text-strong",
+            "rich-text#home__promo--text-separator"
+        ]
+    },
+    "rich-text#home__promo--text": {
+        "title": "desktop texto promocion",
+        "props": {
+            "text": "Envíos gratis por compras superiores a "
+        }
+    },
+    "rich-text#home__promo--text-strong": {
+        "title": "desktop texto promocion",
+        "props": {
+            "text": "$69.900"
+        }
+    },
+    "rich-text#home__promo--text-separator": {
+        "title": "desktop texto promocion",
+        "props": {
+            "text": " | Compra segura  | "
+        }
     }
-  },
-  "rich-text#section-2": {
-    "title": "Text 2 Favorites at desktop",
-    "props": {
-      "text": "Favoritos 2 DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  }
+    
 }

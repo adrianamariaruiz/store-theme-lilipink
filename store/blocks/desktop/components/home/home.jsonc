@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#desktop__home--promo-text": {
+        "title": "desktop contenedor texto promocion",
+        "children": [
+            "rich-text#home__promo--text",
+            "rich-text#home__promo--text-strong",
+            "rich-text#home__promo--text-separator"
+        ]
+    },
+    "rich-text#home__promo--text": {
+        "title": "desktop texto promocion",
+        "props": {
+            "text": "Envíos gratis por compras superiores a "
+        }
+    },
+    "rich-text#home__promo--text-strong": {
+        "title": "desktop texto promocion",
+        "props": {
+            "text": "$69.900"
+        }
+    },
+    "rich-text#home__promo--text-separator": {
+        "title": "desktop texto promocion",
+        "props": {
+            "text": " | Compra segura  | "
+        }
+    }
+    
+}

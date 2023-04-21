@@ -1,0 +1,6 @@
+.paginationDotsContainer--home__slider--list{
+    transform: translateY(15px);
+}
+.imageElement--home__slider--list{
+    max-height: auto;
+}

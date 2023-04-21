@@ -37,7 +37,7 @@
   },
   "flex-layout.col#home__results--filter": {
     "props": {
-      "width": "5%"
+      "width": "30%"
     }
   },
   "flex-layout.col#home__results--search":{
@@ -53,5 +53,15 @@
   },
   "gallery": {
     "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
   }
 }

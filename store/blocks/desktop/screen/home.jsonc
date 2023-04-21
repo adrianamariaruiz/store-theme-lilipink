@@ -1,6 +1,9 @@
 {
   "responsive-layout.desktop#desktop__home": {
     "title": "Home Section 1 Desktop",
-    "children": ["search-result-layout.customQuery#home"]
+    "children": [
+      "flex-layout.row#desktop__home--promo-text",
+      "search-result-layout.customQuery#home"
+    ]
   }
 }

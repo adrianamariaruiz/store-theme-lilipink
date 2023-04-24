@@ -1,9 +1,13 @@
 {
   "store.home": {
     "title": "Store home",
+    "props": {
+      "blockClass": "home__container",
+      "fullWidth": true
+    },
     "blocks": [
-      "responsive-layout.desktop#desktop__home",
       "flex-layout.row#home__section--global",
+      "responsive-layout.desktop#desktop__home",
       "responsive-layout.tablet#home__section-1",
       "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile#phone__and__tablet"

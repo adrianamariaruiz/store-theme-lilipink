@@ -1,5 +1,13 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--home__section--global{
+    width: 100%;
+}
+
+.flexRow--desktop__home--promo-text{
+    background-color: #efefef;
+    width: 100%;
+}
+
+.flexRow--home__global--text{
+    margin: 40px 0px;
+    padding: 10px;
+}

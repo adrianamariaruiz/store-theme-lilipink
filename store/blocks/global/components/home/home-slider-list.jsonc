@@ -9,19 +9,23 @@
             "images": [
                 {
                     "image": "assets/img/home/slider1.png",
-                    "description": "slide 1"
+                    "description": "slide 1",
+                    "link": {"url": "/"}
                 },
                 {
                     "image": "assets/img/home/slider2.png",
-                    "description": "slide 2"
+                    "description": "slide 2",
+                    "link": {"url": "/"}
                 },
                 {
                     "image": "assets/img/home/slider3.png",
-                    "description": "slide 3"
+                    "description": "slide 3",
+                    "link": {"url": "/"}
                 },
                 {
                     "image": "assets/img/home/slider4.png",
-                    "description": "slide 4"
+                    "description": "slide 4",
+                    "link": {"url": "/"}
                 }
             ]
         }

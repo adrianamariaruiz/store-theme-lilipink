@@ -12,11 +12,11 @@
     justify-content: center;
 }
 
-.styledLink--header__menu--rebajas{
+.styledLink--header__menu--sales{
     color: red;
 }
 
-.styledLink--header__menu--bienestar:hover, .styledLink--header__menu--bioseguridad:hover{
+.styledLink--header__menu--welfare:hover, .styledLink--header__menu--biosecurity:hover{
     color: #08ab97;
 }
 

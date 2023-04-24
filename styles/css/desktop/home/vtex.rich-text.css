@@ -1,0 +1,15 @@
+.wrapper--home--promo-text{
+    white-space: nowrap;
+    padding: 15px 0px;
+    color: #727272;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate{
+   0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

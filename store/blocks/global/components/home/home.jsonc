@@ -1,8 +1,22 @@
 {
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
+    "props": {
+      "blockClass": "home__section--global"
+    },
     "children": [
-      "list-context.image-list#home__slider--list"
+      "flex-layout.col#home__section--global-col"
+    ]
+  },
+  "flex-layout.col#home__section--global-col": {
+    "title": "Global Row with text example",
+    "props": {
+      "blockClass": "home__section--global-col"
+    },
+    "children": [
+      "responsive-layout.desktop#desktop__text",
+      "list-context.image-list#home__slider--list",
+      "flex-layout.row#home__global--text"
     ]
   }
 }

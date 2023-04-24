@@ -52,9 +52,9 @@
     ]
   },
   "gallery": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf#home__search--result"]
   },
-  "product-summary.shelf": {
+  "product-summary.shelf#home__search--result": {
     "children": [
       "product-summary-image",
       "product-summary-name",

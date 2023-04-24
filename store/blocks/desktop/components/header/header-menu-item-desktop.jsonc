@@ -1,20 +1,20 @@
 {
-    "menu-item#brasieres": {
+    "menu-item#bras": {
         "title": "menu item brasieres",
         "props": {
             "blockClass": "header__menu",
-            "id": "menu-item-brasieres",
+            "id": "menu-item-bras",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Brasieres",
+                "tagTitle": "Bras",
                 "text": "BRASIERES"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#brasieres"]
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
 
     "menu-item#tops": {
@@ -49,7 +49,7 @@
                 "text": "PANTIES"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#brasieres"]
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
     "menu-item#kids-teen": {
         "title": "menu item kids-teen",
@@ -68,137 +68,137 @@
         },
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
-    "menu-item#hombre": {
+    "menu-item#man": {
         "title": "menu item hombre",
         "props": {
             "blockClass": "header__menu",
-            "id": "menu-item-hombre",
+            "id": "menu-item-man",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "hombre",
+                "tagTitle": "man",
                 "text": "HOMBRE"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#brasieres"]
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
-    "menu-item#pijamas-multiusos": {
+    "menu-item#pijamas": {
         "title": "menu item pijamas y multiusos",
         "props": {
             "blockClass": "header__menu",
-            "id": "menu-item-pijamas-multiusos",
+            "id": "menu-item-pijamas",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "pijamas-multiusos",
+                "tagTitle": "pijamas",
                 "text": "PIJAMAS Y MULTIUSOS"
             }
         },
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
-    "menu-item#medias": {
+    "menu-item#socks": {
         "title": "menu item medias",
         "props": {
             "blockClass": "header__menu",
-            "id": "menu-item-medias",
+            "id": "menu-item-socks",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "medias",
+                "tagTitle": "socks",
                 "text": "MEDIAS"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#brasieres"]
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
-    "menu-item#deportivo": {
+    "menu-item#sports": {
         "title": "menu item deportivo",
         "props": {
             "blockClass": "header__menu",
-            "id": "menu-item-deportivo",
+            "id": "menu-item-sports",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "deportivo",
+                "tagTitle": "sports",
                 "text": "DEPORTIVO"
             }
         },
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
-    "menu-item#vestidos-baño": {
+    "menu-item#swimsuit": {
         "title": "menu item vestidos de baño",
         "props": {
             "blockClass": "header__menu",
-            "id": "menu-item-vestidos-baño",
+            "id": "menu-item-swimsuit",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "vestidos-baño",
+                "tagTitle": "swimsuit",
                 "text": "VESTIDOS DE BAÑO"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#brasieres"]
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
-    "menu-item#belleza-bienestar": {
+    "menu-item#beauty-welfare": {
         "title": "menu item belleza y bienestar",
         "props": {
-            "blockClass": ["header__menu", "header__menu--bienestar"],
-            "id": "menu-item-belleza-bienestar",
+            "blockClass": ["header__menu", "header__menu--welfare"],
+            "id": "menu-item-beauty-welfare",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "belleza-bienestar",
+                "tagTitle": "beauty-welfare",
                 "text": "BELLEZA Y BIENESTAR"
             }
         },
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
-    "menu-item#rebajas": {
+    "menu-item#sales": {
         "title": "menu item rebajas",
         "props": {
-            "blockClass": ["header__menu", "header__menu--rebajas"],
-            "id": "menu-item-rebajas",
+            "blockClass": ["header__menu", "header__menu--sales"],
+            "id": "menu-item-sales",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "rebajas",
+                "tagTitle": "sales",
                 "text": "REBAJAS"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#brasieres"]
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
-    "menu-item#bioseguridad": {
+    "menu-item#biosecurity": {
         "title": "menu item bioseguridad",
         "props": {
-            "blockClass": ["header__menu", "header__menu--bioseguridad"],
-            "id": "menu-item-bioseguridad",
+            "blockClass": ["header__menu", "header__menu--biosecurity"],
+            "id": "menu-item-biosecurity",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "bioseguridad",
+                "tagTitle": "biosecurity",
                 "text": "BIOSEGURIDAD"
             }
         },

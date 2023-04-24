@@ -10,23 +10,23 @@
         ]
     },
     "vtex.menu@2.x:menu#header__menu": {
-        "title": "menu contenedor items",
+        "title": "menu items desktop",
         "props": {
             "blockClass": "header__menu--items"
         },
         "children": [
-            "menu-item#brasieres",
+            "menu-item#bras",
             "menu-item#tops",
             "menu-item#panties",
             "menu-item#kids-teen",
-            "menu-item#hombre",
-            "menu-item#pijamas-multiusos",
-            "menu-item#medias",
-            "menu-item#deportivo",
-            "menu-item#vestidos-baño",
-            "menu-item#belleza-bienestar",
-            "menu-item#rebajas",
-            "menu-item#bioseguridad"
+            "menu-item#man",
+            "menu-item#pijamas",
+            "menu-item#socks",
+            "menu-item#sports",
+            "menu-item#swimsuit",
+            "menu-item#beauty-welfare",
+            "menu-item#sales",
+            "menu-item#biosecurity"
           ]
     }
 }

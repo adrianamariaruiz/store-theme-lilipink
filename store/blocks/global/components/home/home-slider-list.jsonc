@@ -5,6 +5,7 @@
             "slider-layout#home__slider--list"
         ],
         "props": {
+            "height": 495,
             "preload": true,
             "images": [
                 {

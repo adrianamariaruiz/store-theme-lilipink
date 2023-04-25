@@ -12,6 +12,12 @@
 
 .link--header__top--text{
     text-decoration: none;
+    font-weight:600;
     color: #e4147e;
 }
+
+.container--header__top--text{
+    text-align: right;
+}
+
 

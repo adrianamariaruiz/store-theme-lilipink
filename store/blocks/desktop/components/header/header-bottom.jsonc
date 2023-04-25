@@ -1,14 +1,15 @@
 {
-    "flex-layout.row#desktop__header--menu": {
-        "title": "menu del header desktop",
-        "props": {
-            "blockClass": "desktop__header--menu",
-            "fullWidth": true
-        },
-        "children": [
-            "vtex.menu@2.x:menu#header__menu"
-        ]
-    },
+    // "flex-layout.row#desktop__header--menu": {
+    //     "title": "menu del header desktop",
+    //     "props": {
+    //         "blockClass": "desktop__header--menu",
+    //         "fullWidth": true,
+    //         "horizontalAlign": "center"
+    //     },
+    //     "children": [
+    //         "vtex.menu@2.x:menu#header__menu"
+    //     ]
+    // },
     "vtex.menu@2.x:menu#header__menu": {
         "title": "menu items desktop",
         "props": {

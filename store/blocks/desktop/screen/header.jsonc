@@ -15,7 +15,8 @@
       "children": [
         "header-row#desktop__header--top",
         "flex-layout.row#desktop__header--container",
-        "flex-layout.row#desktop__header--menu"
+        // "flex-layout.row#desktop__header--menu"
+        "vtex.menu@2.x:menu#header__menu"
       ]
     }
 }

@@ -4,3 +4,8 @@
 .imageElementLink--home__slider--list{
     width: 100%;
 }
+
+.paginationDot--home__slider--list{
+    height: 20px;
+    width: 20px;
+}

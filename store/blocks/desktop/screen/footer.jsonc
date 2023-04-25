@@ -1,8 +1,12 @@
 {
     "footer-layout.desktop": {
         "children": [
-            "flex-layout.row#desktop__footer"
+            // "flex-layout.row#desktop__footer"
             // "disclosure-layout-group#desktop__footer--menu"
+            "flex-layout.row#global__container--subscribe",
+            "flex-layout.row#global__container--form",
+            "flex-layout.row#global__container--privacy",
+            "flex-layout.row#global__container--info"
         ]
     }
 }

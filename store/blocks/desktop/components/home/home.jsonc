@@ -1,5 +1,6 @@
 {
     "responsive-layout.desktop#desktop__text": {
+        "title": "desktop layout with promotional text",
         "props": {
             "blockClass": "desktop__text--container"
         },
@@ -8,7 +9,7 @@
         ]
     },
     "flex-layout.row#desktop__home--promo-text": {
-        "title": "desktop contenedor texto promocion",
+        "title": "desktop container with 3 texts promotion notices",
         "props": {
             "blockClass": "desktop__home--promo-text"
         },
@@ -19,7 +20,7 @@
         ]
     },
     "rich-text#home__promo--text": {
-        "title": "desktop texto promocion",
+        "title": "desktop promotional text",
         "props": {
             "text": " Envíos gratis por compras superiores a **$69.900** | Compra segura  | ",
             "blockClass": "home--promo-text"

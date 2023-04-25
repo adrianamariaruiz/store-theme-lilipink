@@ -3,7 +3,7 @@
     "props": {
       "blockClass": "desktop__home"
     },
-    "title": "Home Section 1 Desktop",
+    "title": "Desktop Home",
     "children": [
       // "search-result-layout.customQuery#home"
       "flex-layout.row#shelf"

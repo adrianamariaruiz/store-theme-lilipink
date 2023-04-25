@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#home__layout--image": {
+        "title": "home layout image news",
+        "children": [
+            "image#home__image--news"
+        ],
+        "props": {
+            "blockClass": "home__layout--image"
+        }
+    },
+    "image#home__image--news": {
+        "title": "header top imagen",
+        "props": {
+            "blckClass": "home__image--news",
+            "src": "assets/img/home/novedades.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}

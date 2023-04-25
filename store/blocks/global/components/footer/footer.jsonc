@@ -1,0 +1,103 @@
+{
+    // son 7 contenedores
+    "flex-layout.row#global__container--subscribe": {
+        "children": [
+            "rich-text#global__subscribe--text"
+        ]
+    },
+    "rich-text#global__subscribe--text": {
+        "props": {
+            "text": "¡Suscríbete y obtén el 10% de descuento en tu primera compra!",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-3",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "subscribe__text"
+        }
+    },
+    "flex-layout.row#global__container--form": {
+        "children": [
+            "rich-text#global__subscribe--form"
+        ]
+    },
+    "rich-text#global__subscribe--form": {
+        "props": {
+            "text": "ACA VA UN FORMULARIO",
+            "textColor": "c-on-disabled",
+            "font": "t-heading-3",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "subscribe__form"
+        }
+    },
+    "flex-layout.row#global__container--privacy": {
+        "children": [
+            "rich-text#global__notice--privacy"
+        ]
+    },
+    "rich-text#global__notice--privacy": {
+        "props": {
+            "text": "El diligenciar el presente formulario se entenderá como una conducta inequívoca de que otorga su consentimiento de forma libre, voluntaria y expresa a FAST MODA S.A.S. para que trate su información personal de acuerdo con lo descrito en [nuestro aviso de privacidad](/) ",
+            "textColor": "c-on-disabled",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "notice__privacy"
+        }
+    },
+    "flex-layout.row#global__container--info": {
+        "children": [
+            "flex-layout.col#container__interest--links",
+            "flex-layout.col#container__policies",
+            "flex-layout.col#container__social-networks"
+        ]
+    },
+    "flex-layout.col#container__interest--links": {
+        "children": [
+            "rich-text#desktop__interest-links"
+        ]
+    },
+    "flex-layout.col#container__policies": {
+        "children": [
+            "rich-text#desktop__policies"
+        ]
+    },
+    "flex-layout.col#container__social-networks": {
+        "children": [
+            "rich-text#desktop__social-networks"
+        ]
+    },
+    "rich-text#desktop__interest-links": {
+        "title": "titulo links de interes",
+        "props": {
+            "text": "LINKS DE INTERÉS",
+            "textColor": "c-on-disabled",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "interest-links"
+        }
+    },
+    "rich-text#desktop__policies": {
+        "title": "titulo politicas",
+        "props": {
+            "text": "politicas",
+            "textColor": "c-on-disabled",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "policies"
+        }
+    },
+    "rich-text#desktop__social-networks": {
+        "title": "titulo redes sociales",
+        "props": {
+            "text": "SIGUENOS",
+            "textColor": "c-on-disabled",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "social-networks"
+        }
+    }
+}

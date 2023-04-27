@@ -1,8 +1,21 @@
 {
-  // "flex-layout.row#phone__home--layout": {
-  //   "title": "phone Row with products",
-  //   "children": [
-  //     "rich-text#test"
-  //   ]
-  // }
+  "flex-layout.row#phone__home--categories-image": {
+    "title": "phone home featured categories image container",
+    "props": {
+        "fullWidth": true
+    },
+    "children": [
+        "image#phone__categories--image"
+    ]
+  },
+  "image#phone__categories--image": {
+    "title": "phone featured categories image",
+    "props": {
+        "maxHeight": 174,
+        "src": "assets/img/home/slider1-mobile.png",
+        "link": {
+            "url": "/"
+        }
+    }
+  }
 }

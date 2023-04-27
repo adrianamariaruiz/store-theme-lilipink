@@ -21,7 +21,6 @@
             "blockClass": "home__categories--text"
         }
     },
-    // #f4f4f4 bgc
     "flex-layout.row#home__categories--images": {
         "title": "home featured categories images container",
         "props": {
@@ -83,6 +82,7 @@
     "image#categories__image": {
         "title": "featured categories image",
         "props": {
+            "maxHeight": 247,
             "src": "assets/img/home/vende-por-catalogo.png",
             "link": {
                 "url": "/"

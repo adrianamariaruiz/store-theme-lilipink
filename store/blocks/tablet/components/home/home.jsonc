@@ -1,13 +1,21 @@
 {
-  // "flex-layout.row#tablet__home--layout": {
-  //   "title": "tablet Row with products",
-  //   "children": [
-  //     "rich-text#test"
-  //   ]
-  // },
-  // "rich-text#test": {
-  //   "props": {
-  //     "text": "prueba"
-  //   }
-  // }
+  "flex-layout.row#mobile__home--categories-image": {
+    "title": "mobile home featured categories image container",
+    "props": {
+        "fullWidth": true
+    },
+    "children": [
+        "image#mobile__categories--image"
+    ]
+  },
+  "image#mobile__categories--image": {
+    "title": "mobile featured categories image",
+    "props": {
+        "maxHeight": 418,
+        "src": "assets/img/home/slider1.png",
+        "link": {
+            "url": "/"
+        }
+    }
+  }
 }

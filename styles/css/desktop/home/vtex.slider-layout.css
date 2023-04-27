@@ -13,3 +13,8 @@
 .sliderLayoutContainer--products__slider{
     max-width: 1180px;
 }
+
+.slide--products__slider{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}

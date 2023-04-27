@@ -1,13 +1,16 @@
+.container--menu__submenu--text{
+    margin-bottom: 20px;
+}
+
 .wrapper--header__top--text{
     font-size: 14px;
 }
 
 .paragraph--menu__submenu--text{
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 14px;
     font-weight: bold;
     padding-bottom: 10px;
-    border-bottom: solid 1px black;
 }
 
 .link--header__top--text{
@@ -19,5 +22,12 @@
 .container--header__top--text{
     text-align: right;
 }
+
+.container--menu__submenu--text{
+    border-bottom: 1px solid #000;
+    margin-right: 20px;
+}
+
+
 
 

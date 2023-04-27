@@ -1,0 +1,59 @@
+{
+    
+    "flex-layout.row#mobile__home--slider-categories": {
+        "title": "mobile home featured categories images slider",
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "marginTop": 5,
+            "colJustify": "between",
+            "blockClass": "home__categories--images"
+        },
+        "children": [
+            "list-context.image-list#mobile__home--slider"
+        ]
+    },
+    "list-context.image-list#mobile__home--slider": {
+        "title": "home slider categories images list", 
+        "children": [
+            "slider-layout#mobile__slider-categories"
+        ],
+        "props": {
+            "height": 470,
+            "preload": true,
+            "images": [
+                {
+                    "image": "assets/img/home/accesorios.png",
+                    "description": "accessories",
+                    "link": {"url": "/"}
+                },
+                {
+                    "image": "assets/img/home/medias.png",
+                    "description": "socks",
+                    "link": {"url": "/"}
+                },
+                {
+                    "image": "assets/img/home/basicos.png",
+                    "description": "basics",
+                    "link": {"url": "/"}
+                }
+            ]
+        }
+    },
+    "slider-layout#mobile__slider-categories": {
+        "title": "slider categories",
+        "props": {
+            "itemsPerPage": {
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": true,
+            "blockClass": "mobile__slider-categories",
+            "autoplay": {
+                "timeout": 6000,
+                "stopOnHover": true
+            }
+        }
+    }
+    
+}

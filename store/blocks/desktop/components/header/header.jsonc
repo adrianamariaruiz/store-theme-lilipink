@@ -20,7 +20,8 @@
     },
     "flex-layout.col#spacer": {
         "props": {
-            "width": "grow"
+            "width": "grow",
+            "blockClass": "global__spacer--grow"
         }
     },
     "flex-layout.col#desktop__header--logo": {

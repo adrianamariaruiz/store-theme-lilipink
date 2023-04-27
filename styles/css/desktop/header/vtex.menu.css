@@ -1,10 +1,12 @@
-.styledLink--header__menu{
-    font-size: 13px;
-    font-weight: bold;
-    color: #757575;
-}
+
 .styledLink--header__menu:hover{
     color: #e4147e;
+}
+
+.styledLink--submenu__bras--items{
+    font-size: 13px;
+    color: #757575;
+    font-weight: 700;
 }
 
 .menuContainer--header__menu--items{

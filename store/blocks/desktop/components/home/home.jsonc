@@ -2,6 +2,7 @@
     "flex-layout.row#desktop__home--promo-text": {
         "title": "desktop container with 3 texts promotion notices",
         "props": {
+            "fullWidth": true,
             "blockClass": "desktop__home--promo-text"
         },
         "children": [
@@ -13,7 +14,7 @@
     "rich-text#home__promo--text": {
         "title": "desktop promotional text",
         "props": {
-            "text": " Envíos gratis por compras superiores a **$69.900** | Compra segura  | ",
+            "text": " Envíos gratis por compras superiores a **$69.900** | Compra segura | ",
             "blockClass": "home--promo-text"
         }
     }

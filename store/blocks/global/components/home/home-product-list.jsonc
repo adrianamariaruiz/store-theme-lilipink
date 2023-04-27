@@ -48,13 +48,13 @@
           "showBadge": false,
           "aspectRatio": "1:1",
           "maxHeight": 500,
-          "blockClass": "summaryListDesktop"
+          "blockClass": "products--image"
         }
       },
       "product-summary-name#home__products--name": {
         "title": "summary shelf products name",
         "props": {
-          "blockClass": "summaryListDesktop"
+          "blockClass": "products--name"
         }
       },
       "add-to-cart-button#home__products--button-buy": {
@@ -67,5 +67,17 @@
           "blockClass": "home__products--button-buy"
         }
       }
+      // "icon#button-icon": {
+      //   "props": {
+      //     "id": "hpa-cart",
+      //     "size": 50
+      //   }
+      // },
+      // "image#carrito": {
+      //   "props": {
+      //     "src": "assets/img/home/carrito-rosa.svg",
+      //     "maxHeight": 20
+      //   }
+      // }
       
 }

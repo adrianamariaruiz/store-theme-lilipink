@@ -1,0 +1,24 @@
+
+.element :global(.vtex-button){
+    max-width: 247px;
+    max-height: 38px;
+}
+
+.element :global(.vtex-button):hover :global(.vtex-button__label)::after {
+    background: url("assets/img/home/carrito-blanco.svg") no-repeat;
+    content: "";
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 .5rem;
+}
+.element :global(.vtex-button) :global(.vtex-button__label)::after {
+    content: "";
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 .5rem;
+    background: url("assets/img/home/carrito-rosa.svg") no-repeat;
+}

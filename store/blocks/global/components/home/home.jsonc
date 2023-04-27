@@ -2,7 +2,8 @@
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
     "props": {
-      "blockClass": "home__section--global"
+      "blockClass": "home__section--global",
+      "fullWidth": "100%"
     },
     "children": [
       "flex-layout.col#home__section--global-col"
@@ -14,9 +15,7 @@
       "blockClass": "home__section--global-col"
     },
     "children": [
-      "responsive-layout.desktop#desktop__text",
-      "list-context.image-list#home__slider--list",
-      "flex-layout.row#home__layout--image",
+      "flex-layout.row#global__container--gif",
       "flex-layout.row#home__global--text"
     ]
   }

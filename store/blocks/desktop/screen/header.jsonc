@@ -1,22 +1,13 @@
 {
     "header-layout.desktop": {
+      "title": "desktop header layout",
       "props": {
         "blockClass": "header__desktop--layout"
       },
         "children": [
-            "responsive-layout.desktop#desktop__header--container"
+            "header-row#desktop__header--top",
+            "flex-layout.row#desktop__header--container",
+            "flex-layout.row#desktop__header--menu"
         ]
-    },
-    "responsive-layout.desktop#desktop__header--container": {
-      "title": "header container Desktop",
-      "props": {
-        "blockClass": "desktop__header--container"
-      },
-      "children": [
-        "header-row#desktop__header--top",
-        "flex-layout.row#desktop__header--container",
-        // "flex-layout.row#desktop__header--menu"
-        "vtex.menu@2.x:menu#header__menu"
-      ]
     }
 }

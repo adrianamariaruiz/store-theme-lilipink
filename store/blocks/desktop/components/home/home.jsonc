@@ -1,13 +1,4 @@
 {
-    "responsive-layout.desktop#desktop__text": {
-        "title": "desktop layout with promotional text",
-        "props": {
-            "blockClass": "desktop__text--container"
-        },
-        "children": [
-            "flex-layout.row#desktop__home--promo-text"
-        ]
-    },
     "flex-layout.row#desktop__home--promo-text": {
         "title": "desktop container with 3 texts promotion notices",
         "props": {

@@ -1,21 +1,19 @@
 {
-    "flex-layout.row#home__layout--image": {
-        "title": "home layout image news",
+    "flex-layout.row#global__container--gif": {
+        "title": "global container gif news",
+        "props": {
+            "fullWidth": true
+        },
         "children": [
-            "image#home__image--news"
-        ],
-        "props": {
-            "blockClass": "home__layout--image"
-        }
+            "image#global__gif--news"
+        ]
     },
-    "image#home__image--news": {
-        "title": "header top imagen",
+    
+    "image#global__gif--news": {
         "props": {
-            "blckClass": "home__image--news",
-            "src": "assets/img/home/novedades.png",
-            "link": {
-                "url": "/"
-            }
+          "src": "assets/img/home/news.gif",
+          "maxHeight": 420,
+          "maxWidth": "100%"
         }
-    }
+      }
 }

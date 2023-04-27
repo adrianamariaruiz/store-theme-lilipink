@@ -1,6 +1,7 @@
 
 .flexRow--header__desktop{
-    padding: 50px 10px 0px 10px;
+    padding: 50px 10px 0px 20px;
+    /* padding-left: 50px; */
 }
 
 .flexRow--header__top--container{
@@ -11,4 +12,5 @@
     display: flex;
     align-content: center;
 }
+
 

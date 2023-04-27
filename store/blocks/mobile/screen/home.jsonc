@@ -1,3 +1,11 @@
 {
-    
+    "responsive-layout.mobile#phone__and__tablet": {
+      "title": "Responsive Mobile",
+      "children": [
+        "list-context.image-list#mobile__home--slider-list",
+        "flex-layout.row#global__container--gif",
+        "flex-layout.row#home__global--text",
+        "flex-layout.row#global__home--products"
+        ]
+    }
 }

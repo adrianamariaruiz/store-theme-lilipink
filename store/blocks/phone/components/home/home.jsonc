@@ -1,8 +1,8 @@
 {
-  "flex-layout.row#phone__home--layout": {
-    "title": "PHONE Row with text",
-    "children": [
-      "flex-layout.row#shelf"
-    ]
-  }
+  // "flex-layout.row#phone__home--layout": {
+  //   "title": "phone Row with products",
+  //   "children": [
+  //     "rich-text#test"
+  //   ]
+  // }
 }

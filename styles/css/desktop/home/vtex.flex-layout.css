@@ -11,3 +11,8 @@
     margin: 40px 0px;
     padding: 10px;
 }
+
+.flexRow--home__categories--images{
+    background-color: #f4f4f4;
+    padding: 20px;
+}

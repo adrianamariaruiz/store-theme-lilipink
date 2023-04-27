@@ -1,8 +1,13 @@
 {
-  "flex-layout.row#tablet__home--layout": {
-    "title": "tablet Row with products",
-    "children": [
-      "flex-layout.row#shelf"
-    ]
-  }
+  // "flex-layout.row#tablet__home--layout": {
+  //   "title": "tablet Row with products",
+  //   "children": [
+  //     "rich-text#test"
+  //   ]
+  // },
+  // "rich-text#test": {
+  //   "props": {
+  //     "text": "prueba"
+  //   }
+  // }
 }

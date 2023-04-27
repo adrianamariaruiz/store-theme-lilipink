@@ -1,11 +1,15 @@
 .paginationDotsContainer--home__slider--list{
     transform: translateY(15px);
 }
+
 .imageElementLink--home__slider--list{
     width: 100%;
 }
 
-.paginationDot--home__slider--list{
-    height: 20px;
-    width: 20px;
+.sliderLayoutContainer--home__slider--list{
+    margin-bottom: 50px;
+}
+
+.sliderLayoutContainer--products__slider{
+    max-width: 1180px;
 }

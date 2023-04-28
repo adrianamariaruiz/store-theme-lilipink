@@ -13,3 +13,7 @@
         transform: translateX(-100%);
     }
 }
+
+.container--home__categories--text{
+    background-color: #f4f4f4;
+}

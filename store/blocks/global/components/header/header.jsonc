@@ -1,6 +1,6 @@
 {
     // Search-bar
-    "search-bar#header__busqueda--global": {
+    "search-bar#global__header--search": {
         "title": "buscador",
         "blocks": ["autocomplete-result-list.v2"],
         "props": {

@@ -10,7 +10,7 @@
             "blockClass": "header__desktop"
         },
         "children": [
-            "search-bar#header__busqueda--global",
+            "search-bar#global__header--search",
             "flex-layout.col#spacer",
             "flex-layout.col#desktop__header--logo",
             "flex-layout.col#spacer",
@@ -20,7 +20,8 @@
     },
     "flex-layout.col#spacer": {
         "props": {
-            "width": "grow"
+            "width": "grow",
+            "blockClass": "global__spacer--grow"
         }
     },
     "flex-layout.col#desktop__header--logo": {

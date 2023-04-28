@@ -11,3 +11,19 @@
     margin: 40px 0px;
     padding: 10px;
 }
+
+.flexRow--home__categories--images{
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.flexRow--submenu__bras--container{
+    max-width: 1336px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.flexRowContent--submenu__bras--container{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,6 +1,6 @@
 {
     "vtex.menu@2.x:submenu#bras": {
-        "title": "submenu brasieres",
+        "title": "submenu bras",
         "props": {
             "width": "100%",
             "blockClass": "submenu__bras"
@@ -10,7 +10,7 @@
         ]
     },
     "flex-layout.row#submenu__bras": {
-        "title": "submenu brasieres contenedor de items",
+        "title": "submenu bras container items",
         "props": {
             "width": "15%",
             "blockClass": "submenu__bras--container",
@@ -18,14 +18,14 @@
         },
         "children": [
             "flex-layout.col#menu__search",
-            "flex-layout.col#menu__estyles",
+            "flex-layout.col#menu__styles",
             "flex-layout.col#menu__shopping",
             "flex-layout.col#spacer",
             "flex-layout.row#menu__image"
         ]
     },
     "flex-layout.row#menu__image": {
-        "title": "imagen del submenu brasieres",
+        "title": "submenu container slider images",
         "props": {
             "width": "30%",
             "blockClass": "bras__container--item"
@@ -35,13 +35,13 @@
         ]
     },
     "image#home__slider--one": {
-        "title": "submenu brasieres imagen",
+        "title": "submenu bras image",
         "props": {
             "src": "assets/img/home/slider1.png"
         }
     },
     "flex-layout.col#menu__search": {
-        "title": "submenu brasieres - buscar",
+        "title": "submenu bras - search",
         "props": {
             "orientation": "vertical",
             "width": "15%",
@@ -55,8 +55,8 @@
             "menu-item#search-discounts"
         ]
     },
-    "flex-layout.col#menu__estyles": {
-        "title": "submenu brasieres - estilos",
+    "flex-layout.col#menu__styles": {
+        "title": "submenu bras - estilos",
         "props": {
             "orientation": "vertical",
             "width": "15%",
@@ -71,7 +71,7 @@
         ]
     },
     "flex-layout.col#menu__shopping": {
-        "title": "submenu brasieres - compra mas y ahorra",
+        "title": "submenu bras - shopping",
         "props": {
             "orientation": "vertical",
             "width": "15%",
@@ -84,7 +84,7 @@
         ]
     },
     "rich-text#search": {
-        "title": "submenu brasieres texto buscar",
+        "title": "submenu bras text search",
         "props": {
             "text": "Buscar",
             "textColor": "c-on-emphasis",
@@ -95,7 +95,7 @@
         }
     },
     "rich-text#styles": {
-        "title": "submenu brasieres texto estilos",
+        "title": "submenu bras text styles",
         "props": {
             "text": "Estilos",
             "textColor": "c-on-emphasis",
@@ -103,7 +103,7 @@
         }
     },
     "rich-text#buy-more": {
-        "title": "submenu brasieres texto compra mas y ahorra",
+        "title": "submenu bras text buy more",
         "props": {
             "text": "Compra Más Y Ahorra",
             "textColor": "c-on-emphasis",
@@ -111,7 +111,7 @@
         }
     },
     "menu-item#search-all": {
-        "title": "submenu brasieres item ver todos",
+        "title": "submenu bras item see all",
         "props": {
             "blockClass": "submenu__bras--items",
             "id": "menu-item-search-all",
@@ -127,7 +127,7 @@
         }
     },
     "menu-item#search-best-sellers": {
-        "title": "submenu brasieres item los mas vendidos",
+        "title": "submenu bras item best sellers",
         "props": {
             "blockClass": "submenu__bras--items",
             "id": "menu-item-best-sellers",
@@ -143,7 +143,7 @@
         }
     },
     "menu-item#search-news": {
-        "title": "submenu brasieres item nuevos",
+        "title": "submenu bras item news",
         "props": {
             "blockClass": "submenu__bras--items",
             "id": "menu-item-news",
@@ -159,7 +159,7 @@
         }
     },
     "menu-item#search-discounts": {
-        "title": "submenu brasieres item descuentos",
+        "title": "submenu bras item discounts",
         "props": {
             "blockClass": "submenu__bras--items",
             "id": "menu-item-discounts",
@@ -175,7 +175,7 @@
         }
     },
     "menu-item#buy__individual": {
-        "title": "submenu brasieres compra mas item individual",
+        "title": "submenu bras buy more item individual",
         "props": {
             "blockClass": "submenu__bras--items",
             "id": "menu-item-buy",
@@ -191,7 +191,7 @@
         }
     },
     "menu-item#buy__setx2": {
-        "title": "submenu brasieres compra mas item paquetex2",
+        "title": "submenu bras buy more item packagex2",
         "props": {
             "blockClass": "submenu__bras--items",
             "id": "menu-item-buy",
@@ -219,7 +219,7 @@
     },
 
     "flex-layout.row#bras": {
-        "title": "submenu tops contenedor de items",
+        "title": "submenu tops items container",
         "props": {
             "width": "15%",
             "blockClass": "submenu__bras--container",
@@ -227,7 +227,7 @@
         },
         "children": [
             "flex-layout.col#menu__search",
-            "flex-layout.col#menu__estyles",
+            "flex-layout.col#menu__styles",
             "flex-layout.col#menu__shopping",
             "flex-layout.col#spacer",
             "flex-layout.row#menu__image"

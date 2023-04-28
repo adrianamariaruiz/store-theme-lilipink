@@ -1,0 +1,135 @@
+{
+    "disclosure-layout#policies": {
+        "title": "mobile disclosure container policies",
+        "children": [
+            "disclosure-trigger#policies",
+            "disclosure-content#policies"
+        ]
+    },
+    "disclosure-trigger#policies": {
+        "title": "mobile disclosure trigger policies",
+        "children": [
+            "rich-text#policies"
+        ]
+    },
+    "rich-text#policies": {
+        "title": "text policies",
+        "props": {
+            "text": "POLÍTICAS"
+        }
+    },
+    "disclosure-content#policies": {
+        "title": "mobile disclosure content policies",
+        "children": [ "menu#policies" ]
+    },
+    "menu#policies": {
+        "title": "menu items policies",
+        "children": [
+            "menu-item#CrediPink",
+            "menu-item#contract-buy-and-sell",
+            "menu-item#shipping-policies",
+            "menu-item#privacy-policies",
+            "menu-item#notice-of-privacy",
+            "menu-item#exchanges-policies-and-guarantees",
+            "menu-item#legal-activities-and-promotions"
+        ],
+        "props": {
+            "blockClass": [
+                "mobile__menu--policies-disclosure", 
+                "desktop__menu--policies"
+            ],
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#CrediPink": {
+        "title": "CrediPink",
+        "props": {
+            "id": "menu-CrediPink",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "CrediPink",
+                "text": "CrediPink"
+            }
+        }
+    },
+    "menu-item#contract-buy-and-sell": {
+        "title": "contract-buy-and-sell",
+        "props": {
+            "id": "menu-contract-buy-and-sell",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "contract-buy-and-sell",
+                "text": "Contrato de Compraventa"
+            }
+        }
+    },
+    "menu-item#shipping-policies": {
+        "title": "shipping-policies",
+        "props": {
+            "id": "menu-shipping-policies",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "shipping-policies",
+                "text": "Políticas de envíos"
+            }
+        }
+    },
+    "menu-item#privacy-policies": {
+        "title": "privacy-policies",
+        "props": {
+            "id": "menu-privacy-policies",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "privacy-policies",
+                "text": "Políticas de privacidad"
+            }
+        }
+    },
+    "menu-item#notice-of-privacy": {
+        "title": "notice-of-privacy",
+        "props": {
+            "id": "menu-notice-of-privacy",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "notice-of-privacy",
+                "text": "Aviso de privacidad"
+            }
+        }
+    },
+    "menu-item#exchanges-policies-and-guarantees": {
+        "title": "exchanges-policies-and-guarantees",
+        "props": {
+            "id": "menu-exchanges-policies-and-guarantees",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "exchanges-policies-and-guarantees",
+                "text": "Políticas de cambios y garantías"
+            }
+        }
+    },
+    "menu-item#legal-activities-and-promotions": {
+        "title": "legal-activities-and-promotions",
+        "props": {
+            "id": "menu-legal-activities-and-promotions",
+            "type": "custom",
+            "itemProps": {
+               "type": "internal",
+               "href": "/",
+               "tagTittle": "legal-activities-and-promotions",
+               "text": "Actividades legales y promociones" 
+            }
+        }
+    }
+}

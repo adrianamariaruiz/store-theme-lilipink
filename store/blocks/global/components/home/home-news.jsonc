@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#global__container--gif": {
+        "title": "global container gif news",
+        "props": {
+            "fullWidth": true
+        },
+        "children": [
+            "image#global__gif--news"
+        ]
+    },
+    
+    "image#global__gif--news": {
+        "props": {
+          "src": "assets/img/home/news.gif",
+          "maxHeight": 420,
+          "maxWidth": "100%"
+        }
+    }
+}

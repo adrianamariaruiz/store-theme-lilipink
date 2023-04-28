@@ -1,0 +1,18 @@
+.menuContainer--desktop__menu--interest-links .styledLink{
+    color: white;
+    font-size: 16px;
+}
+.menuContainer--desktop__menu--interest-links .styledLink:hover{
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+.menuContainer--desktop__menu--policies .styledLink{
+    color: white;
+    font-size: 16px;
+}
+
+.menuContainer--desktop__menu--policies .styledLink:hover{
+    font-weight: bold;
+    font-size: 16.5px;
+}

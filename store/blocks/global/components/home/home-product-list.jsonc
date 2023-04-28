@@ -1,0 +1,83 @@
+{
+    "flex-layout.row#global__home--products": {
+        "title": "global home products list",
+        "props": {
+            "horizontalAlign": "center",
+            "fullWidth": false
+        },
+        "children": [
+            "list-context.product-list#home__products"
+        ]
+    },
+    "list-context.product-list#home__products": {
+        "title": "home products list context",
+        "blocks": ["product-summary.shelf#home__products--list"],
+        "children": ["slider-layout#products__slider"],
+        "props": {
+            "orderBy": "OrderByNameASC"
+        }
+    },
+    "slider-layout#products__slider": {
+        "title": "home slider with products",
+        "props": {
+            "itemsPerPage": {
+                "desktop": "4",
+                "tablet": "3",
+                "phone": "1"
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "showPaginationDots": "never",
+            "blockClass": "products__slider"
+        }
+    },
+    "product-summary.shelf#home__products--list": {
+        "title": "home products summary shelf",
+        "children": [
+          "product-summary-image#home__products--image",
+          "product-summary-name#home__products--name",
+          "product-rating-inline",
+          "product-summary-space",
+          "product-summary-price",
+          "add-to-cart-button#home__products--button-buy"
+        ]
+      },
+      "product-summary-image#home__products--image": {
+        "title": "summary shelf products image",
+        "props": {
+          "showBadge": false,
+          "aspectRatio": "1:1",
+          "maxHeight": 500,
+          "blockClass": "products--image"
+        }
+      },
+      "product-summary-name#home__products--name": {
+        "title": "summary shelf products name",
+        "props": {
+          "blockClass": "products--name"
+        }
+      },
+      "add-to-cart-button#home__products--button-buy": {
+        "title": "summary shelf products button buy",
+        "props": {
+          "text": "AGREGAR",
+          "isOneClickBuy": true,
+          "onClickEventPropagation": "enabled",
+          "border": "left",
+          "blockClass": "home__products--button-buy"
+        }
+      }
+      // "icon#button-icon": {
+      //   "props": {
+      //     "id": "hpa-cart",
+      //     "size": 50
+      //   }
+      // },
+      // "image#carrito": {
+      //   "props": {
+      //     "src": "assets/img/home/carrito-rosa.svg",
+      //     "maxHeight": 20
+      //   }
+      // }
+      
+}

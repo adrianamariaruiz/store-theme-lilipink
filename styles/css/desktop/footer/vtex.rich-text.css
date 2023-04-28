@@ -1,0 +1,9 @@
+.wrapper--info__font{
+    border-bottom: thin solid white;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.wrapper--policies{
+    margin-left: 25px;
+}

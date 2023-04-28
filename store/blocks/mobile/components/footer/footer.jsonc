@@ -1,0 +1,130 @@
+{
+    "disclosure-layout-group#mobile__footer--menu": {
+        "title": "container disclosure group",
+        "children": [
+            "disclosure-layout#interest__links",
+            "disclosure-layout#policies",
+            "disclosure-layout#customer-support"
+        ]
+    },
+    "disclosure-layout#customer-support": {
+        "title": "customer support container",
+        "children": [
+            "disclosure-trigger#customer-support",
+            "disclosure-content#customer-support"
+        ]
+    },
+    "disclosure-trigger#customer-support": {
+        "children": [
+            "rich-text#customer-support"
+        ]
+    },
+    "rich-text#customer-support": {
+        "title": "text customer-support",
+        "props": {
+            "text": "ATENCIÓN AL CLIENTE"
+        }
+    },
+    "disclosure-content#customer-support": {
+        "children": [ "menu#customer-support" ]
+    },
+    "menu#customer-support": {
+        "title": "menu items policies",
+        "children": [
+            "menu-item#customer-support",
+            "menu-item#schedules",
+            "menu-item#contact-us",
+            "menu-item#email",
+            "menu-item#our-phones",
+            "menu-item#phone-numbers"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__custommer-support"
+        }
+    },
+    "menu-item#customer-support": {
+        "title": "customer-support",
+        "props": {
+            "blockClass": "item__custommer-support",
+            "id": "menu-customer-support",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "customer-support",
+                "text": "ATENCIÓN AL CLIENTE"
+            }
+        }
+    },
+    "menu-item#schedules": {
+        "title": "schedules",
+        "props": {
+            "blockClass": "item__schedules",
+            "id": "menu-schedules",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "schedules",
+                "text": "Lunes a viernes 8:00am a 5:00pm (Jornada continua)"
+            }
+        }
+    },
+    "menu-item#contact-us": {
+        "title": "escribenos",
+        "props": {
+            "blockClass": "item__contact-us",
+            "id": "menu-contact-us",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "contact-us",
+                "text": "ESCRÍBENOS"
+            }
+        }
+    },
+    "menu-item#email": {
+        "title": "email",
+        "props": {
+            "blockClass": "item__email",
+            "id": "menu-email",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "email",
+                "text": "servicioalcliente@fastmoda.com.co"
+            }
+        }
+    },
+    "menu-item#our-phones": {
+        "title": "lineas telefónicas",
+        "props": {
+            "blockClass": "item__our-phones",
+            "id": "menu-our-phones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "our-phones",
+                "text": "LÍNEAS TELEFÓNICAS"
+            }
+        }
+    },
+    "menu-item#phone-numbers": {
+        "title": "números de contacto",
+        "props": {
+            "blockClass": "item__numbers",
+            "id": "menu-phone-numbers",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTittle": "phone-numbers",
+                "text": "601 6702 400 Ext 107 - Línea telefónica: 310575 6438 Línea Whatsapp: +57 301 3684984"
+            }
+        }
+    }
+}

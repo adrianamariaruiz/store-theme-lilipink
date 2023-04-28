@@ -1,0 +1,30 @@
+{
+    "flex-layout.col#container__interest--links": {
+        "title": "desktop footer interest links menu",
+        "props": {
+            "blockClass": "desktop__interest--links",
+            "width": "22%",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "colSizing": "auto",
+            "border": "all"
+        },
+        "children": [
+            "rich-text#desktop__interest-links",
+            "menu#interest__links"
+        ]
+    },
+    "rich-text#desktop__interest-links": {
+        "title": "desktop interest links title",
+        "props": {
+            "text": "LINKS DE INTERÉS",
+            "textColor": "c-on-base--inverted",
+            "font": "t-small",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": [
+                "info__font", "interest-links"
+            ]
+        }
+    }
+}

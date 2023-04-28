@@ -1,6 +1,6 @@
 {
     "menu-item#bras": {
-        "title": "menu item brasieres",
+        "title": "menu item bras",
         "props": {
             "blockClass": "header__menu",
             "id": "menu-item-bras",
@@ -69,7 +69,7 @@
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
     "menu-item#man": {
-        "title": "menu item hombre",
+        "title": "menu item man",
         "props": {
             "blockClass": "header__menu",
             "id": "menu-item-man",
@@ -86,7 +86,7 @@
         "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
     "menu-item#pijamas": {
-        "title": "menu item pijamas y multiusos",
+        "title": "menu item pijamas and more",
         "props": {
             "blockClass": "header__menu",
             "id": "menu-item-pijamas",
@@ -103,7 +103,7 @@
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
     "menu-item#socks": {
-        "title": "menu item medias",
+        "title": "menu item socks",
         "props": {
             "blockClass": "header__menu",
             "id": "menu-item-socks",
@@ -120,7 +120,7 @@
         "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
     "menu-item#sports": {
-        "title": "menu item deportivo",
+        "title": "menu item sports",
         "props": {
             "blockClass": "header__menu",
             "id": "menu-item-sports",
@@ -137,7 +137,7 @@
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
     "menu-item#swimsuit": {
-        "title": "menu item vestidos de baño",
+        "title": "menu item swimsuit",
         "props": {
             "blockClass": "header__menu",
             "id": "menu-item-swimsuit",
@@ -154,7 +154,7 @@
         "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
     "menu-item#beauty-welfare": {
-        "title": "menu item belleza y bienestar",
+        "title": "menu item beauty-welfare",
         "props": {
             "blockClass": ["header__menu", "header__menu--welfare"],
             "id": "menu-item-beauty-welfare",
@@ -171,7 +171,7 @@
         "blocks": ["vtex.menu@2.x:submenu#tops"]
     },
     "menu-item#sales": {
-        "title": "menu item rebajas",
+        "title": "menu item sales",
         "props": {
             "blockClass": ["header__menu", "header__menu--sales"],
             "id": "menu-item-sales",
@@ -188,7 +188,7 @@
         "blocks": ["vtex.menu@2.x:submenu#bras"]
     },
     "menu-item#biosecurity": {
-        "title": "menu item bioseguridad",
+        "title": "menu item biosecurity",
         "props": {
             "blockClass": ["header__menu", "header__menu--biosecurity"],
             "id": "menu-item-biosecurity",

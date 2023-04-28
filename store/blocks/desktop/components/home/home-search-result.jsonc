@@ -1,9 +1,9 @@
 {
   "search-result-layout.customQuery#home": {
-    "title": "desktop layout home buscador",
+    "title": "desktop layout home search results",
     "blocks": [
       "search-result-layout.desktop#home__search--desktop",
-      "search-result-layout.mobile#home__search--mobile",
+      // "search-result-layout.mobile#home__search--mobile",
       "search-not-found-layout"
     ],
     "props": {
@@ -14,47 +14,54 @@
     }
   },
   "search-result-layout.desktop#home__search--desktop": {
+    "title": "desktop layout home search",
     "children": ["flex-layout.row#home__results"]
   },
-  "search-result-layout.mobile#home__search--mobile": {
-    "children": ["rich-text#section-1"]
-  },
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
-    "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
+  // "search-result-layout.mobile#home__search--mobile": {
+  //   "children": ["rich-text#section-1"]
+  // },
+  // "rich-text#section-1": {
+  //   "title": "Text Favorites at desktop",
+  //   "props": {
+  //     "blockClass": "",
+  //     "text": "Favoritos en DESKTOP",
+  //     "font": "t-heading-2",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER"
+  //   }
+  // },
   "flex-layout.row#home__results": {
+    "title": "desktop home layout with filter and search results",
     "children": [
       "flex-layout.col#home__results--filter",
       "flex-layout.col#home__results--search"
     ]
   },
   "flex-layout.col#home__results--filter": {
+    "title": "desktop home layout with filter results",
     "props": {
       "width": "30%"
     }
   },
   "flex-layout.col#home__results--search":{
+    "title": "desktop home layout with search results",
     "children": [
       "search-content#home__results--search"
     ]
   },
   "search-content#home__results--search": {
+    "title": "desktop home search results content",
     "blocks": [
       "gallery",
       "not-found"
     ]
   },
   "gallery": {
+    "title": "desktop home gallery with results",
     "blocks": ["product-summary.shelf#home__search--result"]
   },
   "product-summary.shelf#home__search--result": {
+    "title": "desktop home product summary",
     "children": [
       "product-summary-image",
       "product-summary-name",

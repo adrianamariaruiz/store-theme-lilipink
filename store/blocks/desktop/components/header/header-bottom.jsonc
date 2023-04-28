@@ -1,16 +1,18 @@
 {
     "flex-layout.row#desktop__header--menu": {
-        "title": "menu del header desktop",
+        "title": "desktop header menu container",
         "props": {
             "blockClass": "desktop__header--menu",
-            "fullWidth": true
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "colSizing": "auto"
         },
         "children": [
             "vtex.menu@2.x:menu#header__menu"
         ]
     },
     "vtex.menu@2.x:menu#header__menu": {
-        "title": "menu items desktop",
+        "title": "desktop menu items container",
         "props": {
             "blockClass": "header__menu--items"
         },

@@ -1,19 +1,21 @@
 {
-  "flex-layout.row#phone__home__section-1": {
-    "title": "PHONE Row with text",
+  "flex-layout.row#phone__home--categories-image": {
+    "title": "phone home featured categories image container",
+    "props": {
+        "fullWidth": true
+    },
     "children": [
-      "rich-text#phone__section-1"
+        "image#phone__categories--image"
     ]
   },
-
-  "rich-text#phone__section-1": {
-    "title": "Text Favorites",
+  "image#phone__categories--image": {
+    "title": "phone featured categories image",
     "props": {
-      "blockClass": "",
-      "text": "Favoritos en PHONE",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+        "maxHeight": 174,
+        "src": "assets/img/home/slider1-mobile.png",
+        "link": {
+            "url": "/"
+        }
     }
   }
 }

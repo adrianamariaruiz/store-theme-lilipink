@@ -1,0 +1,33 @@
+.container--menu__submenu--text{
+    margin-bottom: 20px;
+}
+
+.wrapper--header__top--text{
+    font-size: 14px;
+}
+
+.paragraph--menu__submenu--text{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.link--header__top--text{
+    text-decoration: none;
+    font-weight:600;
+    color: #e4147e;
+}
+
+.container--header__top--text{
+    text-align: right;
+}
+
+.container--menu__submenu--text{
+    border-bottom: 1px solid #000;
+    margin-right: 20px;
+}
+
+
+
+

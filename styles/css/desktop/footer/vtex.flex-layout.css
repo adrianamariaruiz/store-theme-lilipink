@@ -1,0 +1,13 @@
+.flexRow--desktop__container--info{
+    background-color: #e4147e;
+    padding: 40px 180px;
+}
+.flexCol--container__social-networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColChild--container__policies{
+    width: 20%;
+}

@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#home__global--text": {
+    "props": {
+      "blockClass": "home__global--text"
+    },
+    "children": [
+      "rich-text#home__text"
+    ]
+    },
+    "rich-text#home__text": {
+      "props": {
+          "text": "¡Prepárate Para El Verano!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-4",
+          "textColor": "c-on-disabled",
+          "blockClass": "home__text"
+      }
+    }
+}

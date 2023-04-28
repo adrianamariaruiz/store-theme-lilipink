@@ -1,0 +1,11 @@
+.headerRowBackground--desktop__header--top{
+    background-color: #f0f0f0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.headerRowContainer--desktop__header--top{
+    display: flex;
+    justify-content: stretch;
+}

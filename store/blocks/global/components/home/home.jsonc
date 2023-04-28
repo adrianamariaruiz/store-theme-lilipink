@@ -1,25 +1,22 @@
 {
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
+    "props": {
+      "blockClass": "home__section--global",
+      "fullWidth": "100%"
+    },
     "children": [
-      "rich-text#home__section--global"
-    ],
-    "props": {
-      "marginTop": 10,
-      "border": ["all"],
-      "borderWidth": 1,
-      "borderColor": "success"
-    }
+      "flex-layout.col#home__section--global-col"
+    ]
   },
-
-  "rich-text#home__section--global": {
-    "title": "Text Favorites",
+  "flex-layout.col#home__section--global-col": {
+    "title": "Global Row with text example",
     "props": {
-      "blockClass": "",
-      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D",
-      "font": "t-heading-1",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
+      "blockClass": "home__section--global-col"
+    },
+    "children": [
+      "flex-layout.row#global__container--gif",
+      "flex-layout.row#home__global--text"
+    ]
   }
 }

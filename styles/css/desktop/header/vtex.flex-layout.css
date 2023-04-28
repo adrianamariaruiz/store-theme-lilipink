@@ -1,0 +1,18 @@
+
+.flexRow--header__desktop{
+    padding: 50px 10px 0px 20px;
+}
+
+.flexRow--header__top--container{
+    width: 100%;
+}
+
+.flexRow--header__row--text{
+    display: flex;
+    align-content: center;
+}
+
+.flexRowContent--submenu__bras--container{
+    width: calc(100% - 3rem);
+}
+

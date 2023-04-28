@@ -1,0 +1,207 @@
+{
+    "menu-item#bras": {
+        "title": "menu item bras",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-bras",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Bras",
+                "text": "BRASIERES"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
+    },
+
+    "menu-item#tops": {
+        "title": "menu item tops",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-tops",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "tops",
+                "text": "TOPS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tops"]
+    },
+    "menu-item#panties": {
+        "title": "menu item panties",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-panties",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "panties",
+                "text": "PANTIES"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
+    },
+    "menu-item#kids-teen": {
+        "title": "menu item kids-teen",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-kids-teen",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "kids-teen",
+                "text": "KIDS & TEEN"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tops"]
+    },
+    "menu-item#man": {
+        "title": "menu item man",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-man",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "man",
+                "text": "HOMBRE"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
+    },
+    "menu-item#pijamas": {
+        "title": "menu item pijamas and more",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-pijamas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "pijamas",
+                "text": "PIJAMAS Y MULTIUSOS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tops"]
+    },
+    "menu-item#socks": {
+        "title": "menu item socks",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-socks",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "socks",
+                "text": "MEDIAS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
+    },
+    "menu-item#sports": {
+        "title": "menu item sports",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-sports",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "sports",
+                "text": "DEPORTIVO"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tops"]
+    },
+    "menu-item#swimsuit": {
+        "title": "menu item swimsuit",
+        "props": {
+            "blockClass": "header__menu",
+            "id": "menu-item-swimsuit",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "swimsuit",
+                "text": "VESTIDOS DE BAÑO"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
+    },
+    "menu-item#beauty-welfare": {
+        "title": "menu item beauty-welfare",
+        "props": {
+            "blockClass": ["header__menu", "header__menu--welfare"],
+            "id": "menu-item-beauty-welfare",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "beauty-welfare",
+                "text": "BELLEZA Y BIENESTAR"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tops"]
+    },
+    "menu-item#sales": {
+        "title": "menu item sales",
+        "props": {
+            "blockClass": ["header__menu", "header__menu--sales"],
+            "id": "menu-item-sales",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "sales",
+                "text": "REBAJAS"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#bras"]
+    },
+    "menu-item#biosecurity": {
+        "title": "menu item biosecurity",
+        "props": {
+            "blockClass": ["header__menu", "header__menu--biosecurity"],
+            "id": "menu-item-biosecurity",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "biosecurity",
+                "text": "BIOSEGURIDAD"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tops"]
+    }
+}

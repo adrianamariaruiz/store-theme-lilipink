@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#desktop__header--container": {
+        "title": "Desktop header container",
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "header__desktop"
+        },
+        "children": [
+            "search-bar#global__header--search",
+            "flex-layout.col#spacer",
+            "flex-layout.col#desktop__header--logo",
+            "flex-layout.col#spacer",
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow",
+            "blockClass": "global__spacer--grow"
+        }
+    },
+    "flex-layout.col#desktop__header--logo": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": ["logo#header__logo"]
+    },
+    
+    "logo#header__logo": {
+        "title": "Header logo desktop",
+        "props": {
+            "url": "assets/img/header/logo.png",
+            "href": "/"
+        }
+    },
+
+    "login": {
+        "title": "desktop login",
+        "props": {
+            "iconLabel": "MI CUENTA",
+            "showIconProfile": true
+        }
+    }
+}

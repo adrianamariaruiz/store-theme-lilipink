@@ -1,6 +1,17 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+  "responsive-layout.desktop#desktop__home": {
+    "props": {
+      "blockClass": "desktop__home"
+    },
+    "title": "Desktop Home",
+    "children": [
+      "flex-layout.row#desktop__home--promo-text",
+      "list-context.image-list#home__slider--list",
+      "flex-layout.row#home__section--global",
+      "flex-layout.row#global__home--products",
+      "flex-layout.row#home--categories-text",
+      "flex-layout.row#home__categories--images",
+      "flex-layout.row#home__categories--image"
+    ]
   }
 }

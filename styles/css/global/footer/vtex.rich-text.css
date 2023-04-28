@@ -1,0 +1,12 @@
+.paragraph--subscribe__text{
+    margin-top: 64px;
+}
+
+.link--notice__privacy{
+    text-decoration: none;
+    color: #e4147e;
+}
+
+.paragraph--notice__privacy{
+    margin: 10px;
+}

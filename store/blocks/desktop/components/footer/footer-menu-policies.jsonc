@@ -1,0 +1,24 @@
+{
+    "flex-layout.col#container__policies": {
+        "props": {
+            "border": "all",
+            "width": "22%",
+            "blockClass": "container__policies"
+        },
+        "children": [
+            "rich-text#desktop__policies",
+            "menu#policies"
+        ]
+    },
+    "rich-text#desktop__policies": {
+        "title": "desktop policies title",
+        "props": {
+            "text": "POLITICAS",
+            "textColor": "c-on-base--inverted",
+            "font": "t-small",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": ["info__font", "policies"]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.styledLink--header__menu{
+    font-weight: bolder;
+    color: #757575;
+    font-size: 13px;
+}
+
+/* este es el que le pone espacio entre items en el menu */
+.styledLinkContainer--header__menu{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.styledLinkContainer--submenu__bras--items{
+    padding: 5px;
+    margin: 0px;
+    font-size: 12px;
+    color: #757575;    
+}
+
+.styledLinkContent--submenu__bras--items:hover{
+    color: #e4147e;
+    font-weight: bold;
+
+}
+

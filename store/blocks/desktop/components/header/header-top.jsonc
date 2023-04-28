@@ -1,0 +1,98 @@
+{
+    "header-row#desktop__header--top": {
+        "title": "Header top desktop",
+        "children": [
+            "flex-layout.row#header__top--container"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__header--top",
+            "verticalAlign": "center"
+        }
+    },
+
+    "flex-layout.row#header__top--container": {
+        "title": "header top container",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "header__top--container",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#header__top--image",
+            "flex-layout.col#spacer__top",
+            "flex-layout.row#header__row--text"
+        ]
+    },
+    "image#header__top--image": {
+        "title": "header top imagen",
+        "props": {
+            "src": "assets/img/header/liliYyoi.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+
+    "flex-layout.col#spacer__top": {
+        "title": "header spacer top",
+        "props": {
+            "width": "grow"
+        }
+    },
+
+    "flex-layout.row#header__row--text": {
+        "title": "header container text and link",
+        "children": [
+            "flex-layout.col#header__container--text",
+            "flex-layout.col#header__container--link"
+        ],
+        "props": {
+            "blockClass": "header__row--text",
+            "width": "30%",
+            "preventVerticalStretch": false
+        }
+    },
+
+    "flex-layout.col#header__container--text": {
+        "title": "header container text",
+        "children": [
+            "rich-text#header__top--text"
+        ],
+        "props": {
+            "blockClass": "header__container--text",
+            "verticalAlign": "middle",
+            "width": "85%"
+        }
+    },
+    "flex-layout.col#header__container--link": {
+        "title": "header container link stores",
+        "children": [
+            "link#header__top--link"
+        ],
+        "props": {
+            "blockClass": "header__container--link",
+            "verticalAlign": "middle"
+        }
+    },
+
+    "rich-text#header__top--text": {
+        "title": "header top text additional income",
+        "props": {
+            "text": "[GENERA INGRESOS ADICIONALES CON NOSOTROS](https://storethemelilipink--itgloberspartnercl.myvtex.com)",
+            "textColor": "c-on-emphasis",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "t-heading-4",
+            "blockClass": "header__top--text"
+        }
+    },
+    "link#header__top--link": {
+        "title": "header top link stores",
+        "props": {
+            "href": "/",
+            "label": "Tiendas",
+            "blockClass": "header__top--link"
+        }
+    }
+}

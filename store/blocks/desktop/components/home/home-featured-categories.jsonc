@@ -1,0 +1,92 @@
+{
+    "flex-layout.row#home--categories-text": {
+        "title": "desktop home featured categories text",
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "marginTop": 10
+        },
+        "children": [
+            "rich-text#home__categories--text"
+        ]
+    },
+    "rich-text#home__categories--text": {
+        "title": "home featured categories text",
+        "props": {
+            "text": "Categorías destacadas",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "t-heading-2",
+            "textColor": "c-on-disabled",
+            "blockClass": "home__categories--text"
+        }
+    },
+    "flex-layout.row#home__categories--images": {
+        "title": "home featured categories images container",
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "marginTop": 5,
+            "colJustify": "between",
+            "blockClass": "home__categories--images"
+        },
+        "children": [
+            "image#categories__images--accessories",
+            "image#categories__images--socks",
+            "image#categories__images--basics"
+        ]
+    },
+    "image#categories__images--accessories": {
+        "title": "featured categories image accessories",
+        "props": {
+            "maxHeight": 470,
+            "maxWidth": 470,
+            "src": "assets/img/home/accesorios.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#categories__images--socks": {
+        "title": "featured categories image socks",
+        "props": {
+            "maxHeight": 470,
+            "maxWidth": 470,
+            "src": "assets/img/home/medias.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#categories__images--basics": {
+        "title": "featured categories image basics",
+        "props": {
+            "maxHeight": 470,
+            "maxWidth": 470,
+            "src": "assets/img/home/basicos.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    
+    "flex-layout.row#home__categories--image": {
+        "title": "home featured categories image container",
+        "props": {
+            "fullWidth": true
+        },
+        "children": [
+            "image#categories__image"
+        ]
+    },
+    "image#categories__image": {
+        "title": "featured categories image",
+        "props": {
+            "maxHeight": 247,
+            "src": "assets/img/home/vende-por-catalogo.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}

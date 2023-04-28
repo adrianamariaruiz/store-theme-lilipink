@@ -1,0 +1,14 @@
+{
+    // Search-bar
+    "search-bar#global__header--search": {
+        "title": "buscador",
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "autocompleteAlignment": "left"
+        }
+    },
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"]
+    }
+}

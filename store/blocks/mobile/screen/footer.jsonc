@@ -1,0 +1,9 @@
+{
+    "footer-layout.mobile": {
+        "title": "contenedor del footer mobile",
+        "children": [
+            // "flex-layout.row#mobile__footer"
+            "disclosure-layout-group#mobile__footer--menu"
+        ]
+    }
+}

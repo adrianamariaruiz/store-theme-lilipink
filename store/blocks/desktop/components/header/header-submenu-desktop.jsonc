@@ -1,0 +1,236 @@
+{
+    "vtex.menu@2.x:submenu#bras": {
+        "title": "submenu bras",
+        "props": {
+            "width": "100%",
+            "blockClass": "submenu__bras"
+        },
+        "children": [
+            "flex-layout.row#submenu__bras"
+        ]
+    },
+    "flex-layout.row#submenu__bras": {
+        "title": "submenu bras container items",
+        "props": {
+            "width": "15%",
+            "blockClass": "submenu__bras--container",
+            "horizontalAlign": "CENTER"
+        },
+        "children": [
+            "flex-layout.col#menu__search",
+            "flex-layout.col#menu__styles",
+            "flex-layout.col#menu__shopping",
+            "flex-layout.col#spacer",
+            "flex-layout.row#menu__image"
+        ]
+    },
+    "flex-layout.row#menu__image": {
+        "title": "submenu container slider images",
+        "props": {
+            "width": "30%",
+            "blockClass": "bras__container--item"
+        },
+        "children": [
+            "image#home__slider--one"
+        ]
+    },
+    "image#home__slider--one": {
+        "title": "submenu bras image",
+        "props": {
+            "src": "assets/img/home/slider1.png"
+        }
+    },
+    "flex-layout.col#menu__search": {
+        "title": "submenu bras - search",
+        "props": {
+            "orientation": "vertical",
+            "width": "15%",
+            "blockClass": "bras__container--item"
+        },
+        "children": [
+            "rich-text#search",
+            "menu-item#search-all",
+            "menu-item#search-best-sellers",
+            "menu-item#search-news",
+            "menu-item#search-discounts"
+        ]
+    },
+    "flex-layout.col#menu__styles": {
+        "title": "submenu bras - estilos",
+        "props": {
+            "orientation": "vertical",
+            "width": "15%",
+            "blockClass": "bras__container--item"
+        },
+        "children": [
+            "rich-text#styles",
+            "menu-item#search-all",
+            "menu-item#search-best-sellers",
+            "menu-item#search-news",
+            "menu-item#search-discounts"
+        ]
+    },
+    "flex-layout.col#menu__shopping": {
+        "title": "submenu bras - shopping",
+        "props": {
+            "orientation": "vertical",
+            "width": "15%",
+            "blockClass": "bras__container--item"
+        },
+        "children": [
+            "rich-text#buy-more",
+            "menu-item#buy__individual",
+            "menu-item#buy__setx2"
+        ]
+    },
+    "rich-text#search": {
+        "title": "submenu bras text search",
+        "props": {
+            "text": "Buscar",
+            "textColor": "c-on-emphasis",
+            "blockClass": [
+                "menu__submenu--search",
+                "menu__submenu--text"
+            ]
+        }
+    },
+    "rich-text#styles": {
+        "title": "submenu bras text styles",
+        "props": {
+            "text": "Estilos",
+            "textColor": "c-on-emphasis",
+            "blockClass": ["menu__submenu--styles", "menu__submenu--text"]
+        }
+    },
+    "rich-text#buy-more": {
+        "title": "submenu bras text buy more",
+        "props": {
+            "text": "Compra Más Y Ahorra",
+            "textColor": "c-on-emphasis",
+            "blockClass": ["menu__submenu--shopping", "menu__submenu--text"]
+        }
+    },
+    "menu-item#search-all": {
+        "title": "submenu bras item see all",
+        "props": {
+            "blockClass": "submenu__bras--items",
+            "id": "menu-item-search-all",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "search-all",
+                "text": "Ver todos"
+            }
+        }
+    },
+    "menu-item#search-best-sellers": {
+        "title": "submenu bras item best sellers",
+        "props": {
+            "blockClass": "submenu__bras--items",
+            "id": "menu-item-best-sellers",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "best-sellers",
+                "text": "Los mas vendidos"
+            }
+        }
+    },
+    "menu-item#search-news": {
+        "title": "submenu bras item news",
+        "props": {
+            "blockClass": "submenu__bras--items",
+            "id": "menu-item-news",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "news",
+                "text": "Nuevos"
+            }
+        }
+    },
+    "menu-item#search-discounts": {
+        "title": "submenu bras item discounts",
+        "props": {
+            "blockClass": "submenu__bras--items",
+            "id": "menu-item-discounts",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "discounts",
+                "text": "Descuentos"
+            }
+        }
+    },
+    "menu-item#buy__individual": {
+        "title": "submenu bras buy more item individual",
+        "props": {
+            "blockClass": "submenu__bras--items",
+            "id": "menu-item-buy",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "individual",
+                "text": "Individual"
+            }
+        }
+    },
+    "menu-item#buy__setx2": {
+        "title": "submenu bras buy more item packagex2",
+        "props": {
+            "blockClass": "submenu__bras--items",
+            "id": "menu-item-buy",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "setx2",
+                "text": "Paquete x2"
+            }
+        }
+    },
+
+    "vtex.menu@2.x:submenu#tops": {
+        "title": "submenu tops",
+        "props": {
+            "width": "100%",
+            "blockClass": "submenu__tops"
+        },
+        "children": [
+            "flex-layout.row#submenu__bras"
+        ]
+    },
+
+    "flex-layout.row#bras": {
+        "title": "submenu tops items container",
+        "props": {
+            "width": "15%",
+            "blockClass": "submenu__bras--container",
+            "horizontalAlign": "CENTER"
+        },
+        "children": [
+            "flex-layout.col#menu__search",
+            "flex-layout.col#menu__styles",
+            "flex-layout.col#menu__shopping",
+            "flex-layout.col#spacer",
+            "flex-layout.row#menu__image"
+        ]
+    }
+}

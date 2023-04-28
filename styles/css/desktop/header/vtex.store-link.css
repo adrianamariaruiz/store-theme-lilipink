@@ -1,0 +1,12 @@
+.label--header__top--link{
+    color: #727272;
+    font-size: 12px;
+}
+
+.link--header__top--link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+

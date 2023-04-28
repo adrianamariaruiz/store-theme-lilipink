@@ -1,6 +1,6 @@
 {
     "disclosure-layout-group#mobile__footer--menu": {
-        "title": "contenedor del disclosure group",
+        "title": "container disclosure group",
         "children": [
             "disclosure-layout#interest__links",
             "disclosure-layout#policies",
@@ -8,7 +8,7 @@
         ]
     },
     "disclosure-layout#customer-support": {
-        "title": "contenedor de atencion al cliente",
+        "title": "customer support container",
         "children": [
             "disclosure-trigger#customer-support",
             "disclosure-content#customer-support"
@@ -20,7 +20,7 @@
         ]
     },
     "rich-text#customer-support": {
-        "title": "texto Atención al cliente",
+        "title": "text customer-support",
         "props": {
             "text": "ATENCIÓN AL CLIENTE"
         }
@@ -29,7 +29,7 @@
         "children": [ "menu#customer-support" ]
     },
     "menu#customer-support": {
-        "title": "menu items de politicas",
+        "title": "menu items policies",
         "children": [
             "menu-item#customer-support",
             "menu-item#schedules",
@@ -39,12 +39,14 @@
             "menu-item#phone-numbers"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "menu__custommer-support"
         }
     },
     "menu-item#customer-support": {
-        "title": "atencion al cliente",
+        "title": "customer-support",
         "props": {
+            "blockClass": "item__custommer-support",
             "id": "menu-customer-support",
             "type": "custom",
             "itemProps": {
@@ -56,8 +58,9 @@
         }
     },
     "menu-item#schedules": {
-        "title": "horarios",
+        "title": "schedules",
         "props": {
+            "blockClass": "item__schedules",
             "id": "menu-schedules",
             "type": "custom",
             "itemProps": {
@@ -71,6 +74,7 @@
     "menu-item#contact-us": {
         "title": "escribenos",
         "props": {
+            "blockClass": "item__contact-us",
             "id": "menu-contact-us",
             "type": "custom",
             "itemProps": {
@@ -84,6 +88,7 @@
     "menu-item#email": {
         "title": "email",
         "props": {
+            "blockClass": "item__email",
             "id": "menu-email",
             "type": "custom",
             "itemProps": {
@@ -97,6 +102,7 @@
     "menu-item#our-phones": {
         "title": "lineas telefónicas",
         "props": {
+            "blockClass": "item__our-phones",
             "id": "menu-our-phones",
             "type": "custom",
             "itemProps": {
@@ -110,6 +116,7 @@
     "menu-item#phone-numbers": {
         "title": "números de contacto",
         "props": {
+            "blockClass": "item__numbers",
             "id": "menu-phone-numbers",
             "type": "custom",
             "itemProps": {

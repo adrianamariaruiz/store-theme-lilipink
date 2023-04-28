@@ -8,7 +8,6 @@
         "flex-layout.row#global__home--products",
         "flex-layout.row#home--categories-text",
         "flex-layout.row#mobile__home--slider-categories",
-        // "flex-layout.row#mobile__home--categories-image",
         "responsive-layout.tablet#tablet__home",
         "responsive-layout.phone#phone__home"
         ]

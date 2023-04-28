@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#desktop__container--info": {
+        "title": "desktop footer container with information about links, policies and social networks",
+        "props": {
+            "border": "all",
+            "borderColor": "action-primary",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "blockClass": "desktop__container--info"
+        },
+        "children": [
+            "flex-layout.col#container__interest--links",
+            "flex-layout.col#container__policies",
+            "flex-layout.col#container__social-networks"
+        ]
+    },
+    
+    "flex-layout.col#container__social-networks": {
+        "props": {
+            "border": "all",
+            "blockClass": "container__social-networks",
+            "width": "56%"
+        },
+        "children": [
+            "rich-text#desktop__social-networks",
+            "flex-layout.row#desktop__social--icons"
+        ]
+    },
+
+    "rich-text#desktop__social-networks": {
+        "title": "desktop social networks title",
+        "props": {
+            "text": "**síguenos** en redes sociales",
+            "textColor": "c-on-base--inverted",
+            "font": "t-heading-5",
+            "blockClass": "info__font social-networks"
+        }
+    },
+    "flex-layout.row#desktop__social--icons": {
+        "children": [
+            // "image#social__lilipink",
+            "social-networks"
+        ]
+    },
+    "social-networks": {
+        "props": {
+            // "showInColor": true,
+          "socialNetworks": [
+            { "url": "https://instagram.com/foo", "name": "Instagram" },
+            {"url": "https://facebook.com/foo", "name": "Facebook" },
+            { "url": "https://youtube.com/foo", "name": "YouTube" }
+            // { "url": "https://tiktok.com/foo", "name": "tiktok" }
+          ]
+        }
+      }
+
+}

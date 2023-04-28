@@ -15,6 +15,7 @@
             "blockClass": "subscribe__text"
         }
     },
+
     "flex-layout.row#global__container--form": {
         "children": [
             "rich-text#global__subscribe--form"
@@ -30,6 +31,7 @@
             "blockClass": "subscribe__form"
         }
     },
+
     "flex-layout.row#global__container--privacy": {
         "children": [
             "rich-text#global__notice--privacy"
@@ -43,61 +45,6 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "notice__privacy"
-        }
-    },
-    "flex-layout.row#global__container--info": {
-        "children": [
-            "flex-layout.col#container__interest--links",
-            "flex-layout.col#container__policies",
-            "flex-layout.col#container__social-networks"
-        ]
-    },
-    "flex-layout.col#container__interest--links": {
-        "children": [
-            "rich-text#desktop__interest-links"
-        ]
-    },
-    "flex-layout.col#container__policies": {
-        "children": [
-            "rich-text#desktop__policies"
-        ]
-    },
-    "flex-layout.col#container__social-networks": {
-        "children": [
-            "rich-text#desktop__social-networks"
-        ]
-    },
-    "rich-text#desktop__interest-links": {
-        "title": "titulo links de interes",
-        "props": {
-            "text": "LINKS DE INTERÉS",
-            "textColor": "c-on-disabled",
-            "font": "t-small",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "interest-links"
-        }
-    },
-    "rich-text#desktop__policies": {
-        "title": "titulo politicas",
-        "props": {
-            "text": "politicas",
-            "textColor": "c-on-disabled",
-            "font": "t-small",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "policies"
-        }
-    },
-    "rich-text#desktop__social-networks": {
-        "title": "titulo redes sociales",
-        "props": {
-            "text": "SIGUENOS",
-            "textColor": "c-on-disabled",
-            "font": "t-small",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "social-networks"
         }
     }
 }

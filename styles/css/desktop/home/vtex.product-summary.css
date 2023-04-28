@@ -4,6 +4,7 @@
     max-height: 38px;
 }
 
+
 .element :global(.vtex-button):hover :global(.vtex-button__label)::after {
     background: url("assets/img/home/carrito-blanco.svg") no-repeat;
     content: "";

@@ -1,0 +1,119 @@
+{
+    "flex-layout.row#desktop__customer-support": {
+        "title": "desktop footer customer support",
+        "props": {
+            "blockClass": "desktop__customer-support",
+            "border": "all",
+            "borderColor": "success",
+            "horizontalAlign": "center",
+            "paddingTop": 6,
+            "paddingBottom": 6,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#container__customer-support",
+            "flex-layout.col#container__write-to-us",
+            "flex-layout.col#container__telephone-lines"
+        ]
+    },
+
+    "flex-layout.col#container__customer-support": {
+        "props": {
+            "blockClass": "container__customer-support",
+            "width": "25%",
+            "horizontalAlign": "center",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#desktop__customer-support",
+            "rich-text#schedule"
+        ]
+    },
+    "rich-text#desktop__customer-support": {
+        "title": "texto Atención al cliente",
+        "props": {
+            "textColor": "c-action-secondary",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "blockClass": "desktop__customer-support",
+            "text": "ATENCIÓN AL CLIENTE"
+        }
+    },
+    "rich-text#schedule": {
+        "title": "text schedule",
+        "props": {
+            "textColor": "c-action-secondary",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "blockClass": "desktop__schedule",
+            "text": "Lunes a viernes 8:00am a 5:00pm (Jornada continua)"
+        }
+    },
+
+
+    "flex-layout.col#container__write-to-us": {
+        "props": {
+            "blockClass": "container__write-to-us",
+            "width": "25%",
+            "horizontalAlign": "center",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#write-to-us",
+            "rich-text#email"
+        ]
+    },
+    "rich-text#write-to-us": {
+        "title": "text write to us",
+        "props": {
+            "textColor": "c-action-secondary",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "blockClass": "desktop__write-to-us",
+            "text": "ESCRÍBENOS"
+        }
+    },
+    "rich-text#email": {
+        "title": "text email",
+        "props": {
+            "textColor": "c-action-secondary",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "blockClass": "desktop__email",
+            "text": "servicioalcliente@fastmoda.com.co"
+        }
+    },
+
+    "flex-layout.col#container__telephone-lines": {
+        "props": {
+            "blockClass": "container__telephone-lines",
+            "width": "25%",
+            "horizontalAlign": "center",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#telephone-lines",
+            "rich-text#telephone-numbers"
+        ]
+    },
+    "rich-text#telephone-lines": {
+        "title": "title telephone lines",
+        "props": {
+            "textColor": "c-action-secondary",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "blockClass": "desktop__phone-lines",
+            "text": "LÍNEAS TELEFÓNICAS"
+        }
+    },
+    "rich-text#telephone-numbers": {
+        "title": "telephone numbers",
+        "props": {
+            "textColor": "c-action-secondary",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "blockClass": "desktop__numbers",
+            "text": "601 6702 400 Ext 107 - Línea telefónica: 310575 6438 **Línea Whatsapp: +57 301 3684984**"
+        }
+    }
+}

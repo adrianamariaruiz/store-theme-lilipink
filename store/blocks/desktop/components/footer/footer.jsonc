@@ -1,12 +1,4 @@
 {
-    "flex-layout.row#desktop__footer": {
-        "children": [
-            "rich-text#prueba__Footer"
-        ]
-    },
-    "rich-text#prueba__Footer": {
-        "props": {
-            "text": "Footer Desktop"
-        }
-    }
+    // Todos los derechos reservados FAST MODA S.A.S
+    
 }

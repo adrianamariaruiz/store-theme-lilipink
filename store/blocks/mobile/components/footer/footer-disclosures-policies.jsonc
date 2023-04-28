@@ -1,27 +1,29 @@
 {
     "disclosure-layout#policies": {
-        "title": "contenedor de politicas",
+        "title": "mobile disclosure container policies",
         "children": [
             "disclosure-trigger#policies",
             "disclosure-content#policies"
         ]
     },
     "disclosure-trigger#policies": {
+        "title": "mobile disclosure trigger policies",
         "children": [
             "rich-text#policies"
         ]
     },
     "rich-text#policies": {
-        "title": "texto Politicas",
+        "title": "text policies",
         "props": {
             "text": "POLÍTICAS"
         }
     },
     "disclosure-content#policies": {
+        "title": "mobile disclosure content policies",
         "children": [ "menu#policies" ]
     },
     "menu#policies": {
-        "title": "menu items de politicas",
+        "title": "menu items policies",
         "children": [
             "menu-item#CrediPink",
             "menu-item#contract-buy-and-sell",
@@ -32,6 +34,10 @@
             "menu-item#legal-activities-and-promotions"
         ],
         "props": {
+            "blockClass": [
+                "mobile__menu--policies-disclosure", 
+                "desktop__menu--policies"
+            ],
             "orientation": "vertical"
         }
     },

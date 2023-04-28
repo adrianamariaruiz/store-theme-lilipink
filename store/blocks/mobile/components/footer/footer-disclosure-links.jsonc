@@ -1,12 +1,16 @@
 {
     "disclosure-layout#interest__links": {
-        "title": "contenedor de links de interes",
+        "title": "mobile disclosure interest links",
+        "props": {
+            "blockClass": "mobile__disclosure--interest-links"
+        },
         "children": [
             "disclosure-trigger#interest__links",
             "disclosure-content#interest__links"
         ]
     },
     "disclosure-trigger#interest__links": {
+        "props": {"blockClass": "mobile__disclosure--interest-links"},
         "children": [
             "rich-text#interest__links"
         ]
@@ -14,10 +18,12 @@
     "rich-text#interest__links": {
         "title": "texto links de interes",
         "props": {
+            "blockClass": "mobile__text--interest-links",
             "text": "LINKS DE INTERÉS"
         }
     },
     "disclosure-content#interest__links": {
+        "props": {"blockClass": "mobile__content--interest-links"},
         "children": [ 
             "menu#interest__links" 
         ]
@@ -35,11 +41,15 @@
             "menu-item#black-days"
         ],
         "props": {
+            "blockClass": [
+                "mobile__menu--interest-links", 
+                "desktop__menu--interest-links"
+            ],
             "orientation": "vertical"
         }
     },
     "menu-item#who-are-we": {
-        "title": "Quienes somos",
+        "title": "menu item who are we",
         "props": {
             "id": "menu-who-are-we",
             "type": "custom",
@@ -47,12 +57,12 @@
                 "type": "internal",
                 "href": "/",
                 "tagTittle": "who-are-we",
-                "text": "Quienes somos"
+                "text": "¿Quiénes somos?"
             }
         }
     },
     "menu-item#work-with-us": {
-        "title": "Trabaja con nosotros",
+        "title": "menu item work with us",
         "props": {
             "id": "menu-work-with-us",
             "type": "custom",
@@ -65,7 +75,7 @@
         }
     },
     "menu-item#frequent-questions": {
-        "title": "Preguntas Frecuentes",
+        "title": "menu item frequent questions",
         "props": {
             "id": "menu-frequent-questions",
             "type": "custom",
@@ -78,7 +88,7 @@
         }
     },
     "menu-item#size-guide": {
-        "title": "Guia de tallas",
+        "title": "menu item size guide",
         "props": {
             "id": "menu-size-guide",
             "type": "custom",
@@ -91,7 +101,7 @@
         }
     },
     "menu-item#digital-business": {
-        "title": "Negocio digital",
+        "title": "menu item digital business",
         "props": {
             "id": "menu-digital-business",
             "type": "custom",
@@ -104,7 +114,7 @@
         }
     },
     "menu-item#cyber-monday": {
-        "title": "Cyber lunes",
+        "title": "menu item cyber monday",
         "props": {
             "id": "menu-cyber-monday",
             "type": "custom",
@@ -117,7 +127,7 @@
         }
     },
     "menu-item#day-without-iva": {
-        "title": "Dia sin iva",
+        "title": "menu item day without iva",
         "props": {
             "id": "menu-day-without-iva",
             "type": "custom",
@@ -130,7 +140,7 @@
         }
     },
     "menu-item#black-days": {
-        "title": "Black days",
+        "title": "menu item black days",
         "props": {
             "id": "menu-black-days",
             "type": "custom",

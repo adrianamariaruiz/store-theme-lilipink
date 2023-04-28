@@ -1,0 +1,15 @@
+/* .vtex-mega-menu-2-x-menuContainerNavVertical */
+
+:global(.vtex-mega-menu-2-x-styledLinkText){
+    color: #757575;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+:global(.vtex-mega-menu-2-x-departmentsTitle){
+    color: #e4147e;
+}
+
+:global(.vtex-mega-menu-2-x-submenuContainerTitle){
+    color: #e4147e;
+}

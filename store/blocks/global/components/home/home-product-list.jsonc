@@ -3,7 +3,8 @@
         "title": "global home products list",
         "props": {
             "horizontalAlign": "center",
-            "fullWidth": false
+            "fullWidth": false,
+            "blockClass": "home__products--layout"
         },
         "children": [
             "list-context.product-list#home__products"
@@ -14,7 +15,8 @@
         "blocks": ["product-summary.shelf#home__products--list"],
         "children": ["slider-layout#products__slider"],
         "props": {
-            "orderBy": "OrderByNameASC"
+            "orderBy": "OrderByNameASC",
+            "blockClass": "home__products--list"
         }
     },
     "slider-layout#products__slider": {
@@ -34,14 +36,52 @@
     "product-summary.shelf#home__products--list": {
         "title": "home products summary shelf",
         "children": [
-          "product-summary-image#home__products--image",
+          "stack-layout#product__image--highlights",
           "product-summary-name#home__products--name",
-          "product-rating-inline",
+          "product-identifier.product#global__home--identifier",
           "product-summary-space",
-          "product-summary-price",
+          "product-list-price#global__home--price-list",
+          "flex-layout.row#global__home--prices-layout",
+          "sku-selector#global__home--selector-sku",
           "add-to-cart-button#home__products--button-buy"
         ]
       },
+      "stack-layout#product__image--highlights": {
+        "title": "products image and highlights with savings price percentage",
+        "children": [
+          "product-summary-image#home__products--image",
+          "vtex.product-highlights@2.x:product-highlights#collection"
+        ],
+        "props": {
+          "blockClass": "home__container--image-highlights"
+        }
+      },
+
+      "vtex.product-highlights@2.x:product-highlights#collection": {
+        "title": "layout highlights with savings price percentage",
+        "children": [
+          "product-highlight-wrapper#global__home--highlight"
+        ],
+        "props": {
+          "blockClass": "collection__layout--highlights"
+        }
+      },
+      "product-highlight-wrapper#global__home--highlight": {
+        "title": "products highlights with savings price percentage",
+        "children": [
+          "product-price-savings#percentage"
+        ],
+        "props": {
+          "blockClass": "product__wrapper--highlights"
+        }
+      },
+      "product-price-savings#percentage": {
+        "props": {
+          "message": "- {savingsPercentage}",
+          "blockClass": "product__highlights--percentage"
+        }
+      },
+
       "product-summary-image#home__products--image": {
         "title": "summary shelf products image",
         "props": {
@@ -54,30 +94,70 @@
       "product-summary-name#home__products--name": {
         "title": "summary shelf products name",
         "props": {
+          "tag": "h3",
           "blockClass": "products--name"
+        }
+      },
+      "product-identifier.product#global__home--identifier": {
+        "title": "identifier product Ref",
+        "props": {
+          "blockClass": "home__products--identifier",
+          "label": "custom",
+          "customLabel": "Ref",
+          "idField": "productReference"
+        }
+      },
+
+      "flex-layout.row#global__home--prices-layout": {
+        "title": "home products selling price savings",
+        "props": {
+          "colGap": 2,
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+          "marginBottom": 4,
+          "blockClass": "home__prices--layout"
+        },
+        "children": [
+          "product-selling-price#global__home--selling-price",
+          "product-price-savings#global__home--savings-price"
+        ]
+      },
+      "product-selling-price#global__home--selling-price": {
+        "title": "products selling price",
+        "props": {
+          "blockClass": "home__selling--price"
+        }
+      },
+      "product-price-savings#global__home--savings-price": {
+        "title": "products savings price",
+        "props": {
+          "blockClass": "home__savings--price"
+        }
+      },
+      "product-list-price#global__home--price-list": {
+        "title": "products list price",
+        "props": {
+          "blockClass": "home__list--prices"
+        }
+      },
+      "sku-selector#global__home--selector-sku": {
+        "props": {
+          "displayMode": "default",
+          "imageHeight": "40px",
+          "imageWidth": "40px",
+          "blockClass": "home__product--selector-sku"
         }
       },
       "add-to-cart-button#home__products--button-buy": {
         "title": "summary shelf products button buy",
         "props": {
           "text": "AGREGAR",
-          "isOneClickBuy": true,
-          "onClickEventPropagation": "enabled",
+          "isOneClickBuy": false,
+          "onClickEventPropagation": "disabled",
+          "onClickBehavior": "add-to-cart",
           "border": "left",
           "blockClass": "home__products--button-buy"
         }
       }
-      // "icon#button-icon": {
-      //   "props": {
-      //     "id": "hpa-cart",
-      //     "size": 50
-      //   }
-      // },
-      // "image#carrito": {
-      //   "props": {
-      //     "src": "assets/img/home/carrito-rosa.svg",
-      //     "maxHeight": 20
-      //   }
-      // }
       
 }

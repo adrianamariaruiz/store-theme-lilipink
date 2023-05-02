@@ -2,7 +2,6 @@
     "flex-layout.row#desktop__container--info": {
         "title": "desktop footer container with information about links, policies and social networks",
         "props": {
-            "border": "all",
             "borderColor": "action-primary",
             "fullWidth": true,
             "horizontalAlign": "center",
@@ -16,8 +15,8 @@
     },
     
     "flex-layout.col#container__social-networks": {
+        "title": "desktop social networks container",
         "props": {
-            "border": "all",
             "blockClass": "container__social-networks",
             "width": "56%"
         },
@@ -30,24 +29,36 @@
     "rich-text#desktop__social-networks": {
         "title": "desktop social networks title",
         "props": {
-            "text": "**síguenos** en redes sociales",
+            "text": "**Síguenos** en redes sociales",
             "textColor": "c-on-base--inverted",
             "font": "t-heading-5",
-            "blockClass": "info__font social-networks"
+            "blockClass": "social-networks"
         }
     },
     "flex-layout.row#desktop__social--icons": {
+        "title": "container social networks with image and icons",
+        "props": {"blockClass": "desktop__social--icons"},
         "children": [
-            // "image#social__lilipink",
+            "image#social__lilipink",
             "social-networks"
         ]
     },
-    "social-networks": {
+    "image#social__lilipink": {
+        "title": "lilipink image",
         "props": {
-            // "showInColor": true,
+            "blockClass": "footer__image--lilipink",
+            "src": "assets/img/footer/lilipink.png",
+            "maxHeight": 45
+        }
+      },
+    "social-networks": {
+        "title": "social networks icons",
+        "props": {
+            "blockClass": "footer__social--icons",
           "socialNetworks": [
             { "url": "https://instagram.com/foo", "name": "Instagram" },
             {"url": "https://facebook.com/foo", "name": "Facebook" },
+            { "url": "https://youtube.com/foo", "name": "YouTube" },
             { "url": "https://youtube.com/foo", "name": "YouTube" }
             // { "url": "https://tiktok.com/foo", "name": "tiktok" }
           ]

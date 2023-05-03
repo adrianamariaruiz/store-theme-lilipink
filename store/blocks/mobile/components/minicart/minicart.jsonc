@@ -1,0 +1,9 @@
+{
+    "product-list-content-mobile#mobile__minicart--products": {
+        "title": "mobile minicart products container",
+        "children": ["flex-layout.row#desktop__list--products"],
+        "props": {
+            "blockClass": "mobile__minicart--products"
+        }
+    }
+}

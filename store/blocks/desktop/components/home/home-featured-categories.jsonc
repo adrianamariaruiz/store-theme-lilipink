@@ -4,7 +4,8 @@
         "props": {
             "fullWidth": true,
             "horizontalAlign": "center",
-            "marginTop": 10
+            "marginTop": 8,
+            "blockClass": "home__categories-text"
         },
         "children": [
             "rich-text#home__categories--text"

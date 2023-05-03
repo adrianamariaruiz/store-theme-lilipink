@@ -20,26 +20,66 @@
     "flex-layout.col#trigger-mega-menu": {
         "title": "tablet mega-menu container",
         "props": {
-          "verticalAlign": "middle"
+            "blockClass": "tablet__trigger--mega-menu",
+            "verticalAlign": "middle"
         },
         "children": ["mega-menu-trigger-btn"]
     },
     "mega-menu-trigger-btn": {
         "title": "tablet mega-menu button to open drawer",
         "props": {
-          "Drawer": "drawer"
+            "blockClass": "tablet__button--drawer",
+            "Drawer": "drawer"
         }
     },
     "drawer": {
         "title": "drawer",
         "children": [
-            "mega-menu#mobile"
+            // "mega-menu#mobile"
+            "flex-layout.col#mega-menu"
         ],
         "blocks": ["drawer-header#mobile__drawer"]
+    },
+    "flex-layout.col#mega-menu": {
+        "title": "mega menu container with stores and dont miss it links",
+        "children": [
+            "mega-menu#mobile",
+            "flex-layout.col#col__link--dont-miss",
+            "flex-layout.col#col__link--stores"
+        ]
+    },
+    "flex-layout.col#col__link--dont-miss": {
+        "title": "mega menu layout with dont miss it link",
+        "children": [
+            "rich-text#link__dont-miss-it"
+        ]
+    },
+    "rich-text#link__dont-miss-it": {
+        "title": "dont miss it link",
+        "props": {
+            "text": "[NUESTROS IMPERDIBLES](https://www.lilipink.com/)",
+            "textColor": "c-on-disabled",
+            "blockClass": "links__mega-menu"
+        }
+    },
+    "flex-layout.col#col__link--stores": {
+        "title": "mega menu layout with stores link",
+        "children": [
+            "rich-text#link__stores"
+        ]
+    },
+    "rich-text#link__stores": {
+        "title": "link de tiendas",
+        "props": {
+            "text": "[TIENDAS](https://www.lilipink.com/)",
+            "textColor": "c-on-disabled",
+            "blockClass": "links__mega-menu"
+        }
     },
     "mega-menu#mobile": {
         "title": "mobile mega menu",
         "props": {
+            "blockClass": "mobile__mega-menu",
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
             "openOnly": "vertical"
@@ -68,6 +108,7 @@
         "title": "mobile button close drawer",
         "children": ["drawer-close-button"],
         "props": {
+            "blockClass": "drawer__button--close",
             "verticalAlign": "middle",
             "horizontalAlign": "right"
         }
@@ -76,9 +117,10 @@
         "title": "mobile drawer button back",
         "children": ["mega-menu-go-back-btn"],
         "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "left",
-          "paddingLeft": 4
+            "blockClass": "drawer__button--back",
+            "verticalAlign": "middle",
+            "horizontalAlign": "left",
+            "paddingLeft": 4
         }
     },
     "flex-layout.col#tablet__container--drawer": {

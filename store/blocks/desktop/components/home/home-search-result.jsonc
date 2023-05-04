@@ -1,22 +1,22 @@
 {
-  "search-result-layout.customQuery#home": {
-    "title": "desktop layout home search results",
-    "blocks": [
-      "search-result-layout.desktop#home__search--desktop",
-      // "search-result-layout.mobile#home__search--mobile",
-      "search-not-found-layout"
-    ],
-    "props": {
-      "querySchema": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "search-result-layout.desktop#home__search--desktop": {
-    "title": "desktop layout home search",
-    "children": ["flex-layout.row#home__results"]
-  },
+  // "search-result-layout.customQuery#home": {
+  //   "title": "desktop layout home search results",
+  //   "blocks": [
+  //     "search-result-layout.desktop#home__search--desktop",
+  //     // "search-result-layout.mobile#home__search--mobile",
+  //     "search-not-found-layout"
+  //   ],
+  //   "props": {
+  //     "querySchema": {
+  //       "skusFilter": "ALL",
+  //       "simulationBehavior": "skip"
+  //     }
+  //   }
+  // },
+  // "search-result-layout.desktop#home__search--desktop": {
+  //   "title": "desktop layout home search",
+  //   "children": ["flex-layout.row#home__results"]
+  // },
   // "search-result-layout.mobile#home__search--mobile": {
   //   "children": ["rich-text#section-1"]
   // },
@@ -30,45 +30,79 @@
   //     "textPosition": "CENTER"
   //   }
   // },
-  "flex-layout.row#home__results": {
-    "title": "desktop home layout with filter and search results",
-    "children": [
-      "flex-layout.col#home__results--filter",
-      "flex-layout.col#home__results--search"
-    ]
-  },
-  "flex-layout.col#home__results--filter": {
-    "title": "desktop home layout with filter results",
-    "props": {
-      "width": "30%"
-    }
-  },
-  "flex-layout.col#home__results--search":{
-    "title": "desktop home layout with search results",
-    "children": [
-      "search-content#home__results--search"
-    ]
-  },
-  "search-content#home__results--search": {
-    "title": "desktop home search results content",
-    "blocks": [
-      "gallery",
-      "not-found"
-    ]
-  },
-  "gallery": {
-    "title": "desktop home gallery with results",
-    "blocks": ["product-summary.shelf#home__search--result"]
-  },
+  // "flex-layout.row#home__results": {
+  //   "title": "desktop home layout with filter and search results",
+  //   "children": [
+  //     "flex-layout.col#home__results--filter",
+  //     "flex-layout.col#home__results--search"
+  //   ]
+  // },
+  // "flex-layout.col#home__results--filter": {
+  //   "title": "desktop home layout with filter results",
+  //   "props": {
+  //     "width": "30%"
+  //   }
+  // },
+  // "flex-layout.col#home__results--search":{
+  //   "title": "desktop home layout with search results",
+  //   "children": [
+  //     "search-content#home__results--search"
+  //   ]
+  // },
+  // "search-content#home__results--search": {
+  //   "title": "desktop home search results content",
+  //   "blocks": [
+  //     "gallery",
+  //     "not-found"
+  //   ]
+  // },
+  // "gallery": {
+  //   "title": "desktop home gallery with results",
+  //   "blocks": ["product-summary.shelf#home__search--result"]
+  // },
+
   "product-summary.shelf#home__search--result": {
     "title": "desktop home product summary",
     "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-rating-inline",
+      "stack-layout#search__product--image-highlights",
+      "product-summary-name#home__products--name",
+      "product-identifier.product#global__home--identifier",
       "product-summary-space",
-      "product-summary-price",
-      "add-to-cart-button"
+      "product-list-price#global__home--price-list",
+      "flex-layout.row#global__home--prices-layout",
+      "add-to-cart-button#home__products--button-buy"
     ]
+  },
+  
+  "stack-layout#search__product--image-highlights": {
+    "title": "products image and highlights with savings price percentage",
+    "children": [
+      "product-summary-image#search__products--image",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+    ],
+    "props": {
+      "blockClass": "home__container--image-highlights"
+    }
+  },
+  "product-summary-image#search__products--image": {
+    "title": "summary shelf products image",
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 200,
+      "blockClass": "products--image"
+    }
   }
+  // "product-summary.shelf#home__search--result": {
+  //   "title": "desktop home product summary",
+  //   "children": [
+  //     "product-summary-image",
+  //     "product-summary-name",
+  //     "product-rating-inline",
+  //     "product-summary-space",
+  //     "product-summary-price",
+  //     "add-to-cart-button"
+  //   ]
+  // }
+
 }

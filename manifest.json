@@ -55,7 +55,8 @@
     "vtex.product-list-context": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-highlights": "2.x",
-    "vtex.product-list": "0.x"
+    "vtex.product-list": "0.x",
+    "vtex.store-newsletter": "1.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

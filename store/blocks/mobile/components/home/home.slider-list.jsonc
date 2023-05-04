@@ -9,7 +9,7 @@
           "preload": true,
           "images": [
             {
-                "image": "assets/img/home/slider1-mobile.png",
+                "image": "assets/img/home/slider4-mobile.png",
                 "description": "slide 1",
                 "link": {"url": "/"}
             },

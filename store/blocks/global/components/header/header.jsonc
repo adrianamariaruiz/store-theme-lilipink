@@ -9,6 +9,6 @@
         }
     },
     "autocomplete-result-list.v2": {
-        "blocks": ["product-summary"]
+        "blocks": ["product-summary.shelf#home__search--result"]
     }
 }

@@ -1,5 +1,14 @@
 .paragraph--subscribe__text{
     margin-top: 64px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.paragraph--notice__privacy{
+    font-weight: 500;
+    margin: 10px;
+    font-size: 12px;
 }
 
 .link--notice__privacy{
@@ -7,6 +16,3 @@
     color: #e4147e;
 }
 
-.paragraph--notice__privacy{
-    margin: 10px;
-}

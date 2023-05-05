@@ -1,8 +1,8 @@
 {
     "flex-layout.col#container__policies": {
         "props": {
-            "border": "all",
             "width": "22%",
+            "preventVerticalStretch": true,
             "blockClass": "container__policies"
         },
         "children": [

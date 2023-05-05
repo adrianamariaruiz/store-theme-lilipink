@@ -1,0 +1,34 @@
+{
+    "product-summary.shelf#header__search--product": {
+        "title": "desktop home product summary",
+        "children": [
+          "stack-layout#search__product--image-highlights",
+          "product-summary-name#home__products--name",
+          "product-identifier.product#global__home--identifier",
+          "product-summary-space",
+          "product-list-price#global__home--price-list",
+          "flex-layout.row#global__home--prices-layout",
+          "add-to-cart-button#home__products--button-buy"
+        ]
+      },
+      
+      "stack-layout#search__product--image-highlights": {
+        "title": "products image and highlights with savings price percentage",
+        "children": [
+          "product-summary-image#search__products--image",
+          "vtex.product-highlights@2.x:product-highlights#collection"
+        ],
+        "props": {
+          "blockClass": "home__container--image-highlights"
+        }
+      },
+      "product-summary-image#search__products--image": {
+        "title": "summary shelf products image",
+        "props": {
+          "showBadge": false,
+          "aspectRatio": "1:1",
+          "maxHeight": 200,
+          "blockClass": "products--image"
+        }
+      }
+}

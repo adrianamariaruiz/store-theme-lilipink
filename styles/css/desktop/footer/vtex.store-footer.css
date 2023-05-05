@@ -1,6 +1,12 @@
 
-/* .socialNetworksContainer  */
 .socialNetworkImage--instagram{
-    /* background-color: white; */
     background-image: white;
+}
+
+.socialNetworksContainer--footer__social--icons{
+    height: 40px;
+}
+.socialNetworkLink--footer__social--icons{
+    height: 40px;
+    width: 40px;
 }

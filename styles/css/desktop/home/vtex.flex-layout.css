@@ -27,3 +27,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.flexRowContent--home__prices--layout{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2e2e2e;
+}

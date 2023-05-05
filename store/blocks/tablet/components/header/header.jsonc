@@ -11,35 +11,125 @@
         },
         "children": [
             "flex-layout.col#trigger-mega-menu",
-            "search-bar#global__header--search",
+            // "search-bar#global__header--search",
+            "search-bar#mobile__header--search",
             "flex-layout.col#spacer",
             "login",
             "minicart.v2"
         ]
     },
+
+
+    "search-bar#mobile__header--search": {
+        "title": "mobile header search bar",
+        "blocks": ["autocomplete-result-list.v2#tablet__header--search-results"],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "autocompleteAlignment": "left"
+        }
+    },
+    "autocomplete-result-list.v2#tablet__header--search-results": {
+        "blocks": ["product-summary.shelf#tablet__header--search-autocomplete"]
+    },
+
+    "product-summary.shelf#tablet__header--search-autocomplete": {
+        "title": "tablet header search product summary",
+        "children": [
+        //   "stack-layout#search__product--image-highlights",
+            "product-summary-image#tablet__search--products-image",
+            "product-summary-name#home__products--name",
+            // "product-identifier.product#global__home--identifier",
+            // "product-summary-space",
+            "product-list-price#global__home--price-list",
+            // "flex-layout.row#global__home--prices-layout",
+            "add-to-cart-button#home__products--button-buy"
+        ]
+      },
+    //   "stack-layout#search__product--image-highlights": {
+    //     "title": "products image and highlights with savings price percentage",
+    //     "children": [
+    //       "product-summary-image#search__products--image",
+    //       "vtex.product-highlights@2.x:product-highlights#collection"
+    //     ],
+    //     "props": {
+    //       "blockClass": "home__container--image-highlights"
+    //     }
+    //   },
+      "product-summary-image#tablet__search--products-image": {
+        "title": "tablet search summary shelf products image",
+        "props": {
+          "showBadge": false,
+          "aspectRatio": "1:1",
+          "maxHeight": 100,
+          "blockClass": "products--image"
+        }
+      },
+
+
+
     "flex-layout.col#trigger-mega-menu": {
         "title": "tablet mega-menu container",
         "props": {
-          "verticalAlign": "middle"
+            "blockClass": "tablet__trigger--mega-menu",
+            "verticalAlign": "middle"
         },
         "children": ["mega-menu-trigger-btn"]
     },
     "mega-menu-trigger-btn": {
         "title": "tablet mega-menu button to open drawer",
         "props": {
-          "Drawer": "drawer"
+            "blockClass": "tablet__button--drawer",
+            "Drawer": "drawer"
         }
     },
     "drawer": {
         "title": "drawer",
         "children": [
-            "mega-menu#mobile"
+            // "mega-menu#mobile"
+            "flex-layout.col#mega-menu"
         ],
         "blocks": ["drawer-header#mobile__drawer"]
+    },
+    "flex-layout.col#mega-menu": {
+        "title": "mega menu container with stores and dont miss it links",
+        "children": [
+            "mega-menu#mobile",
+            "flex-layout.col#col__link--dont-miss",
+            "flex-layout.col#col__link--stores"
+        ]
+    },
+    "flex-layout.col#col__link--dont-miss": {
+        "title": "mega menu layout with dont miss it link",
+        "children": [
+            "rich-text#link__dont-miss-it"
+        ]
+    },
+    "rich-text#link__dont-miss-it": {
+        "title": "dont miss it link",
+        "props": {
+            "text": "[NUESTROS IMPERDIBLES](https://www.lilipink.com/)",
+            "textColor": "c-on-disabled",
+            "blockClass": "links__mega-menu"
+        }
+    },
+    "flex-layout.col#col__link--stores": {
+        "title": "mega menu layout with stores link",
+        "children": [
+            "rich-text#link__stores"
+        ]
+    },
+    "rich-text#link__stores": {
+        "title": "link de tiendas",
+        "props": {
+            "text": "[TIENDAS](https://www.lilipink.com/)",
+            "textColor": "c-on-disabled",
+            "blockClass": "links__mega-menu"
+        }
     },
     "mega-menu#mobile": {
         "title": "mobile mega menu",
         "props": {
+            "blockClass": "mobile__mega-menu",
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
             "openOnly": "vertical"
@@ -68,6 +158,7 @@
         "title": "mobile button close drawer",
         "children": ["drawer-close-button"],
         "props": {
+            "blockClass": "drawer__button--close",
             "verticalAlign": "middle",
             "horizontalAlign": "right"
         }
@@ -76,9 +167,10 @@
         "title": "mobile drawer button back",
         "children": ["mega-menu-go-back-btn"],
         "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "left",
-          "paddingLeft": 4
+            "blockClass": "drawer__button--back",
+            "verticalAlign": "middle",
+            "horizontalAlign": "left",
+            "paddingLeft": 4
         }
     },
     "flex-layout.col#tablet__container--drawer": {

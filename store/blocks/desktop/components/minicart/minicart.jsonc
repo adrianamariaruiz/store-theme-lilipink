@@ -1,0 +1,133 @@
+{
+    "product-list-content-desktop#desktop__minicart--products": {
+        "title": "minicart product container on desktop",
+        "children": ["flex-layout.row#desktop__list--products"]
+      },
+      "flex-layout.row#desktop__list--products": {
+        "title": "layout with image and main container",
+        "children": [
+          "flex-layout.col#desktop__product--image",
+          "flex-layout.col#desktop__main--container",
+          "flex-layout.col#container__remove"
+        ],
+        "props": {
+          "fullWidth": true,
+          "paddingBottom": "7",
+          "paddingTop": "6",
+          "colSizing": "auto",
+          "preserveLayoutOnMobile": "true"
+        }
+      },
+      "flex-layout.col#desktop__product--image": {
+        "title": "layout col with image",
+        "children": ["product-list-image"],
+        "props": {
+          "marginRight": "6"
+        }
+      },
+      "flex-layout.col#desktop__main--container": {
+        "title": "container with main detail and message",
+        "children": [
+          "flex-layout.row#container__product--brand",
+          "flex-layout.row#container__product--name",
+          "flex-layout.row#desktop__quantity--selector",
+          "flex-layout.row#desktop__unit--price",
+          "flex-layout.col#desktop__product--price"
+        ],
+        "props": {
+          "height": "100%",
+          "width": "grow"
+        }
+      },
+    
+      "flex-layout.row#container__product--brand": {
+        "title": "product brand container",
+        "children": [
+          "vtex.product-list:product-brand"
+        ],
+        "props": {
+          "blockClass": "desktop__product--brand"
+        }
+      },
+      "flex-layout.row#container__product--name": {
+        "title": "product name container",
+        "children": [
+          "vtex.product-list:product-name"
+        ],
+        "props": {
+          "blockClass": "desktop__product--name",
+          "marginTop": "3",
+          "marginBottom": "5"
+        }
+      },
+      "flex-layout.col#container__remove": {
+        "title": "container with delete button",
+        "children": [
+          "flex-layout.col#desktop__remove--button"
+        ],
+        "props": {
+          "colSizing": "auto"
+        }
+      },
+      "flex-layout.row#desktop__quantity--selector": {
+        "title": "layout row quantity selector",
+        "children": ["quantity-selector"],
+        "props": {
+          "preventHorizontalStretch": "true",
+          "marginBottom": "5"
+        }
+      },
+      "flex-layout.row#desktop__unit--price": {
+        "title": "layout row with unit price",
+        "children": ["unit-price#desktop__price-by-unit"],
+        "props": {
+          "marginTop": "3",
+          "preventHorizontalStretch": "true"
+        }
+      },
+      "unit-price#desktop__price-by-unit": {
+        "title": "unit price",
+        "props": {
+          "unitPriceDisplay": "default",
+          "unitPriceType": "price",
+          "textAlign": "center"
+        }
+      },
+      "flex-layout.col#desktop__product--price": {
+        "title": "layout col with product price",
+        "children": ["price#desktop"],
+        "props": {
+          "blockClass": "desktop__product--price",
+          "preventHorizontalStretch": "true",
+          "horizontalAlign": "left",
+          "verticalAlign": "middle"
+        }
+      },
+      "price#desktop": {
+        "title": "product price",
+        "props": {
+          "blockClass": "product__price",
+          "textAlign": "left"
+        }
+      },
+      "flex-layout.col#desktop__remove--button": {
+        "title": "layout col with product price",
+        "children": ["remove-button"],
+        "props": {
+          "marginLeft": "6",
+          "verticalAlign": "top",
+          "blockClass": "desktop__remove--button"
+        }
+      },
+      "flex-layout.row#desktop__message--availability": {
+        "children": ["message#product__availability"],
+        "props": {
+          "marginTop": "4"
+        }
+      },
+      "message#product__availability": {
+        "props": {
+          "layout": "cols"
+        }
+      }
+}

@@ -1,0 +1,18 @@
+{  
+// FOOTER DEL MINICART
+  "flex-layout.row#minicart-footer": {
+    "title": "minicart footer layout",
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "title": "minicart footer container",
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  }
+}

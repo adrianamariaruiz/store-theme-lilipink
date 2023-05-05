@@ -1,0 +1,32 @@
+/* .emailInputContainer--footer__input--email{
+    max-width: 376px;
+
+} */
+
+.formSubmitContainer--footer__input--button{
+    margin-left: 20px;
+}
+
+.emailInputContainer--footer__input--email :global(.vtex-input-prefix__group)::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url("assets/img/footer/email20x20.svg") no-repeat;
+}
+
+.emailInputContainer--footer__input--email :global(.vtex-input-prefix__group){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 6px;
+    padding: 0 16px 0 8px;
+    max-width: 350px;
+}
+
+.formSubmitContainer--footer__input--button :global(.vtex-button){
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+}

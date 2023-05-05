@@ -1,0 +1,22 @@
+.itemList--top-search :global(.vtex-search-1-x-itemListPrefix){
+    color: #008996;
+}
+
+.itemList--top-search :global(.vtex-search-1-x-itemListItem){
+    width: 47%;
+    padding: 15px 5px;
+}
+
+.itemList--top-search :global(.vtex-search-1-x-itemListList){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 425px){
+    .itemList--top-search :global(.vtex-search-1-x-itemListList){
+        flex-direction: column;
+    }
+    .itemList--top-search :global(.vtex-search-1-x-itemListItem){
+        width: 100%;
+    }
+}

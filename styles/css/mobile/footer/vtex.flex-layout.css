@@ -1,0 +1,13 @@
+
+.emailInputContainer--mobile__footer--input-email{
+    width: 400px;
+}
+
+.flexRow--mobile__container--form{
+    max-width: 850px;
+}
+
+.flexColChild--mobile__desktop--col-container:last-child{
+    width: 100%;
+
+}

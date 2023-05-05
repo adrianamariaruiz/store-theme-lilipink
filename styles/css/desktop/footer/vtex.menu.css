@@ -16,3 +16,13 @@
     font-weight: bold;
     font-size: 16.5px;
 }
+
+.menuContainer--desktop__menu--interest-links, .menuContainer--desktop__menu--policies{
+    gap: 7px;
+}
+
+.menuContainerNav--desktop__menu--interest-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}

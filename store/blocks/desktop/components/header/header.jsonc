@@ -43,7 +43,8 @@
         "title": "desktop login",
         "props": {
             "iconLabel": "MI CUENTA",
-            "showIconProfile": true
+            "showIconProfile": true,
+            "blockClass": "header__login"
         }
     }
 }

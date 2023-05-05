@@ -1,0 +1,11 @@
+.flexRow--desktop__product--name{
+    color: #3f3f40;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.flexRow--desktop__product--name :global(.vtex-product-list-0-x-productName){
+    font-weight: bold;
+}
+
+

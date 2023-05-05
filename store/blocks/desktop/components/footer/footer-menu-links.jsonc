@@ -5,9 +5,7 @@
             "blockClass": "desktop__interest--links",
             "width": "22%",
             "fullWidth": true,
-            "horizontalAlign": "center",
-            "colSizing": "auto",
-            "border": "all"
+            "colSizing": "auto"
         },
         "children": [
             "rich-text#desktop__interest-links",

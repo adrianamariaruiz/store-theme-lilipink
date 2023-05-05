@@ -2,7 +2,7 @@
     "footer-layout.mobile": {
         "title": "contenedor del footer mobile",
         "children": [
-            // "flex-layout.row#mobile__footer"
+            "flex-layout.row#mobile__container--newsletter",
             "disclosure-layout-group#mobile__footer--menu"
         ]
     }

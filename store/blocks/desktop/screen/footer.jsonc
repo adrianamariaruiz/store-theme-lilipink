@@ -1,7 +1,7 @@
 {
     "footer-layout.desktop": {
         "children": [
-            "flex-layout.row#global__container--newsletter",
+            "flex-layout.row#desktop__container--newsletter",
             "flex-layout.row#desktop__container--info",
             "flex-layout.row#desktop__customer-support"
         ]

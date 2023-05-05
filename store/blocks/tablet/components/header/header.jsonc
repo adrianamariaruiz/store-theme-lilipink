@@ -11,12 +11,62 @@
         },
         "children": [
             "flex-layout.col#trigger-mega-menu",
-            "search-bar#global__header--search",
+            // "search-bar#global__header--search",
+            "search-bar#mobile__header--search",
             "flex-layout.col#spacer",
             "login",
             "minicart.v2"
         ]
     },
+
+
+    "search-bar#mobile__header--search": {
+        "title": "mobile header search bar",
+        "blocks": ["autocomplete-result-list.v2#tablet__header--search-results"],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "autocompleteAlignment": "left"
+        }
+    },
+    "autocomplete-result-list.v2#tablet__header--search-results": {
+        "blocks": ["product-summary.shelf#tablet__header--search-autocomplete"]
+    },
+
+    "product-summary.shelf#tablet__header--search-autocomplete": {
+        "title": "tablet header search product summary",
+        "children": [
+        //   "stack-layout#search__product--image-highlights",
+            "product-summary-image#tablet__search--products-image",
+            "product-summary-name#home__products--name",
+            // "product-identifier.product#global__home--identifier",
+            // "product-summary-space",
+            "product-list-price#global__home--price-list",
+            // "flex-layout.row#global__home--prices-layout",
+            "add-to-cart-button#home__products--button-buy"
+        ]
+      },
+    //   "stack-layout#search__product--image-highlights": {
+    //     "title": "products image and highlights with savings price percentage",
+    //     "children": [
+    //       "product-summary-image#search__products--image",
+    //       "vtex.product-highlights@2.x:product-highlights#collection"
+    //     ],
+    //     "props": {
+    //       "blockClass": "home__container--image-highlights"
+    //     }
+    //   },
+      "product-summary-image#tablet__search--products-image": {
+        "title": "tablet search summary shelf products image",
+        "props": {
+          "showBadge": false,
+          "aspectRatio": "1:1",
+          "maxHeight": 100,
+          "blockClass": "products--image"
+        }
+      },
+
+
+
     "flex-layout.col#trigger-mega-menu": {
         "title": "tablet mega-menu container",
         "props": {

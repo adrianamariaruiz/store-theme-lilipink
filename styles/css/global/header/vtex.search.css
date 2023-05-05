@@ -11,3 +11,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 425px){
+    .itemList--top-search :global(.vtex-search-1-x-itemListList){
+        flex-direction: column;
+    }
+    .itemList--top-search :global(.vtex-search-1-x-itemListItem){
+        width: 100%;
+    }
+}

@@ -1,14 +1,15 @@
 {
     // Search-bar
     "search-bar#global__header--search": {
-        "title": "buscador",
-        "blocks": ["autocomplete-result-list.v2"],
+        "title": "global header search bar",
+        "blocks": ["autocomplete-result-list.v2#header__search--results-products"],
         "props": {
             "openAutocompleteOnFocus": true,
             "autocompleteAlignment": "left"
         }
     },
-    "autocomplete-result-list.v2": {
-        "blocks": ["product-summary.shelf#home__search--result"]
+    "autocomplete-result-list.v2#header__search--results-products": {
+        "title": "global header autocomplete search",
+        "blocks": ["product-summary.shelf#header__search--product"]
     }
 }

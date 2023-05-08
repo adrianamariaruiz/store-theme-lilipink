@@ -15,9 +15,9 @@
     "flex-layout.col#desktop__col--container": {
         "title": "mobile col container newsletter",
         "props": {
-            "blockClass": "mobile__desktop--col-container",
+            "blockClass": "mobile__col--container",
             "horizontalAlign": "center",
-            "width": "80%"
+            "width": "70%"
         },
         "children": [
             "flex-layout.row#desktop__container--subscribe",
@@ -70,7 +70,8 @@
         "title": "mobile newsletter input and button",
         "props": {
             "blockClass": "container__input-button",
-            "preventHorizontalStretch": true
+            "preventHorizontalStretch": false,
+            "fullWidth": true
         },
         "children": [
             "newsletter-input-email#footer__form--email",

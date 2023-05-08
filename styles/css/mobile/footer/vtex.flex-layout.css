@@ -1,13 +1,51 @@
-
-.emailInputContainer--mobile__footer--input-email{
-    width: 400px;
+.flexColChild--mobile__col--container:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .flexRow--mobile__container--form{
-    max-width: 850px;
+    width: 100%;
 }
 
-.flexColChild--mobile__desktop--col-container:last-child{
-    width: 100%;
+.flexRowContent--container__input-button{
+    justify-content: center;
+}   
 
+.flexRowContent--container__input-button :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important;
+}
+
+.flexRowContent--container__input-button :global(.vtex-input-prefix__group){
+    max-width: 550px;
+}
+
+.flexRowContent--container__input-button :nth-child(2n){
+    width: 40% !important;
+}
+
+@media (max-width: 1024px){
+    .flexRowContent--mobile__container--disclosure :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    .flexRowContent--desktop__container--subscribe{
+        padding: 0 20px;
+    }
+
+    .flexRowContent--global__container--privacy{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 425px){
+
+    .flexRowContent--container__input-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

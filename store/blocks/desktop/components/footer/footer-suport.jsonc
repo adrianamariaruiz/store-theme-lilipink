@@ -3,8 +3,6 @@
         "title": "desktop footer customer support",
         "props": {
             "blockClass": "desktop__customer-support",
-            "border": "all",
-            "borderColor": "success",
             "horizontalAlign": "center",
             "paddingTop": 6,
             "paddingBottom": 6,

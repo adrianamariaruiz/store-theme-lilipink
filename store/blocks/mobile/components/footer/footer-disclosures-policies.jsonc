@@ -1,5 +1,5 @@
 {
-    "disclosure-layout#policies": {
+    "disclosure-layout#mobile__policies": {
         "title": "mobile disclosure container policies",
         "children": [
             "disclosure-trigger#policies",
@@ -9,13 +9,15 @@
     "disclosure-trigger#policies": {
         "title": "mobile disclosure trigger policies",
         "children": [
-            "rich-text#policies"
+            "rich-text#policies",
+            "disclosure-state-indicator"
         ]
     },
     "rich-text#policies": {
         "title": "text policies",
         "props": {
-            "text": "POLÍTICAS"
+            "text": "POLÍTICAS",
+            "textColor": "c-on-base--inverted"
         }
     },
     "disclosure-content#policies": {

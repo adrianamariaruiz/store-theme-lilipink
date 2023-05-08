@@ -1,31 +1,91 @@
 {
-    "disclosure-layout-group#mobile__footer--menu": {
-        "title": "container disclosure group",
+    "flex-layout.row#mobile__container--disclosure": {
+        "title": "mobile container row disclosure group",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__container--disclosure"
+        },
         "children": [
-            "disclosure-layout#interest__links",
-            "disclosure-layout#policies",
-            "disclosure-layout#customer-support"
+            "disclosure-layout-group#mobile__footer--menu"
         ]
     },
-    "disclosure-layout#customer-support": {
+    "disclosure-layout-group#mobile__footer--menu": {
+        "title": "container disclosure group",
+        "props": {
+            "blockClass": "mobile__footer--menu"
+        },
+        "children": [
+            // "disclosure-state-indicator#prueba",
+            "disclosure-layout#mobile__interest--links",
+            "disclosure-layout#mobile__policies",
+            "disclosure-layout#mobile__customer--support"
+        ]
+    },
+    
+    "disclosure-layout#mobile__customer--support": {
         "title": "customer support container",
+        "props": {
+            "blockClass": "mobile__customer--support",
+            "maxVisible": "one"
+        },
         "children": [
             "disclosure-trigger#customer-support",
             "disclosure-content#customer-support"
         ]
     },
     "disclosure-trigger#customer-support": {
+        "title": "trigger customer support",
+        "props": {
+            "blockClass": "trigger__customer--support"
+        },
         "children": [
-            "rich-text#customer-support"
+            "rich-text#customer-support",
+            "disclosure-state-indicator"
         ]
     },
+    "disclosure-state-indicator": {
+        "props": {
+          "Show": "icon-caret#down",
+          "Hide": "icon-caret#up"
+        }
+      },
+      "icon-caret#down": {
+        "props": {
+          "orientation": "down"
+        }
+      },
+      "icon-caret#up": {
+        "props": {
+          "orientation": "up"
+        }
+      },
+    // "disclosure-state-indicator#prueba": {
+    //     "props": {
+    //       "Show": "icon#nav-caret--right",
+    //       "Hide": "icon#nav-caret--right"
+    //     }
+    //   },
+    //   "icon#nav-caret--right": {
+    //     "props": {
+    //         "id": "nav-caret--right",
+    //         "size": 30
+    //     }
+    //   },
+
     "rich-text#customer-support": {
         "title": "text customer-support",
         "props": {
+            "blockClass": "text__customer--support",
+            "textColor": "c-on-base--inverted",
             "text": "ATENCIÓN AL CLIENTE"
         }
     },
     "disclosure-content#customer-support": {
+        "title": "content customer support",
+        "props": {
+            "blockClass": "content__customer--support",
+            "text": "ATENCIÓN AL CLIENTE"
+        },
         "children": [ "menu#customer-support" ]
     },
     "menu#customer-support": {
@@ -41,6 +101,14 @@
         "props": {
             "orientation": "vertical",
             "blockClass": "menu__custommer-support"
+            // "iconProps": {
+            //     "id": "nav-caret--right",
+            //     "size": 30,
+            //     "viewBox": "0 0 16 16",
+            //     "activeClassName": "rebel-pink",
+            //     "mutedClassName": "c-action-primary"
+            //   },
+            //   "iconToTheRight": true
         }
     },
     "menu-item#customer-support": {

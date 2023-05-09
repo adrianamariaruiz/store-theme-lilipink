@@ -53,68 +53,66 @@
             "src": "assets/img/footer/lilipink.png",
             "maxHeight": 45
         }
-      },
-      "flex-layout.col#social__networks--icons": {
-        "title": "social networks icons",
-        "children": [
-            "image#footer__instagram--icon",
-            "image#footer__facebook--icon",
-            "image#footer__youtube--icon",
-            "image#footer__tiktok--icon"
-        ],
+    },
+    "flex-layout.col#social__networks--icons": {
+    "title": "social networks icons",
+    "children": [
+        "image#footer__facebook--icon",
+        "image#footer__instagram--icon",
+        "image#footer__youtube--icon",
+        "image#footer__tiktok--icon"
+    ],
+    "props": {
+        "blockClass": "footer__social--icons"
+    }
+    },
+    "image#footer__facebook--icon": {
+        "title": "header top imagen",
         "props": {
-            "blockClass": "footer__social--icons"
-        }
-      },
-
-        "image#footer__instagram--icon": {
-            "title": "footer social icons",
-            "props": {
-                "blockClass": "footer__social--icons-instagram",
-                "src": "assets/img/footer/instagram.svg",
-                "maxHeight": 25,
-                "maxWidth": 25,
-                "link": {
-                    "url": "/"
-                }
-            }
-        },
-
-        "image#footer__facebook--icon": {
-            "title": "header top imagen",
-            "props": {
-                "blockClass": "footer__social--icons-facebook",
-                "src": "assets/img/footer/facebook.svg",
-                "maxHeight": 24,
-                "maxWidth": 22,
-                "link": {
-                    "url": "/"
-                }
-            }
-        },
-        "image#footer__youtube--icon": {
-            "title": "header top imagen",
-            "props": {
-                "blockClass": "footer__social--icons-youtube",
-                "src": "assets/img/footer/youtube.svg",
-                "maxHeight": 25,
-                "maxWidth": 25,
-                "link": {
-                    "url": "/"
-                }
-            }
-        },
-        "image#footer__tiktok--icon": {
-            "title": "header top imagen",
-            "props": {
-                "blockClass": "footer__social--icons-tiktok",
-                "src": "assets/img/footer/tiktok.svg",
-                "maxHeight": 24,
-                "maxWidth": 22,
-                "link": {
-                    "url": "/"
-                }
+            "blockClass": "footer__social--icons-facebook",
+            "src": "assets/img/footer/facebook.svg",
+            "maxHeight": 24,
+            "maxWidth": 22,
+            "link": {
+                "url": "https://www.facebook.com/LiliPinkColombia"
             }
         }
+    },
+    "image#footer__instagram--icon": {
+        "title": "footer social icons",
+        "props": {
+            "blockClass": "footer__social--icons-instagram",
+            "src": "assets/img/footer/instagram.svg",
+            "maxHeight": 25,
+            "maxWidth": 25,
+            "link": {
+                "url": "https://www.instagram.com/lilipinkcol/"
+            }
+        }
+    },
+    "image#footer__youtube--icon": {
+        "title": "header top imagen",
+        "props": {
+            "blockClass": "footer__social--icons-youtube",
+            "src": "assets/img/footer/youtube.svg",
+            "maxHeight": 25,
+            "maxWidth": 25,
+            "link": {
+                "url": "https://www.youtube.com/@lilipinkcol"
+            }
+        }
+    },
+    "image#footer__tiktok--icon": {
+        "title": "header top imagen",
+        "props": {
+            "blockClass": "footer__social--icons-tiktok",
+            "src": "assets/img/footer/tiktok.svg",
+            "maxHeight": 24,
+            "maxWidth": 22,
+            "link": {
+                "url": "https://www.tiktok.com/@lilipink.col"
+            }
+        }
+    }
 
 }

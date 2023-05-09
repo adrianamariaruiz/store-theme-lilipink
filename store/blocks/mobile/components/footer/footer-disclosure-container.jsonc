@@ -15,7 +15,6 @@
             "blockClass": "mobile__footer--menu"
         },
         "children": [
-            // "disclosure-state-indicator#prueba",
             "disclosure-layout#mobile__interest--links",
             "disclosure-layout#mobile__policies",
             "disclosure-layout#mobile__customer--support"
@@ -59,19 +58,6 @@
           "orientation": "up"
         }
       },
-    // "disclosure-state-indicator#prueba": {
-    //     "props": {
-    //       "Show": "icon#nav-caret--right",
-    //       "Hide": "icon#nav-caret--right"
-    //     }
-    //   },
-    //   "icon#nav-caret--right": {
-    //     "props": {
-    //         "id": "nav-caret--right",
-    //         "size": 30
-    //     }
-    //   },
-
     "rich-text#customer-support": {
         "title": "text customer-support",
         "props": {
@@ -101,14 +87,6 @@
         "props": {
             "orientation": "vertical",
             "blockClass": "menu__custommer-support"
-            // "iconProps": {
-            //     "id": "nav-caret--right",
-            //     "size": 30,
-            //     "viewBox": "0 0 16 16",
-            //     "activeClassName": "rebel-pink",
-            //     "mutedClassName": "c-action-primary"
-            //   },
-            //   "iconToTheRight": true
         }
     },
     "menu-item#customer-support": {

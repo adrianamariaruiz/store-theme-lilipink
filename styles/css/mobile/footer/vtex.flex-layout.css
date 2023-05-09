@@ -24,10 +24,41 @@
     width: 40% !important;
 }
 
+.flexRow--mobile__footer--social-networks{
+    background-color: #e4147e;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.flexColChild--mobile__container--social-networks{
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 1024px){
     .flexRowContent--mobile__container--disclosure :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
         display: flex;
         flex-direction: column;
+    }
+
+    .flexColChild--mobile__container--payment{
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--pci-logo){
+        height: 31px;
+        padding-left: 10px;
+    }
+    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--letEncrypt-logo){
+        max-height: 31px !important;
+        padding-right: 10px;
+    }
+
+    .flexRowContent--mobile__footer--powered-by{
+        border-color: #757575;
+        width: 980px;
     }
 }
 
@@ -39,6 +70,10 @@
     .flexRowContent--global__container--privacy{
         padding: 0 20px;
     }
+
+    .flexRowContent--mobile__footer--powered-by{
+        width: 720px;
+    }
 }
 
 @media (max-width: 425px){
@@ -47,5 +82,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .flexRowContent--mobile__footer--powered-by{
+        width: 100%;
+    }
+
+    .flexRowContent--footer__logo--letEncrypt-pci{
+        display: flex;
     }
 }

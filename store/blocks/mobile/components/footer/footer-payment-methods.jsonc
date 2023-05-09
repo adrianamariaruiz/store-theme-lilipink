@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#mobile__footer--container-payment": {
+        "title": "mobile footer container payment methods",
+        "props": {
+            "blockClass": "footer__row--container-payment",
+            "border": "top",
+            "fullWidth": true,
+            "paddingTop": 5,
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "flex-layout.col#mobile__container--payment"
+        ]
+    },
+    "flex-layout.col#mobile__container--payment": {
+        "title": "mobile container col payment methods",
+        "props": {
+            "blockClass": "mobile__container--payment",
+            "width": "50%"
+        },
+        "children": [
+            "flex-layout.row#mobile__payment--icons",
+            "flex-layout.row#footer__logo--letEncrypt-pci",
+            "flex-layout.row#mobile__footer--powered-by"
+        ]
+    },
+    "flex-layout.row#mobile__payment--icons": {
+        "title": "mobile container row payment methods",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "footer__payment--icons"
+        },
+        "children": [
+            "image#footer__superintendencia--logo"
+        ]
+    },
+    "flex-layout.row#footer__logo--letEncrypt-pci": {
+        "title": "mobile container logo letEncrypt and pci",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "footer__logo--letEncrypt-pci"
+        },
+        "children": [
+            "image#footer__letEncrypt--logo",
+            "image#footer__pci--logo"
+        ]
+    },
+    "flex-layout.row#mobile__footer--powered-by": {
+        "title": "mobile container powered-by",
+        "props": {
+            "blockClass": "mobile__footer--powered-by",
+            "fullWidth": true,
+            "border": "top"
+        },
+        "children": [
+            "flex-layout.col#footer__container--powered-by"
+        ]
+    }
+}

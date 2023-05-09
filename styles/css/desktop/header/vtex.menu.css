@@ -12,6 +12,7 @@
 .menuContainer--header__menu--items{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .styledLink--header__menu--sales{

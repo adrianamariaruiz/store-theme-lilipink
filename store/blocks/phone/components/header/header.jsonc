@@ -28,11 +28,10 @@
         "children": [
             "flex-layout.col#tablet__container--drawer",
             "flex-layout.col#phone__container--search",
-            "flex-layout.col#phone__container--login",           
+            "flex-layout.col#phone__container--login",
             "flex-layout.col#phone__container--cart"
         ]
     },
-
     "flex-layout.col#phone__container--login": {
         "props": {
             "blockClass": "phone__container--login"
@@ -54,9 +53,7 @@
             "blockClass": "phone__container--search"
         },
         "children": [
-            // "search-bar#global__header--search"
             "search-bar#mobile__header--search"
         ]
     }
-    
 }

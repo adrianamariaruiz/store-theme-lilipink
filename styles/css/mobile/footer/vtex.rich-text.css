@@ -1,0 +1,14 @@
+
+@media (max-width: 1024px){
+    .wrapper--footer__text--powered-by{
+        width: 60%;
+    }
+
+    .container--footer__text--powered-by{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+    }
+
+}

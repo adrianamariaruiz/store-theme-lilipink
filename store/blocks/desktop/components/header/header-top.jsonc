@@ -37,7 +37,7 @@
     "flex-layout.col#spacer__top": {
         "title": "header spacer top",
         "props": {
-            "width": "grow"
+            "width": "10%"
         }
     },
 
@@ -49,7 +49,7 @@
         ],
         "props": {
             "blockClass": "header__row--text",
-            "width": "30%",
+            "width": "35%",
             "preventVerticalStretch": false
         }
     },

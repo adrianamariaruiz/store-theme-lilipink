@@ -3,8 +3,6 @@
         "title": "desktop footer customer support",
         "props": {
             "blockClass": "desktop__customer-support",
-            "border": "all",
-            "borderColor": "success",
             "horizontalAlign": "center",
             "paddingTop": 6,
             "paddingBottom": 6,
@@ -32,7 +30,7 @@
     "rich-text#desktop__customer-support": {
         "title": "texto Atención al cliente",
         "props": {
-            "textColor": "c-action-secondary",
+            // "textColor": "c-action-secondary",
             "font": "t-small",
             "textAlignment": "CENTER",
             "blockClass": "desktop__customer-support",
@@ -42,7 +40,7 @@
     "rich-text#schedule": {
         "title": "text schedule",
         "props": {
-            "textColor": "c-action-secondary",
+            // "textColor": "c-action-secondary",
             "font": "t-small",
             "textAlignment": "CENTER",
             "blockClass": "desktop__schedule",
@@ -66,7 +64,7 @@
     "rich-text#write-to-us": {
         "title": "text write to us",
         "props": {
-            "textColor": "c-action-secondary",
+            // "textColor": "c-action-secondary",
             "font": "t-small",
             "textAlignment": "CENTER",
             "blockClass": "desktop__write-to-us",
@@ -76,7 +74,7 @@
     "rich-text#email": {
         "title": "text email",
         "props": {
-            "textColor": "c-action-secondary",
+            // "textColor": "c-action-secondary",
             "font": "t-small",
             "textAlignment": "CENTER",
             "blockClass": "desktop__email",
@@ -99,7 +97,7 @@
     "rich-text#telephone-lines": {
         "title": "title telephone lines",
         "props": {
-            "textColor": "c-action-secondary",
+            // "textColor": "c-action-secondary",
             "font": "t-small",
             "textAlignment": "CENTER",
             "blockClass": "desktop__phone-lines",
@@ -109,7 +107,7 @@
     "rich-text#telephone-numbers": {
         "title": "telephone numbers",
         "props": {
-            "textColor": "c-action-secondary",
+            // "textColor": "c-action-secondary",
             "font": "t-small",
             "textAlignment": "CENTER",
             "blockClass": "desktop__numbers",

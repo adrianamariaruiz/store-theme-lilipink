@@ -3,7 +3,9 @@
         "title": "contenedor del footer mobile",
         "children": [
             "flex-layout.row#mobile__container--newsletter",
-            "disclosure-layout-group#mobile__footer--menu"
+            "flex-layout.row#mobile__footer--social-networks",
+            "flex-layout.row#mobile__container--disclosure",
+            "flex-layout.row#mobile__footer--container-payment"
         ]
     }
 }

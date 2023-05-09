@@ -1,13 +1,94 @@
-
-.emailInputContainer--mobile__footer--input-email{
-    width: 400px;
+.flexColChild--mobile__col--container:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .flexRow--mobile__container--form{
-    max-width: 850px;
+    width: 100%;
 }
 
-.flexColChild--mobile__desktop--col-container:last-child{
-    width: 100%;
+.flexRowContent--container__input-button{
+    justify-content: center;
+}   
 
+.flexRowContent--container__input-button :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important;
+}
+
+.flexRowContent--container__input-button :global(.vtex-input-prefix__group){
+    max-width: 550px;
+}
+
+.flexRowContent--container__input-button :nth-child(2n){
+    width: 40% !important;
+}
+
+.flexRow--mobile__footer--social-networks{
+    background-color: #e4147e;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.flexColChild--mobile__container--social-networks{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1024px){
+    .flexRowContent--mobile__container--disclosure :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexColChild--mobile__container--payment{
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--pci-logo){
+        height: 31px;
+        padding-left: 10px;
+    }
+    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--letEncrypt-logo){
+        max-height: 31px !important;
+        padding-right: 10px;
+    }
+
+    .flexRowContent--mobile__footer--powered-by{
+        border-color: #757575;
+        width: 980px;
+    }
+}
+
+@media (max-width: 768px){
+    .flexRowContent--desktop__container--subscribe{
+        padding: 0 20px;
+    }
+
+    .flexRowContent--global__container--privacy{
+        padding: 0 20px;
+    }
+
+    .flexRowContent--mobile__footer--powered-by{
+        width: 720px;
+    }
+}
+
+@media (max-width: 425px){
+
+    .flexRowContent--container__input-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexRowContent--mobile__footer--powered-by{
+        width: 100%;
+    }
+
+    .flexRowContent--footer__logo--letEncrypt-pci{
+        display: flex;
+    }
 }

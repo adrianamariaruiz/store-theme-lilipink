@@ -8,3 +8,10 @@
     align-items: center;
 }
 
+.flexRowContent--desktop__container--newsletter{
+    background-color: #fff4fa;
+}
+
+.flexRowContent--desktop__customer-support :global(.vtex-rich-text-0-x-paragraph){
+    color: #757575;
+}

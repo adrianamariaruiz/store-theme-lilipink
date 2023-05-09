@@ -6,15 +6,23 @@
             "blockClass": "desktop__home--promo-text"
         },
         "children": [
-            "rich-text#home__promo--text",
-            "rich-text#home__promo--text",
+            "flex-layout.col#desktop__home--container-promo-text"
+        ]
+    },
+    "flex-layout.col#desktop__home--container-promo-text": {
+        "title": "desktop container with 3 texts promotion notices",
+        "props": {
+            "blockClass": "desktop__home--container-promo-text"
+        },
+        "children": [
             "rich-text#home__promo--text"
         ]
     },
     "rich-text#home__promo--text": {
         "title": "desktop promotional text",
         "props": {
-            "text": " Envíos gratis por compras superiores a **$69.900** | Compra segura | ",
+            "text": " Envíos gratis por compras superiores a **$69.900** | Compra segura |   Envíos gratis por compras superiores a **$69.900** | Compra segura |  ",
+            "textAlignment": "RIGHT",
             "blockClass": "home--promo-text"
         }
     }

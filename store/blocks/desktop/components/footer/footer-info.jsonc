@@ -13,19 +13,19 @@
             "flex-layout.col#container__social-networks"
         ]
     },
-    
+
     "flex-layout.col#container__social-networks": {
         "title": "desktop social networks container",
         "props": {
             "blockClass": "container__social-networks",
-            "width": "56%"
+            "width": "56%",
+            "marginLeft": 10
         },
         "children": [
             "rich-text#desktop__social-networks",
             "flex-layout.row#desktop__social--icons"
         ]
     },
-
     "rich-text#desktop__social-networks": {
         "title": "desktop social networks title",
         "props": {
@@ -35,12 +35,15 @@
             "blockClass": "social-networks"
         }
     },
+
+
     "flex-layout.row#desktop__social--icons": {
         "title": "container social networks with image and icons",
         "props": {"blockClass": "desktop__social--icons"},
         "children": [
             "image#social__lilipink",
-            "social-networks"
+            "flex-layout.col#social__networks--icons"
+            // "social-networks"
         ]
     },
     "image#social__lilipink": {
@@ -50,19 +53,66 @@
             "src": "assets/img/footer/lilipink.png",
             "maxHeight": 45
         }
-      },
-    "social-networks": {
-        "title": "social networks icons",
+    },
+    "flex-layout.col#social__networks--icons": {
+    "title": "social networks icons",
+    "children": [
+        "image#footer__facebook--icon",
+        "image#footer__instagram--icon",
+        "image#footer__youtube--icon",
+        "image#footer__tiktok--icon"
+    ],
+    "props": {
+        "blockClass": "footer__social--icons"
+    }
+    },
+    "image#footer__facebook--icon": {
+        "title": "header top imagen",
         "props": {
-            "blockClass": "footer__social--icons",
-          "socialNetworks": [
-            { "url": "https://instagram.com/foo", "name": "Instagram" },
-            {"url": "https://facebook.com/foo", "name": "Facebook" },
-            { "url": "https://youtube.com/foo", "name": "YouTube" },
-            { "url": "https://youtube.com/foo", "name": "YouTube" }
-            // { "url": "https://tiktok.com/foo", "name": "tiktok" }
-          ]
+            "blockClass": "footer__social--icons-facebook",
+            "src": "assets/img/footer/facebook.svg",
+            "maxHeight": 24,
+            "maxWidth": 22,
+            "link": {
+                "url": "https://www.facebook.com/LiliPinkColombia"
+            }
         }
-      }
+    },
+    "image#footer__instagram--icon": {
+        "title": "footer social icons",
+        "props": {
+            "blockClass": "footer__social--icons-instagram",
+            "src": "assets/img/footer/instagram.svg",
+            "maxHeight": 25,
+            "maxWidth": 25,
+            "link": {
+                "url": "https://www.instagram.com/lilipinkcol/"
+            }
+        }
+    },
+    "image#footer__youtube--icon": {
+        "title": "header top imagen",
+        "props": {
+            "blockClass": "footer__social--icons-youtube",
+            "src": "assets/img/footer/youtube.svg",
+            "maxHeight": 25,
+            "maxWidth": 25,
+            "link": {
+                "url": "https://www.youtube.com/@lilipinkcol"
+            }
+        }
+    },
+    "image#footer__tiktok--icon": {
+        "title": "header top imagen",
+        "props": {
+            "blockClass": "footer__social--icons-tiktok",
+            "src": "assets/img/footer/tiktok.svg",
+            "maxHeight": 24,
+            "maxWidth": 22,
+            "link": {
+                "url": "https://www.tiktok.com/@lilipink.col"
+            }
+        }
+    }
 
 }

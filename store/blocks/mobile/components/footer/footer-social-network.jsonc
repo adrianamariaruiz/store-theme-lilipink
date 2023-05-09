@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#mobile__footer--social-networks": {
+        "title": "mobile row container social networks",
+        "props": {
+            "fullWidth": true,
+            "paddingBottom": 5,
+            "blockClass": "mobile__footer--social-networks"
+        },
+        "children": ["flex-layout.col#mobile__container--social-networks"]
+    },
+    "flex-layout.col#mobile__container--social-networks": {
+        "title": "mobile social networks container",
+        "props": {
+            "blockClass": "mobile__container--social-networks",
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#desktop__social-networks",
+            "flex-layout.row#desktop__social--icons"
+        ]
+    }
+}

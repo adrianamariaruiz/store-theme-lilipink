@@ -21,3 +21,8 @@
     padding-bottom: 5px;
 }
 
+.link--desktop__email{
+    text-decoration: none;
+    color: #757575;
+}
+

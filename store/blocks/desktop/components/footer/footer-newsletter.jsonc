@@ -2,6 +2,7 @@
     "flex-layout.row#desktop__container--newsletter": {
         "title": "container newsletter",
         "props": {
+            "blockClass": "desktop__container--newsletter",
             "colSizing": "equal",
             "horizontalAlign": "center",
             "fullWidth": true

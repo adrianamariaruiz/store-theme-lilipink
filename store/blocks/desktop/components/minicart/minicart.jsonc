@@ -1,7 +1,9 @@
 {
     "product-list-content-desktop#desktop__minicart--products": {
         "title": "minicart product container on desktop",
-        "children": ["flex-layout.row#desktop__list--products"]
+        "children": [
+          "flex-layout.row#desktop__list--products"
+        ]
       },
       "flex-layout.row#desktop__list--products": {
         "title": "layout with image and main container",
@@ -32,7 +34,8 @@
           "flex-layout.row#container__product--name",
           "flex-layout.row#desktop__quantity--selector",
           "flex-layout.row#desktop__unit--price",
-          "flex-layout.col#desktop__product--price"
+          "flex-layout.row#desktop__product--price",
+          "flex-layout.row#container__product--message"
         ],
         "props": {
           "height": "100%",
@@ -93,6 +96,9 @@
           "textAlign": "center"
         }
       },
+      "flex-layout.row#desktop__product--price": {
+        "children": ["flex-layout.col#desktop__product--price"]
+      },
       "flex-layout.col#desktop__product--price": {
         "title": "layout col with product price",
         "children": ["price#desktop"],
@@ -110,6 +116,17 @@
           "textAlign": "left"
         }
       },
+
+      "flex-layout.row#container__product--message": {
+        "title": "product message availability",
+        "children": [
+          "message"
+        ],
+        "props": {
+          "blockClass": "desktop__product--message-availability"
+        }
+      },
+
       "flex-layout.col#desktop__remove--button": {
         "title": "layout col with product price",
         "children": ["remove-button"],

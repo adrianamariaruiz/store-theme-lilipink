@@ -1,0 +1,162 @@
+{
+    "flex-layout.row#footer__row--container-payment": {
+        "title": "footer row container payment methods",
+        "props": { 
+            "blockClass": "footer__row--container-payment",
+            "border": "top",
+            "fullWidth": true 
+        },
+        "children": [
+            "flex-layout.col#footer__container--payment",
+            "flex-layout.col#footer__container--powered-by"
+        ]
+    }, 
+
+    "flex-layout.col#footer__container--payment": {
+        "title": "footer col container payment methods",
+        "props": { 
+            "blockClass": "footer__container--payment" ,
+            "verticalAlign": "middle",
+            "paddingLeft": "5",
+            "width": "60%"
+        },
+        "children": [
+            "flex-layout.row#footer__payment--icons"
+        ]
+    },
+    "flex-layout.row#footer__payment--icons": {
+        "title": "payment methods container",
+        "props": {
+            "blockClass": "footer__payment--icons"
+        },
+        "children": [
+            "image#footer__nequi--logo",
+            "image#footer__pse--logo",
+            "image#footer__efecty--logo",
+            "image#footer__enel--logo",
+            "image#footer__davivienda--logo",
+            "image#footer__dinersclub--logo",
+            "image#footer__mastercard--logo",
+            "image#footer__american--logo",
+            "image#footer__mercadopagos--logo",
+            "image#footer__letEncrypt--logo",
+            "image#footer__pci--logo",
+            "image#footer__superintendencia--logo"
+        ]
+    },
+    "image#footer__letEncrypt--logo": {
+        "title": "letEncrypt logo",
+        "props": {
+            "blockClass": "letEncrypt-logo",
+            "src": "assets/img/footer/logo_letEncrypt.svg",
+            "maxHeight": 18
+        }
+    },
+    "image#footer__pci--logo": {
+        "title": "pci logo",
+        "props": {
+            "blockClass": "pci-logo",
+            "src": "assets/img/footer/logo_pci.svg",
+            "maxHeight": 31
+        }
+    },
+    "image#footer__superintendencia--logo": {
+        "title": "superintendencia logo",
+        "props": {
+            "blockClass": "superintendencia-logo",
+            "src": "assets/img/footer/logo_superintendencia.svg",
+            "maxHeight": 31
+        }
+    },
+    "image#footer__mercadopagos--logo": {
+        "title": "mercadopagos logo",
+        "props": {
+            "blockClass": "mercadopagos-logo",
+            "src": "assets/img/footer/logo_mercadopago.svg",
+            "maxHeight": 61
+        }
+    },
+    "image#footer__american--logo": {
+        "title": "american express logo",
+        "props": {
+            "blockClass": "american-logo",
+            "src": "assets/img/footer/logo_americanexpress.svg",
+            "maxHeight": 31
+        }
+    },
+    "image#footer__mastercard--logo": {
+        "title": "mastercard logo",
+        "props": {
+            "blockClass": "mastercard-logo",
+            "src": "assets/img/footer/logo_mastercard.svg",
+            "maxHeight": 36
+        }
+    },
+    "image#footer__dinersclub--logo": {
+        "title": "dinersclub logo",
+        "props": {
+            "blockClass": "dinersclub-logo",
+            "src": "assets/img/footer/logo_dinersclub.svg",
+            "maxHeight": 60
+        }
+    },
+    "image#footer__davivienda--logo": {
+        "title": "davivienda logo",
+        "props": {
+            "blockClass": "davivienda-logo",
+            "src": "assets/img/footer/logo_davivienda.svg",
+            "maxHeight": 60
+        }
+    },
+    "image#footer__enel--logo": {
+        "title": "enel logo",
+        "props": {
+            "blockClass": "enel-logo",
+            "src": "assets/img/footer/logo_enel.svg",
+            "maxHeight": 32
+        }
+    },
+    "image#footer__efecty--logo": {
+        "title": "efecty logo",
+        "props": {
+            "blockClass": "efecty-logo",
+            "src": "assets/img/footer/logo_efecty.svg",
+            "maxHeight": 60
+        }
+    },
+    "image#footer__pse--logo": {
+        "title": "pse logo",
+        "props": {
+            "blockClass": "pse-logo",
+            "src": "assets/img/footer/logo_pse.svg",
+            "maxHeight": 31
+        }
+    },
+    "image#footer__nequi--logo": {
+        "title": "nequi logo",
+        "props": {
+            "blockClass": "nequi-logo",
+            "src": "assets/img/footer/logo_nequi.svg",
+            "maxHeight": 68
+        }
+    },
+
+    "flex-layout.col#footer__container--powered-by": {
+        "title": "powered by container",
+        "props": {
+            "blockClass": "footer__container--powered-by",
+            "paddingRight": 5
+        },
+        "children": ["rich-text#footer__text--powered-by"]
+    },
+    "rich-text#footer__text--powered-by": {
+        "title": "text container powered by",
+        "props": {
+            "blockClass": "footer__text--powered-by",
+            "text": "Lilipink & Yoi 2022. Derechos reservados. Desarrollado por Titamedia | Plataforma Vtex",
+            "font": "t-mini"
+        }
+    }
+      
+
+}

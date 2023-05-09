@@ -28,42 +28,67 @@
             "fullWidth": true,
             "horizontalAlign": "center",
             "marginTop": 5,
+            "colSizing": "equal",
             "colJustify": "between",
             "blockClass": "home__categories--images"
         },
         "children": [
-            "image#categories__images--accessories",
-            "image#categories__images--socks",
-            "image#categories__images--basics"
+            "flex-layout.col#categories__images--accessories",
+            "flex-layout.col#categories__images--socks",
+            "flex-layout.col#categories__images--basics"
+        ]
+    },
+    "flex-layout.col#categories__images--accessories": {
+        "title": "container image accessories",
+        "props": {
+            "blockClass": "categories__images--accessories"
+        },
+        "children": [
+            "image#categories__images--accessories"
         ]
     },
     "image#categories__images--accessories": {
         "title": "featured categories image accessories",
         "props": {
             "maxHeight": 470,
-            "maxWidth": 470,
             "src": "assets/img/home/accesorios.png",
             "link": {
                 "url": "/"
             }
         }
     },
+    "flex-layout.col#categories__images--socks": {
+        "title": "container image socks",
+        "props": {
+            "blockClass": "categories__images--socks"
+        },
+        "children": [
+            "image#categories__images--socks"
+        ]
+    },
     "image#categories__images--socks": {
         "title": "featured categories image socks",
         "props": {
             "maxHeight": 470,
-            "maxWidth": 470,
             "src": "assets/img/home/medias.png",
             "link": {
                 "url": "/"
             }
         }
     },
+    "flex-layout.col#categories__images--basics": {
+        "title": "container image basics",
+        "props": {
+            "blockClass": "categories__images--basics"
+        },
+        "children": [
+            "image#categories__images--basics"
+        ]
+    },
     "image#categories__images--basics": {
         "title": "featured categories image basics",
         "props": {
             "maxHeight": 470,
-            "maxWidth": 470,
             "src": "assets/img/home/basicos.png",
             "link": {
                 "url": "/"
@@ -74,7 +99,9 @@
     "flex-layout.row#home__categories--image": {
         "title": "home featured categories image container",
         "props": {
-            "fullWidth": true
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "blockClass": "home__categories--image"
         },
         "children": [
             "image#categories__image"
@@ -83,6 +110,7 @@
     "image#categories__image": {
         "title": "featured categories image",
         "props": {
+            "blockClass": "categories__image",
             "maxHeight": 247,
             "src": "assets/img/home/vende-por-catalogo.png",
             "link": {

@@ -5,3 +5,38 @@
 .flexColChild--global__container--form{
     padding-left: 90px;
 }
+
+.flexCol--footer__social--icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColChild--footer__social--icons{
+    border: solid 1px white;
+    padding-top: 9px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.flexRowContent--desktop__social--icons :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.flexRowContent--footer__payment--icons{
+    align-items: center;
+}
+
+.flexColChild--footer__container--powered-by{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--footer__row--container-payment{
+    border-color: #727272;
+}

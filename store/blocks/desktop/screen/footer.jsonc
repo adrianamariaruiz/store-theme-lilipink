@@ -3,7 +3,8 @@
         "children": [
             "flex-layout.row#desktop__container--newsletter",
             "flex-layout.row#desktop__container--info",
-            "flex-layout.row#desktop__customer-support"
+            "flex-layout.row#desktop__customer-support",
+            "flex-layout.row#footer__row--container-payment"
         ]
     }
     

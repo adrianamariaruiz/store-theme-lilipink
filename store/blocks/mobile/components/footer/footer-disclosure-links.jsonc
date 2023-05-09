@@ -1,5 +1,5 @@
 {
-    "disclosure-layout#interest__links": {
+    "disclosure-layout#mobile__interest--links": {
         "title": "mobile disclosure interest links",
         "props": {
             "blockClass": "mobile__disclosure--interest-links"
@@ -12,14 +12,16 @@
     "disclosure-trigger#interest__links": {
         "props": {"blockClass": "mobile__disclosure--interest-links"},
         "children": [
-            "rich-text#interest__links"
+            "rich-text#interest__links",
+            "disclosure-state-indicator"
         ]
     },
     "rich-text#interest__links": {
         "title": "texto links de interes",
         "props": {
             "blockClass": "mobile__text--interest-links",
-            "text": "LINKS DE INTERÉS"
+            "text": "LINKS DE INTERÉS",
+            "textColor": "c-on-base--inverted"
         }
     },
     "disclosure-content#interest__links": {

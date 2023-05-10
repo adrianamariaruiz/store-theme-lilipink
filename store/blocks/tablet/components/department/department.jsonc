@@ -1,0 +1,11 @@
+{
+    "responsive-layout.tablet#tablet__department": {
+        "title": "responsive layout tablet",
+        "props": {
+            "blockClass": "search__layout--tablet"
+        },
+        "children": [
+            "flex-layout.row#category__results"
+        ]
+    }
+}

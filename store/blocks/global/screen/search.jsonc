@@ -5,8 +5,11 @@
     ],
     "props": {
       "context": {
-        "skuFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "skuFilter": "ALL",
+        "orderByField": "OrderByScoreASC",
+        "simulationBehavior": "default", 
+        "installmentCriteria": "MAX_WITHOUT_INTEREST",
+        "maxItemsPerPage": 10
       }
     }
   },

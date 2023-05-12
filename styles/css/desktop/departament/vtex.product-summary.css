@@ -1,0 +1,4 @@
+.nameContainer--category__results--name{
+    display: flex;
+    justify-content: flex-start;
+}

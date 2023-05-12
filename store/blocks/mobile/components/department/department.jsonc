@@ -1,0 +1,13 @@
+{
+    // mobile
+    "search-result-layout.mobile#department": {
+        "title": "responsive layout mobile",
+        "props": {
+            "blockClass": "search__layout--mobile"
+        },
+        "children": [
+            "responsive-layout.tablet#tablet__department",
+            "responsive-layout.phone#phone__department"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+.stackContainer--category__product--preview-wishlist{
+    border: 1px solid lightcoral;
+    height: 285px;
+    display: flex;
+    align-items: center;
+}
+.stackItem--category__product--preview-wishlist{
+    text-align: right;
+    right: 0;
+}

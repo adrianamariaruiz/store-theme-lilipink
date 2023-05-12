@@ -1,7 +1,11 @@
 .wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label ){
     display: flex;
     flex-direction: column-reverse;
+    padding: 0px;
 }
+
 .wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label )::after{
     display: none !important;
 }
+
+

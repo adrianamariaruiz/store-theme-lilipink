@@ -345,63 +345,63 @@
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Montserrat-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Montserrat-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Montserrat-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Montserrat-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Montserrat-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Montserrat-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "Montserrat-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Montserrat-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Montserrat-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",

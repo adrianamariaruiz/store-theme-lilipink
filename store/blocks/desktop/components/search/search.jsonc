@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#desktop__container--title": {
+        "title": "desktop container title",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__container--title"
+        },
+        "children": [
+            "rich-text#container__title"
+        ]
+    },
+    "rich-text#container__title": {
+        "title": "title",
+        "props": {
+            "text": "Tu búsqueda",
+            "font": "t-heading-1",
+            "blockClass": "desktop__container--title"
+        }
+    }
+}

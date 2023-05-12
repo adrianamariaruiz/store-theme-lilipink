@@ -1,0 +1,12 @@
+{
+    // phone
+    "responsive-layout.phone#phone__department": {
+        "title": "responsive layout phone",
+        "props": {
+            "blockClass": "search__layout--phone"
+        },
+        "children": [
+            "flex-layout.row#category__results"
+        ]
+    }
+}

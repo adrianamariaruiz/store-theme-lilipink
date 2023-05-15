@@ -1,0 +1,22 @@
+
+.skuSelectorContainer--category__results--selector-sku{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.skuSelectorContainer--category__results--selector-sku :global(.vtex-store-components-3-x-skuSelectorItem):hover{
+    background-color: #E0E0E0;
+}
+.skuSelectorContainer--category__results--selector-sku :global(.vtex-store-components-3-x-skuSelectorItemTextValue--category__results--selector-sku){
+    font-size: 11px;
+    font-weight: 700;
+    color: #575757;
+    border-radius: 5px;
+    margin: 0 7px;
+    padding: 3px 9px;
+}
+
+.skuSelectorContainer--category__results--selector-sku{
+    display: none;
+}

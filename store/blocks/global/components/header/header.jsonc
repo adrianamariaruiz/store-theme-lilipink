@@ -5,11 +5,17 @@
         "blocks": ["autocomplete-result-list.v2#header__search--results-products"],
         "props": {
             "openAutocompleteOnFocus": true,
-            "autocompleteAlignment": "left"
+            "autocompleteAlignment": "left",
+            "attemptPageTypeSearch": true,
+            "containerMode": "overlay"
         }
     },
     "autocomplete-result-list.v2#header__search--results-products": {
         "title": "global header autocomplete search",
+        "props": {
+            "maxSuggestedProducts": 3,
+            "blockClass": "header__search--results-products"
+        },
         "blocks": ["product-summary.shelf#header__search--product"]
     }
 }

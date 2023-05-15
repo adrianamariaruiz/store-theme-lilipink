@@ -19,16 +19,17 @@
             "width": "50%"
         },
         "children": [
-            "rich-text#order-by"
+            // "rich-text#order-by"
+            "order-by.v2"
         ]
     },
-    "rich-text#order-by": {
-        "title": "title",
-        "props": {
-            "text": "ORDENAR POR MAS RECIENTES",
-            "font": "t-heading-5"
-        }
-    },
+    // "rich-text#order-by": {
+    //     "title": "title",
+    //     "props": {
+    //         "text": "ORDENAR POR MAS RECIENTES",
+    //         "font": "t-heading-5"
+    //     }
+    // },
 
     // switcher
     "flex-layout.col#desktop__container--gallery-switcher": {
@@ -57,6 +58,7 @@
           "gallery-layout-switcher"
         ],
         "props": {
+          "fullWidth": true,
           "verticalAlign": "middle"
         }
       },

@@ -1,5 +1,9 @@
 .flexColChild--category__results--content{
+    width: 100% !important;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+.flexRow--desktop__container--order-switcher{
+    width: 100%;
 }

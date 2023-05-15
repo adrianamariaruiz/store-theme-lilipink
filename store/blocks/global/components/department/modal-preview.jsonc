@@ -1,0 +1,86 @@
+{
+    //   MODAL PREVIEW
+  "modal-trigger#global__quick-view": {
+    "title": "modal quick view",
+    "props": {
+      "blockClass": "global__quick-view"
+    },
+    "children": [
+    //   "rich-text#global__quick-view--text",
+        "image#preview__icon",
+        "modal-layout#global__quick-view--modal"
+    ]
+  },
+  "image#preview__icon": {
+    "props": {
+      "blockClass": "preview__icon",
+        "src": "assets/img/department/preview-search-icon2.svg",
+        "maxHeight": 30,
+        "maxWidth": 30
+    }
+  },
+  "rich-text#global__quick-view--text": {
+    "title": "modal quick view text",
+    "props": {
+      "text": "Vista previa",
+      "blockClass": "global__quick-view--text"
+    }
+  },
+  "modal-layout#global__quick-view--modal": {
+    "title": "modal layout quick view",
+    "props": {
+      "blockClass": "global__quick-view--modal"
+    },
+    "children": [
+      "flex-layout.row#quick-view__modal"
+    ]
+  },
+  "flex-layout.row#quick-view__modal": {
+    "title": "modal layout container quick view",
+    "props": {
+      "blockClass": "quick-view__modal"
+    },
+    "children": [
+      "flex-layout.col#quick-view__modal--image",
+      "flex-layout.col#quick-view__modal--info"
+    ]
+  },
+  "flex-layout.col#quick-view__modal--image": {
+    "title": "modal layout quick view image",
+    "props": {
+      "blockClass": "quick-view__modal--image"
+    },
+    "children": [
+      "product-images#quick-view__product--image"
+    ]
+  },
+  "product-images#quick-view__product--image": {
+    "props": {
+      "displayMode": "carousel",
+      "maxHeight": "600px",
+      "thumbnailVisibility": "hidden" /*para visualizar las imagenes pequeñas*/,
+      "zoomFactor": 2,
+      "zoomMode": "in-place-click"
+    }
+  },
+  "flex-layout.col#quick-view__modal--info": {
+    "title": "modal layout quick view info",
+    "props": {
+      "blockClass": "quick-view__modal--info"
+    },
+    "children": [
+      "product-summary-name#category__results--name",
+    "flex-layout.row#category__container--results-prices",
+      "sku-selector#category__results--selector-sku",
+      "product-quantity#category__result--quantity",
+      "flex-layout.row#category__container--add-button"
+    ]
+  },
+  "product-quantity#category__result--quantity": {
+    "props": {
+      //   "warningQuantityThreshold": 9999999,
+      "showUnit": true,
+      "size": "regular"
+    }
+  }
+}

@@ -17,10 +17,9 @@
     display: none;
   }
 
-  .flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-arrow)::before{
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-arrow)::before{
     content: url("assets/img/department/breadcrumb-point.svg");
     position: absolute;
-    top: 8px;
 }
 
 .flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-homeLink){

@@ -1,0 +1,10 @@
+/* .content--content__product--description :global(.vtex-store-components-3-x-productDescriptionTitle){
+    display: none;
+} */
+
+.carouselGaleryThumbs--product__images{
+    /* border-style: dotted;
+    display: flex;
+    justify-content: center; */
+    padding-left: 300px;
+}

@@ -18,6 +18,15 @@
             "product-images"
         ]
     },
+
+    "product-images": {
+        "props": {
+            "thumbnailsOrientation": "horizontal",
+            "showPaginationDots": false,
+            "maxHeight": 400,
+            "blockClass": "product__images"
+        }
+    },
     "flex-layout.col#product__info--data": {
         "title": "product info",
         "props": {
@@ -29,10 +38,27 @@
             "product-identifier.product",
             "product-price",
             "product-description",
-            "product-rating-inline",
+            // "product-rating-inline",
             "sku-selector",
+            "flex-layout.row#product__size--text",
             "product-quantity",
             "buy-button"
         ]
+    },
+    "flex-layout.row#product__size--text": {
+        "title": "link with size check",
+        "children": [
+            "rich-text#product__size-check"
+        ],
+        "props": {
+            "blockClass": "product__size--text"
+        }
+    },
+    "rich-text#product__size-check": {
+        "title": "link with size check",
+        "props": {
+            "text": "[¿Que talla te queda bien?](/)",
+            "blockClass": "product__size-check"
+        }
     }
 }

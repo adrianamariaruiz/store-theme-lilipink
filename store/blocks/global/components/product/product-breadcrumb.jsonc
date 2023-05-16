@@ -11,7 +11,7 @@
     "flex-layout.col#product__breadcrumb": {
         "title": "product breadcrumb",
         "props": {
-            "blockClass": "product__breadcrumb"
+            "blockClass": "department__col--breadcrumb"
         },
         "children": [
             "breadcrumb"

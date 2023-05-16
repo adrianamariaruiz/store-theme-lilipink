@@ -1,0 +1,38 @@
+
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-productDescriptionTitle){
+    display: none;
+}
+.flexColChild--product__info--data :global(.vtex-store-components-3-x-productDescriptionText){
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.flexRow--product__container--disclosure :global(.vtex-disclosure-layout-1-x-trigger){
+    width: 80%;
+    border-style: none;
+    border-top: 1px solid #757575;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.flexRow--product__container--disclosure :global(.vtex-disclosure-layout-1-x-trigger--product__coments--hidden){
+    border-bottom: 1px solid #757575;
+}
+.flexRow--product__container--disclosure :global(.vtex-disclosure-layout-1-x-content){
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.flexRow--product__container--disclosure :global(.vtex-store-components-3-x-productDescriptionTitle), :global(.vtex-store-components-3-x-specificationsTitle), :global(.vtex-reviews-and-ratings-3-x-reviewsHeading){
+    display: none;
+}
+
+.flexRow--product__container--disclosure :global(.vtex-reviews-and-ratings-3-x-stars){
+    color: #ffb100;
+}

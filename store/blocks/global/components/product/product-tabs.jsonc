@@ -18,8 +18,6 @@
             "tab-content#product__tab--content"
         ]
     },
-
-
     "tab-list#product__tab--list": {
         "title": "product__tab--list",
         "props": {
@@ -31,7 +29,6 @@
             "tab-list.item#tabs__list--coments"
         ]
     },
-
     "tab-list.item#tabs__list--product-description": {
         "title": "tabs__list--product-description",
         "props": {
@@ -59,8 +56,6 @@
             "blockClass": "tabs__list--coments"
         }
     },
-
-
     "tab-content#product__tab--content": {
         "title": "product__tab--content",
         "props": {
@@ -99,7 +94,7 @@
             "blockClass": "tabs__content--coments"
         },
         "children": [
-            "product-reviews"        
+            "product-reviews"
         ]
     }
 }

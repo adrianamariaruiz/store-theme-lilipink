@@ -1,15 +1,38 @@
 .flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-term){
     color: #e4147e;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     text-transform: uppercase;
 }
-
-
 .flexColChild--product__info--data :global(.vtex-product-identifier-0-x-product-identifier){
     color: #a19f9f;
     padding: 10px 0px;
 }
-
+.flexRowContent--product__container--icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flexRowContent--product__container--icons :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 10% !important;
+}
+.flexColChild--product__info--wish-share{
+    width: 100%;
+}
+.flexColChild--overlay__share--options :global(.vtex-store-components-3-x-shareLabel){
+    display: none;
+}
+.flexColChild--overlay__share--options :global(.vtex-store-components-3-x-shareButtons){
+    display: flex;
+    flex-direction: column;
+}
+.flexColChild--product__info--data :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+/* DISCLOSURE */
 .flexRow--product__container--disclosure :global(.vtex-disclosure-layout-1-x-trigger){
     width: 80%;
     border-style: none;
@@ -31,16 +54,14 @@
     align-items: center;
     padding: 0px 10px;
 }
-
-
 .flexRow--product__container--disclosure .productDescriptionTitle--product__description, :global(.vtex-store-components-3-x-specificationsTitle), :global(.vtex-reviews-and-ratings-3-x-reviewsHeading){
     display: none;
 }
-
 .flexRow--product__container--disclosure :global(.vtex-reviews-and-ratings-3-x-stars){
     color: #ffb100;
 }
 
-/* .flexRowContent--product__container--row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-    width: auto !important;
-} */
+
+
+
+

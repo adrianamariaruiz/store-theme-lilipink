@@ -21,7 +21,6 @@
             "disclosure-layout-group#product__disclosure"
         ]
     },
-
     "disclosure-layout-group#product__disclosure": {
         "title": "container product disclosure group",
         "props": {
@@ -33,7 +32,6 @@
             "disclosure-layout#list__product--coments"
         ]
     },
-
     // DESCRIPCION
     "disclosure-layout#list__product--description": {
         "title": "title product description",
@@ -58,22 +56,20 @@
     },
     "disclosure-state-indicator#product": {
         "props": {
-          "Show": "icon#product__nav-plus",
-          "Hide": "icon#product__minus"
+            "Show": "icon#product__nav-plus",
+            "Hide": "icon#product__minus"
         }
-      },
-
-      "icon#product__nav-plus": {
+    },
+    "icon#product__nav-plus": {
         "props": {
-          "id": "nav-plus"
+            "id": "nav-plus"
         }
-      },
-      "icon#product__minus": {
+    },
+    "icon#product__minus": {
         "props": {
-          "id": "nav-minus"
+            "id": "nav-minus"
         }
-      },
-    
+    },
     "rich-text#product__text": {
         "title": "text product__text",
         "props": {
@@ -87,9 +83,10 @@
         "props": {
             "blockClass": "content__product--description"
         },
-        "children": [ "product-description" ]
+        "children": [
+            "product-description"
+        ]
     },
-
     // ESPECIFICAION
     "disclosure-layout#list__product--specification": {
         "title": "title product specification",
@@ -125,11 +122,11 @@
         "props": {
             "blockClass": "content__product--specification"
         },
-        "children": [ "product-specifications" ]
+        "children": [
+            "product-specifications"
+        ]
     },
-
     // COMENTARIOS
-
     "disclosure-layout#list__product--coments": {
         "title": "title product coments",
         "props": {
@@ -164,6 +161,8 @@
         "props": {
             "blockClass": "content__product--coments"
         },
-        "children": [ "product-reviews" ]
+        "children": [
+            "product-reviews"
+        ]
     }
 }

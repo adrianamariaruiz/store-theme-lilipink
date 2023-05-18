@@ -1,14 +1,19 @@
-
 .trigger--product__description--visible :global(.vtex-rich-text-0-x-wrapper--text__cproduct__text),
 .trigger--product__specification--visible :global(.vtex-rich-text-0-x-wrapper--text__product__specification),
 .trigger--product__coments--visible :global(.vtex-rich-text-0-x-wrapper--text__product__coments){
     color: #e4147e;
 }
-
+.content--content__product--description--visible{
+    width: 72% !important;
+    margin-bottom: 20px !important;
+}
 .content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-container){
     display: flex;
     flex-wrap: wrap;
 }
 .content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer){
     margin-left: 30px;
+}
+.trigger--product__description--visible, .trigger--product__specification--visible, .trigger--product__coments--visible{
+    color: #e4147e;
 }

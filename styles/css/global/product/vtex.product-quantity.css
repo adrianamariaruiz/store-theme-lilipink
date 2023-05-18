@@ -1,0 +1,5 @@
+.quantitySelectorStepper--product__quiantity--options :global(.vtex-numeric-stepper__input),
+.quantitySelectorStepper--product__quiantity--options :global(.vtex-numeric-stepper__plus-button),
+.quantitySelectorStepper--product__quiantity--options :global(.vtex-numeric-stepper__minus-button){
+    border: 1px solid black;
+}

@@ -1,45 +1,44 @@
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-arrow)::before{
+    content: url("assets/img/department/breadcrumb-point.svg");
+    position: absolute;
+}
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-homeIcon) {
+    display: none;
+}
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-homeLink){
+    transform: translateY(-2px);
+}
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-homeLink)::after {
+    content: "Home";
+    color: black;
+}
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-caretIcon){
+    display: none;
+}
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-link){
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-link):hover{
+    color: #4d479e;
+}
 .flexRow--category__container--results-prices{
     text-align: left;
 }
-
 .flexCol--category__results--filter :global(.vtex-slider__base-internal){
     background-color: #b9b9b9;
 }
 .flexCol--category__results--filter :global(.vtex-slider__selector-container) :global(.vtex-slider__selector){
     background-color: #b9b9b9;
 }
-
 .flexRowContent--category__container--add-button{
     display: none;
 }
 
-.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-homeIcon) {
-    display: none;
-  }
 
-.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-arrow)::before{
-    content: url("assets/img/department/breadcrumb-point.svg");
-    position: absolute;
-}
 
-.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-homeLink){
-    transform: translateY(-2px);
-}
-
-.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-homeLink)::after {
-    content: "Home";
-    color: black;
-}
-
-.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-caretIcon){
-    display: none;
-}
-.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-link){
-    margin-left: 10px;
-}
-.flexColChild--department__col--breadcrumb :global(.vtex-breadcrumb-1-x-link):hover{
-    color: #4d479e;
-}
 
 
 

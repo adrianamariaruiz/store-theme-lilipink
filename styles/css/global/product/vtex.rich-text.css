@@ -2,3 +2,22 @@
     font-weight: 700;
     font-size: 18px;
 }
+.link--product__size-check{
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.container--product__size-check:hover{
+    border-bottom: 1px solid #e4147e;
+}
+.link--product__size-check:hover{
+    color: #e4147e;
+}
+
+.paragraph--product__size-check ::before{
+    content: url("assets/img/product/size-icon.svg");
+}

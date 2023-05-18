@@ -21,7 +21,6 @@
             "product-images"
         ]
     },
-
     "product-images": {
         "title": "product images",
         "props": {
@@ -42,12 +41,9 @@
         },
         "children": [
             "vtex.store-components:product-name#product__name--container",
-            // "flex-layout.row#product__container--row",
-            // "share",
             "product-identifier.product#global__home--identifier",
             "product-price#product__price",
             "product-description#product__description",
-            // "product-rating-inline",
             "sku-selector#product__sku",
             "flex-layout.row#product__size--text",
             "product-quantity",
@@ -71,24 +67,64 @@
         },
         "children": [
             "add-to-list-btn#product__wish",
-            "image#product__share--icon"
+            "overlay-trigger#container__product--share"
+        ]
+    },
+    "add-to-list-btn#product__wish": {
+        "props": {
+            "blockClass": "product__wish"
+        }
+    },
+    // OVERLAY SHARE
+    "overlay-trigger#container__product--share": {
+        "title": "product overlay share",
+        "props": {
+            "blockClass": "container__product--share"
+        },
+        "children": [
+            "image#product__share--icon",
+            "overlay-layout#product__share"
         ]
     },
     "image#product__share--icon": {
         "title": "share icon",
         "props": {
             "blockClass": "product__share--icon",
-            "src": "assets/img/product/share-icon.svg",
-            "maxHeight": 28,
-            "maxWidth": 28,
-            "link": {
-                "url": "/"
-            }
+            "src": "assets/img/product/share-icon-light.svg",
+            "maxHeight": 30,
+            "maxWidth": 30
         }
     },
-    "add-to-list-btn#product__wish": {
+    "overlay-layout#product__share": {
+        "title": "overlay layout product share",
         "props": {
-            "blockClass": "product__wish"
+            "blockClass": "overlay__product--share"
+        },
+        "children": [
+            "flex-layout.col#overlay__share--options"
+        ]
+    },
+    "flex-layout.col#overlay__share--options": {
+        "title": "overlay layout share options",
+        "props": {
+            "blockClass": "overlay__share--options"
+        },
+        "children": [
+            "share"
+        ]
+    },
+    "share": {
+        "title": "share container",
+        "props": {
+            "social": {
+                "Facebook": true,
+                "Twitter": false,
+                "WhatsApp": true,
+                "Pinterest": true
+            },
+            "options": {
+                "size": 26
+            }
         }
     },
     "vtex.store-components:product-name#product__name--container": {
@@ -114,7 +150,6 @@
         "props": {
             "blockClass": "product__sku"
         }
-
     },
     "flex-layout.row#product__size--text": {
         "title": "link with size check",
@@ -128,8 +163,13 @@
     "rich-text#product__size-check": {
         "title": "link with size check",
         "props": {
-            "text": "[¿Que talla te queda bien?](/)",
+            "text": "[¿Qué talla te queda bien?](/)",
             "blockClass": "product__size-check"
+        }
+    },
+    "product-quantity": {
+        "props": {
+            "blockClass": "product__quiantity--options"
         }
     }
 }

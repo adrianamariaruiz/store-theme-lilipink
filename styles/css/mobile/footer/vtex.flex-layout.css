@@ -36,6 +36,21 @@
     justify-content: center;
 }
 
+
+.flexRow--mobile__container--disclosure :global(.vtex-disclosure-layout-1-x-trigger){
+    background-color: #e4147e;
+    border-style: none;
+    border-top: 1px solid #757575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.flexRow--mobile__container--disclosure :global(.vtex-disclosure-layout-1-x-content){
+    background-color: #e4147e;
+}
+
 @media (max-width: 1024px){
     .flexRowContent--mobile__container--disclosure :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
         display: flex;

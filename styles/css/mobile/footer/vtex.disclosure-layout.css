@@ -1,5 +1,5 @@
-
-:global(.vtex-disclosure-layout-1-x-trigger){
+/* 
+.flexRow--mobile__container--disclosure :global(.vtex-disclosure-layout-1-x-trigger){
     background-color: #e4147e;
     border-style: none;
     border-top: 1px solid #757575;
@@ -7,11 +7,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
-}
+} */
 
-:global(.vtex-disclosure-layout-1-x-content){
+/* :global(.vtex-disclosure-layout-1-x-content){
     background-color: #e4147e;
-}
+} */
 
 @media (max-width: 1024px){
     .menuItem--item__custommer-support{

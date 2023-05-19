@@ -1,0 +1,12 @@
+{
+  "store.product": {
+    "title": "producto",
+    "children": [
+      "flex-layout.row#container__product--breadcrumb",
+      "flex-layout.row#product__info",
+      // "flex-layout.row#product__tabs",
+      "flex-layout.row#product__container--disclosure",
+      "flex-layout.row#product__container--most-selled"
+    ]
+  }
+}

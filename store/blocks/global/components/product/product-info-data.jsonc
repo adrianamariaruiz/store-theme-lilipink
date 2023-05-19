@@ -26,10 +26,11 @@
         "props": {
             "thumbnailsOrientation": "horizontal",
             "showPaginationDots": false,
-            "maxHeight": 400,
+            "maxHeight": 600,
             "thumbnailMaxHeight": 120,
-            "aspectRatio": "3:4",
+            "aspectRatio": "4:3",
             "thumbnailAspectRatio": "4:3",
+            "zoomMode": "in-place-hover",
             "blockClass": "product__images"
         }
     },
@@ -47,7 +48,7 @@
             "sku-selector#product__sku",
             "flex-layout.row#product__size--text",
             "product-quantity",
-            "buy-button"
+            "add-to-cart-button#pdp__products--add"
         ]
     },
     "flex-layout.col#product__info--wish-share": {
@@ -170,6 +171,17 @@
     "product-quantity": {
         "props": {
             "blockClass": "product__quiantity--options"
+        }
+    },
+    "add-to-cart-button#pdp__products--add": {
+        "title": "summary shelf products button buy",
+        "props": {
+            "text": "AGREGAR AL CARRITO",
+            "isOneClickBuy": false,
+            "onClickEventPropagation": "disabled",
+            "onClickBehavior": "add-to-cart",
+            "border": "left",
+            "blockClass": "home__products--button-buy"
         }
     }
 }

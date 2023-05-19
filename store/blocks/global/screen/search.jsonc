@@ -7,9 +7,7 @@
       "context": {
         "skuFilter": "ALL",
         "orderByField": "OrderByScoreASC",
-        "simulationBehavior": "default", 
-        "installmentCriteria": "MAX_WITHOUT_INTEREST",
-        "maxItemsPerPage": 10
+        "simulationBehavior": "default"
       }
     }
   },

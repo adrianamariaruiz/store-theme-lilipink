@@ -11,9 +11,29 @@
     display: flex;
     flex-wrap: wrap;
 }
+.content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage){
+    font-size: 12px;
+    font-weight: 700;
+}
+
 .content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer){
     margin-left: 30px;
 }
-.trigger--product__description--visible, .trigger--product__specification--visible, .trigger--product__coments--visible{
-    color: #e4147e;
+.trigger--product__description--visible::after, .trigger--product__specification--visible::after, .trigger--product__coments--visible::after{
+    content: url("assets/img/product/minus-icon.svg") !important;
+    transition: all .2s ease;
+    transform: rotate(0deg);
+}
+
+.trigger--product__description--hidden::after, .trigger--product__specification--hidden::after, .trigger--product__coments--hidden::after{
+    content: url("assets/img/product/plus-icon.svg");
+    transition: all .2s ease;
+    transform: rotate(-180deg);
+}
+
+.content--content__product--coments--visible :global(.vtex-dropdown__arrow){
+    color: #0f3e99;
+}
+.content--content__product--coments--visible :global(.vtex-dropdown__caption){
+    color: #bcbdbc;
 }

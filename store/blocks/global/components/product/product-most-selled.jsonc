@@ -1,0 +1,43 @@
+{
+    "flex-layout.row#product__container--most-selled": {
+        "title": "container most sellede",
+        "props": {
+            "fullWidth": true,
+            "paddingBottom": 9,
+            "paddingTop": 6,
+            "blockClass": "product__container--most-selled"
+        },
+        "children": [
+            "flex-layout.col#container__most-selled"
+        ] 
+    },
+    "flex-layout.col#container__most-selled": {
+        "title": "container most sellede product",
+        "props": {
+            "width": "100%",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "container__most-selled"
+        },
+        "children": [
+            "rich-text#title__most-selled",
+            "rich-text#text__most-selled"
+        ] 
+    },
+    "rich-text#title__most-selled": {
+        "title": "title most selled products",
+        "props": {
+            "blockClass": "title__most-selled",
+            "font": "t-heading-4",
+            "text": "Productos más vendidos"
+        }
+    },
+    "rich-text#text__most-selled": {
+        "title": "text most selled products",
+        "props": {
+            "blockClass": "text__most-selled",
+            "font": "t-body",
+            "text": "Elige tus prendas favoritas a precios increíbles."
+        }
+    }
+}

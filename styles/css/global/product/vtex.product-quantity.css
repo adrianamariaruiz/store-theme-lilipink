@@ -3,3 +3,6 @@
 .quantitySelectorStepper--product__quiantity--options :global(.vtex-numeric-stepper__minus-button){
     border: 1px solid black;
 }
+.quantitySelectorStepper--product__quiantity--options{
+    padding-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+{
+    "responsive-layout.mobile#mobile__pdp": {
+        "title": "mobile layout pdp",
+        "props":{
+            "blockClass": "mobile__layout--pdp"
+        },
+        "children": [
+            "responsive-layout.tablet#tablet__pdp",
+            "responsive-layout.phone#phone__pdp"
+        ]
+
+    }
+}

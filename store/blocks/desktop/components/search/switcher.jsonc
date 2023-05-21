@@ -1,83 +1,76 @@
 {
-    "flex-layout.row#desktop__container--order-switcher": {
-        "title": "container order-by and switcher",
-        "props": {
-            "blockClass": "desktop__container--order-switcher",
-            "horizontalAlign": "center",
-            "fullWidth": true
-        },
-        "children": [
-            "flex-layout.col#desktop__container--order-by",
-            "flex-layout.col#desktop__container--gallery-switcher"
-        ]
+  "flex-layout.row#desktop__container--order-switcher": {
+    "title": "container order-by and switcher",
+    "props": {
+      "blockClass": "desktop__container--order-switcher",
+      "horizontalAlign": "center",
+      "fullWidth": true
     },
-    "flex-layout.col#desktop__container--order-by": {
-        "title": "container order-by",
-        "props": {
-            "blockClass": "desktop__container--order-by",
-            "horizontalAlign": "center",
-            "width": "50%"
-        },
-        "children": [
-            // "rich-text#order-by"
-            "order-by.v2"
-        ]
+    "children": [
+      "flex-layout.col#desktop__container--order-by",
+      "flex-layout.col#desktop__container--gallery-switcher"
+    ]
+  },
+  "flex-layout.col#desktop__container--order-by": {
+    "title": "container order-by",
+    "props": {
+      "blockClass": "desktop__container--order-by",
+      "horizontalAlign": "center",
+      "width": "50%"
     },
-    // "rich-text#order-by": {
-    //     "title": "title",
-    //     "props": {
-    //         "text": "ORDENAR POR MAS RECIENTES",
-    //         "font": "t-heading-5"
-    //     }
-    // },
-
-    // switcher
-    "flex-layout.col#desktop__container--gallery-switcher": {
-        "title": "container gallery switcher",
-        "props": {
-            "blockClass": "desktop__container--gallery-switcher",
-            "horizontalAlign": "center"
-        },
-        "children": [
-            // "rich-text#switcher",
-            "flex-layout.row#switcher"
-        ]
+    "children": [
+      "order-by.v2"
+    ]
+  },
+  // switcher
+  "flex-layout.col#desktop__container--gallery-switcher": {
+    "title": "container gallery switcher",
+    "props": {
+      "blockClass": "desktop__container--gallery-switcher",
+      "horizontalAlign": "center"
     },
-    "rich-text#switcher": {
-        "title": "title",
-        "props": {
-            "text": "Switcher",
-            "font": "t-heading-5",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
+    "children": [
+      "flex-layout.row#switcher"
+    ]
+  },
+  "rich-text#switcher": {
+    "title": "title",
+    "props": {
+      "text": "Switcher",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#switcher": {
+    "children": [
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "fullWidth": true,
+      "verticalAlign": "middle"
+    }
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ]
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "general-grid"
     },
-
-    "flex-layout.row#switcher": {
-        "children": [
-          "gallery-layout-switcher"
-        ],
-        "props": {
-          "fullWidth": true,
-          "verticalAlign": "middle"
-        }
-      },
-    "gallery-layout-switcher": {
-        "children": [
-          "gallery-layout-option#grid",
-          "gallery-layout-option#list"
-        ]
-      },
-      "gallery-layout-option#grid": {
-        "props": {
-          "name": "general-grid"
-        },
-        "children": ["icon-grid"]
-      },
-      "gallery-layout-option#list": {
-        "props": {
-          "name": "general-list"
-        },
-        "children": ["icon-inline-grid"]
-      }
+    "children": [
+      "icon-grid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "general-list"
+    },
+    "children": [
+      "icon-inline-grid"
+    ]
+  }
 }

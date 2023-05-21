@@ -1,10 +1,3 @@
-
-
-.menuContainer--menu__custommer-support :global(.vtex-menu-2-x-styledLinkContent){
+.menuContainer--menu__custommer-support :global(.vtex-menu-2-x-styledLinkContent) {
     color: white;
 }
-
-/* @media (max-width: 1024px){
-
-} */
-

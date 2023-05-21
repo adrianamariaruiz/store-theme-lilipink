@@ -1,0 +1,16 @@
+.productNameContainer--phone__product--name {
+    font-size     : 14px;
+    font-weight   : 700;
+    line-height   : 17px;
+    text-transform: uppercase;
+    margin-bottom : 15px;
+}
+
+.swiperCaret--phone__product--image {
+    background: none;
+    height    : 50%;
+}
+
+.content--phone__product--image {
+    padding-top: 0px;
+}

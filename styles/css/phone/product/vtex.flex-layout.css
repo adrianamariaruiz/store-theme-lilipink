@@ -1,0 +1,23 @@
+.flexColChild--phone__product--wish-list {
+    display        : flex;
+    justify-content: flex-end;
+}
+
+.flexColChild--phone__product--principal-info :global(.vtex-store-components-3-x-productNameContainer) {
+    font-size  : 14px;
+    width      : 80%;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.flexColChild--phone__product--wish-list {
+    position: absolute;
+    top     : 5px;
+}
+
+.flexColChild--phone__product--principal-info :global(.vtex-product-identifier-0-x-product-identifier) {
+    font-weight: 500;
+    font-size  : 10px;
+    line-height: 12px;
+    color      : #000;
+}

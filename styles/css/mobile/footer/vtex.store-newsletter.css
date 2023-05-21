@@ -1,19 +1,17 @@
+@media (max-width: 768px) {
 
-
-@media (max-width: 768px){
-    
-    .emailInputContainer--footer__input--email :global(.vtex-input-prefix__group){
+    .emailInputContainer--footer__input--email :global(.vtex-input-prefix__group) {
         justify-content: center;
     }
 
-    .formSubmitContainer--footer__input--button :global(.vtex-button){
+    .formSubmitContainer--footer__input--button :global(.vtex-button) {
         width: 100%;
     }
 
 }
 
-@media (max-width: 425px){
-    .emailInputContainer--footer__input--email{
+@media (max-width: 425px) {
+    .emailInputContainer--footer__input--email {
         padding: 10px 15px;
     }
 }

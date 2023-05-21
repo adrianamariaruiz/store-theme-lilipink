@@ -20,7 +20,6 @@
             "disclosure-layout#mobile__customer--support"
         ]
     },
-    
     "disclosure-layout#mobile__customer--support": {
         "title": "customer support container",
         "props": {
@@ -44,20 +43,23 @@
     },
     "disclosure-state-indicator": {
         "props": {
-          "Show": "icon-caret#down",
-          "Hide": "icon-caret#up"
+            "Show": "icon-caret#down",
+            "Hide": "icon-caret#up",
+            "blockClass": "icons__caret"
         }
-      },
-      "icon-caret#down": {
+    },
+    "icon-caret#down": {
         "props": {
-          "orientation": "down"
+            "orientation": "down",
+            "blockClass": "icon__caret--down"
         }
-      },
-      "icon-caret#up": {
+    },
+    "icon-caret#up": {
         "props": {
-          "orientation": "up"
+            "orientation": "up",
+            "blockClass": "icon__caret--up"
         }
-      },
+    },
     "rich-text#customer-support": {
         "title": "text customer-support",
         "props": {
@@ -72,7 +74,9 @@
             "blockClass": "content__customer--support",
             "text": "ATENCIÓN AL CLIENTE"
         },
-        "children": [ "menu#customer-support" ]
+        "children": [
+            "menu#customer-support"
+        ]
     },
     "menu#customer-support": {
         "title": "menu items policies",

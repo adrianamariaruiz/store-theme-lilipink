@@ -14,7 +14,11 @@
       "breadcrumb.search"
     ]
   },
-
+  "breadcrumb.search":{
+    "props": {
+      "showOnMobile": true
+    }
+  },
   "flex-layout.row#category__results": {
     "title": "search results category contentainer",
     "props": {

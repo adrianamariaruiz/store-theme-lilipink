@@ -1,54 +1,57 @@
-.link--product__size-check{
-    display: flex;
-    /* border: 1px solid #72e414; */
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-    width: 100% !important;
-    font-size: 16px;
-    font-weight: 600;
+.link--product__size-check {
+    display        : flex;
+    padding-bottom : 0px;
+    margin-bottom  : 10px;
+    width          : 100% !important;
+    font-size      : 16px;
+    font-weight    : 600;
+    position       : relative;
     text-decoration: none;
-    color: black;
+    color          : black;
 }
-.wrapper--product__size-check{
+
+.wrapper--product__size-check {
     width: 100%;
 }
-.link--product__size-check:hover {
-    color: #e4147e;
-    border-bottom: 2px solid #e4147e;
-    font-weight: 700;
+
+.link--product__size-check::after {
+    color           : #e4147e;
+    background      : #e4147e;
+    content         : "";
+    position        : absolute;
+    transform       : scaleX(0);
+    transform-origin: right top;
+    bottom          : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 2px;
+    display         : block;
+    transition      : transform .4s cubic-bezier(1, 0, 0, 1);
 }
-/* .link--product__size-check::after {
-    color: #e4147e;
-    border-bottom: 1px solid #e4147e;
-    background: #e4147e;
-    content: "";
-    position: absolute;
-    opacity: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    display: block;
-    transition: transform .4s cubic-bezier(1,0,0,1);
-} */
-/* .link--product__size-check:hover::after {
+
+.link--product__size-check:hover::after {
     transform-origin: left top;
-    transform: scale(1);
-} */
-.paragraph--product__size-check ::before{
+    transform       : scale(1);
+}
+
+.paragraph--product__size-check ::before {
     content: url("assets/img/product/size-icon.svg");
 }
+
 /* disclosure */
-.wrapper--text__cproduct__text, .wrapper--text__product__specification, .wrapper--text__product__coments{
-    font-size: 18px;
+.wrapper--text__cproduct__text,
+.wrapper--text__product__specification,
+.wrapper--text__product__coments {
+    font-size  : 18px;
     font-family: Montserrat-SemiBold;
 }
 
-.paragraph--title__most-selled{
+.paragraph--title__most-selled {
     font-weight: 600;
 }
-.paragraph--text__most-selled{
+
+.paragraph--text__most-selled {
     font-weight: 500;
-    color: black;
+    color      : black;
     line-height: 146.4%;
 }

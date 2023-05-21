@@ -16,5 +16,11 @@
         "children": [
             "breadcrumb"
         ]
+    },
+    "breadcrumb": {
+        "title": "global breadcrumb pdp",
+        "props": {
+            "showOnMobile": true
+        }
     }
 }

@@ -1,0 +1,14 @@
+{
+    "responsive-layout.tablet#tablet__pdp": {
+        "title": "tablet layout pdp",
+        "props": {
+            "blockClass": "tablet__layout--pdp"
+        },
+        "children": [
+            "flex-layout.row#container__product--breadcrumb",
+            "flex-layout.row#tablet__product--info",
+            "flex-layout.row#product__container--disclosure",
+            "flex-layout.row#product__container--most-selled"
+        ]
+    }
+}

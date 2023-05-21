@@ -1,39 +1,54 @@
 .trigger--product__description--visible :global(.vtex-rich-text-0-x-wrapper--text__cproduct__text),
 .trigger--product__specification--visible :global(.vtex-rich-text-0-x-wrapper--text__product__specification),
-.trigger--product__coments--visible :global(.vtex-rich-text-0-x-wrapper--text__product__coments){
+.trigger--product__coments--visible :global(.vtex-rich-text-0-x-wrapper--text__product__coments) {
     color: #e4147e;
 }
-.content--content__product--description--visible{
-    width: 72% !important;
+
+.content--content__product--description--visible {
+    width        : 72% !important;
     margin-bottom: 20px !important;
 }
-.content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-container){
-    display: flex;
+
+.content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-container) {
+    display  : flex;
     flex-wrap: wrap;
 }
-.content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage){
-    font-size: 12px;
+
+.content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage) {
+    font-size  : 12px;
     font-weight: 700;
 }
 
-.content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer){
+.content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) {
     margin-left: 30px;
 }
-.trigger--product__description--visible::after, .trigger--product__specification--visible::after, .trigger--product__coments--visible::after{
-    content: url("assets/img/product/minus-icon.svg") !important;
+
+.trigger--product__description--visible::after,
+.trigger--product__specification--visible::after,
+.trigger--product__coments--visible::after {
+    content   : url("assets/img/product/minus-icon.svg") !important;
     transition: all .2s ease;
-    transform: rotate(0deg);
+    transform : rotate(0deg);
 }
 
-.trigger--product__description--hidden::after, .trigger--product__specification--hidden::after, .trigger--product__coments--hidden::after{
-    content: url("assets/img/product/plus-icon.svg");
+.trigger--product__description--hidden::after,
+.trigger--product__specification--hidden::after,
+.trigger--product__coments--hidden::after {
+    content   : url("assets/img/product/plus-icon.svg");
     transition: all .2s ease;
-    transform: rotate(-180deg);
+    transform : rotate(-180deg);
 }
 
-.content--content__product--coments--visible :global(.vtex-dropdown__arrow){
+.content--content__product--coments--visible :global(.vtex-dropdown__arrow) {
     color: #0f3e99;
 }
-.content--content__product--coments--visible :global(.vtex-dropdown__caption){
+
+.content--content__product--coments--visible :global(.vtex-dropdown__caption) {
     color: #bcbdbc;
+}
+
+@media (max-width: 1024px) {
+    .content--content__product--coments--visible :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+        display: none;
+    }
 }

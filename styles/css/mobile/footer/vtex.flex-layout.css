@@ -1,109 +1,110 @@
-.flexColChild--mobile__col--container:last-child{
-    width: 100%;
-    display: flex;
+.flexColChild--mobile__col--container:last-child {
+    width          : 100%;
+    display        : flex;
     justify-content: center;
 }
 
-.flexRow--mobile__container--form{
+.flexRow--mobile__container--form {
     width: 100%;
 }
 
-.flexRowContent--container__input-button{
+.flexRowContent--container__input-button {
     justify-content: center;
-}   
+}
 
-.flexRowContent--container__input-button :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--container__input-button :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 100% !important;
 }
 
-.flexRowContent--container__input-button :global(.vtex-input-prefix__group){
+.flexRowContent--container__input-button :global(.vtex-input-prefix__group) {
     max-width: 550px;
 }
 
-.flexRowContent--container__input-button :nth-child(2n){
+.flexRowContent--container__input-button :nth-child(2n) {
     width: 40% !important;
 }
 
-.flexRow--mobile__footer--social-networks{
+.flexRow--mobile__footer--social-networks {
     background-color: #e4147e;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
+    padding-bottom  : 20px;
+    display         : flex;
+    align-items     : center;
 }
 
-.flexColChild--mobile__container--social-networks{
-    display: flex;
+.flexColChild--mobile__container--social-networks {
+    display        : flex;
     justify-content: center;
 }
 
 
-.flexRow--mobile__container--disclosure :global(.vtex-disclosure-layout-1-x-trigger){
+.flexRow--mobile__container--disclosure :global(.vtex-disclosure-layout-1-x-trigger) {
     background-color: #e4147e;
-    border-style: none;
-    border-top: 1px solid #757575;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
+    border-style    : none;
+    border-top      : 1px solid #757575;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    padding         : 0px 10px;
 }
 
-.flexRow--mobile__container--disclosure :global(.vtex-disclosure-layout-1-x-content){
+.flexRow--mobile__container--disclosure :global(.vtex-disclosure-layout-1-x-content) {
     background-color: #e4147e;
 }
 
-@media (max-width: 1024px){
-    .flexRowContent--mobile__container--disclosure :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-        display: flex;
+@media (max-width: 1024px) {
+    .flexRowContent--mobile__container--disclosure :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        display       : flex;
         flex-direction: column;
     }
 
-    .flexColChild--mobile__container--payment{
-        display: flex;
+    .flexColChild--mobile__container--payment {
+        display        : flex;
         justify-content: center;
     }
 
-    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--pci-logo){
-        height: 31px;
+    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--pci-logo) {
+        height      : 31px;
         padding-left: 10px;
     }
-    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--letEncrypt-logo){
-        max-height: 31px !important;
+
+    .flexRowContent--footer__logo--letEncrypt-pci :global(.vtex-store-components-3-x-imageElement--letEncrypt-logo) {
+        max-height   : 31px !important;
         padding-right: 10px;
     }
 
-    .flexRowContent--mobile__footer--powered-by{
+    .flexRowContent--mobile__footer--powered-by {
         border-color: #757575;
-        width: 980px;
+        width       : 980px;
     }
 }
 
-@media (max-width: 768px){
-    .flexRowContent--desktop__container--subscribe{
+@media (max-width: 768px) {
+    .flexRowContent--desktop__container--subscribe {
         padding: 0 20px;
     }
 
-    .flexRowContent--global__container--privacy{
+    .flexRowContent--global__container--privacy {
         padding: 0 20px;
     }
 
-    .flexRowContent--mobile__footer--powered-by{
+    .flexRowContent--mobile__footer--powered-by {
         width: 720px;
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
 
-    .flexRowContent--container__input-button{
-        display: flex;
+    .flexRowContent--container__input-button {
+        display       : flex;
         flex-direction: column;
-        align-items: center;
+        align-items   : center;
     }
 
-    .flexRowContent--mobile__footer--powered-by{
+    .flexRowContent--mobile__footer--powered-by {
         width: 100%;
     }
 
-    .flexRowContent--footer__logo--letEncrypt-pci{
+    .flexRowContent--footer__logo--letEncrypt-pci {
         display: flex;
     }
 }

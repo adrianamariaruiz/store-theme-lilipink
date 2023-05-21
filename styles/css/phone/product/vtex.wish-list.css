@@ -1,0 +1,6 @@
+.wishlistIcon--phone__product--wish {
+    background     : url("assets/img/department/wishlist_hover.svg") no-repeat;
+    background-size: contain;
+    height         : 32px;
+    width          : 32px;
+}

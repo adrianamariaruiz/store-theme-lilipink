@@ -1,0 +1,9 @@
+{
+    "store.product": {
+        "title": "producto",
+        "blocks": [
+            "responsive-layout.desktop#desktop__pdp",
+            "responsive-layout.mobile#mobile__pdp"
+        ]
+    }
+}

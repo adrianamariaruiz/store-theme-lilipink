@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#phone__product--info": {
+        "title": "phone layout product info",
+        "props": {
+            "paddingTop": 8,
+            "blockClass": "product__info"
+        },
+        "children": [
+            "flex-layout.col#phone__product--principal-info",
+            "flex-layout.col#phone__product--wish-list",
+            "flex-layout.col#phone__product--info-image",
+            "flex-layout.col#phone__product--info"
+        ]
+    },
+    "flex-layout.col#phone__product--principal-info": {
+        "title": "phone product info",
+        "props": {
+            "width": "100%",
+            "blockClass": [
+                "product__info--data",
+                "tablet__product--info-data",
+                "phone__product--principal-info"
+            ]
+        },
+        "children": [
+            "vtex.store-components:product-name#phone__product--name",
+            "product-identifier.product#global__home--identifier",
+            "product-price#product__price"
+        ]
+    },
+    "vtex.store-components:product-name#phone__product--name": {
+        "title": "phone product name",
+        "props": {
+            "blockClass": "phone__product--name"
+        }
+    },
+    "flex-layout.col#phone__product--wish-list": {
+        "title": "container wishlist",
+        "children": [
+            "add-to-list-btn#phone__product--wish"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "blockClass": "phone__product--wish-list"
+        }
+    },
+    "add-to-list-btn#phone__product--wish": {
+        "title": "phone container with product wish-list",
+        "props": {
+            "blockClass": "phone__product--wish"
+        }
+    },
+    "flex-layout.col#phone__product--info-image": {
+        "title": "phone product pdp images",
+        "props": {
+            "width": "100%",
+            "blockClass": [
+                "product__info--image",
+                "tablet__product--info-image",
+                "phone__product--info-image"
+            ]
+        },
+        "children": [
+            "product-images#phone__product--image"
+        ]
+    },
+    "product-images#phone__product--image": {
+        "title": "phone product images",
+        "props": {
+            "thumbnailVisibility": "hidden",
+            "showPaginationDots": false,
+            "maxHeight": 600,
+            "aspectRatio": "3:4",
+            "zoomMode": "in-place-hover",
+            "blockClass": [
+                "product__images",
+                "tablet__product--images",
+                "phone__product--image"
+            ]
+        }
+    },
+    "flex-layout.col#phone__product--info": {
+        "title": "phone product info",
+        "props": {
+            "width": "100%",
+            "blockClass": [
+                "product__info--data",
+                "tablet__product--info-data",
+                "phone__product--info"
+            ]
+        },
+        "children": [
+            "product-description#product__description",
+            "sku-selector#product__sku",
+            "flex-layout.row#product__size--text",
+            "product-quantity",
+            "add-to-cart-button#pdp__products--add"
+        ]
+    }
+}

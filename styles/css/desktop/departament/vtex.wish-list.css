@@ -1,36 +1,31 @@
-.wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label ){
-    display: flex;
+.wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label) {
+    display       : flex;
     flex-direction: column-reverse;
-    padding: 0px;
+    padding       : 0px;
 }
 
-.wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label )::after{
+.wishlistIconContainer :global(.vtex-button) :global(.vtex-button__label)::after {
     display: none !important;
 }
-.wishlistIconContainer:hover :global(.vtex-button) :global(.vtex-button__label )::before {
-    content: "Favoritos";
-    text-transform: capitalize;
-    display: inline-block;
-    color: white;
-    border-radius: 6px;
-    width: 50px;
-    height: 10px;
-    text-align: center;
-    padding: 5px;
-    font-size: 8px;
-    position: absolute;
-    top: 5px;
-    left: -65px;
-    right: 0;
+
+.wishlistIconContainer:hover :global(.vtex-button) :global(.vtex-button__label)::before {
+    content         : "Favoritos";
+    text-transform  : capitalize;
+    display         : inline-block;
+    color           : white;
+    border-radius   : 6px;
+    width           : 50px;
+    height          : 10px;
+    text-align      : center;
+    padding         : 5px;
+    font-size       : 8px;
+    position        : absolute;
+    top             : 5px;
+    left            : -65px;
+    right           : 0;
     background-color: #e01783;
 }
 
-.wishlistIcon--category__wishlist--button{
+.wishlistIcon--category__wishlist--button {
     background: url("assets/img/department/wishlist.svg") no-repeat;
 }
-
-
-
-
-
-

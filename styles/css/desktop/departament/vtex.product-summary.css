@@ -1,31 +1,31 @@
-.nameContainer--category__results--name{
-    display: flex;
+.nameContainer--category__results--name {
+    display        : flex;
     justify-content: flex-start;
 }
 
 
-.element:hover :global(.vtex-stack-layout-0-x-stackItem--category__product--preview-wishlist--category__layout--preview-wishlist){
+.element:hover :global(.vtex-stack-layout-0-x-stackItem--category__product--preview-wishlist--category__layout--preview-wishlist) {
     display: block;
-} 
+}
 
-
-.element:hover :global(.vtex-store-components-3-x-skuSelectorContainer--category__results--selector-sku){
+.element:hover :global(.vtex-store-components-3-x-skuSelectorContainer--category__results--selector-sku) {
     display: flex;
 }
-.element:hover :global(.vtex-stack-layout-0-x-stackItem--category__product--preview-wishlist--category__results--selector-sku){
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: flex-end;
+
+.element:hover :global(.vtex-stack-layout-0-x-stackItem--category__product--preview-wishlist--category__results--selector-sku) {
+    display        : flex;
+    height         : 70%;
+    width          : 100%;
+    align-items    : flex-end;
     justify-content: center;
 }
-.element:hover :global(.vtex-store-components-3-x-skuSelectorContainer--category__results--selector-sku){
-    background-color: white;
-    width: 70%;
-    border-radius: 5px;
+
+.element:hover :global(.vtex-store-components-3-x-skuSelectorContainer--category__results--selector-sku) {
+    width        : 90%;
+    background   : hsla(0, 0%, 100%, .82);
+    border-radius: 6px 6px 0 0;
 }
 
-
-.element:hover :global(.vtex-flex-layout-0-x-flexRowContent--category__container--add-button){
+.element:hover :global(.vtex-flex-layout-0-x-flexRowContent--category__container--add-button) {
     display: flex;
 }

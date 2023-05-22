@@ -33,44 +33,64 @@
       "flex-layout.row#switcher"
     ]
   },
-  "rich-text#switcher": {
-    "title": "title",
-    "props": {
-      "text": "Switcher",
-      "font": "t-heading-5",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
   "flex-layout.row#switcher": {
+    "title": "switcher container",
     "children": [
       "gallery-layout-switcher"
     ],
     "props": {
       "fullWidth": true,
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "container__switcher"
     }
   },
   "gallery-layout-switcher": {
+    "title": "switcher gallery options",
     "children": [
       "gallery-layout-option#grid",
       "gallery-layout-option#list"
-    ]
+    ],
+    "props": {
+      "blockClass": "switcher__gallery--options"
+    }
   },
   "gallery-layout-option#grid": {
+    "title": "gallery grid option",
     "props": {
-      "name": "general-grid"
+      "name": "general-grid",
+      "blockClass": "gallery__option--grid"
     },
     "children": [
-      "icon-grid"
+      "image#grid__icon"
     ]
   },
-  "gallery-layout-option#list": {
+  "image#grid__icon": {
+    "title": "grid buttom",
     "props": {
-      "name": "general-list"
+      "src": "assets/img/department/grid-icon.svg",
+      "maxHeight": "16px",
+      "maxWidth": "16px",
+      "blockClass": "grid__icon"
+    }
+  },
+  "gallery-layout-option#list": {
+    "title": "gallery list option",
+    "props": {
+      "name": "general-list",
+      "blockClass": "gallery__option--list"
     },
     "children": [
-      "icon-inline-grid"
+      "image#inline__icon"
+      // "icon-inline-grid"
     ]
+  },
+  "image#inline__icon": {
+    "title": "inline buttom",
+    "props": {
+      "src": "assets/img/department/inline-grid-icon.svg",
+      "maxHeight": "22px",
+      "maxWidth": "20px",
+      "blockClass": "inline__icon"
+    }
   }
 }

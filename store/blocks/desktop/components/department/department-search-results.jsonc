@@ -53,7 +53,7 @@
             "blockClass": "category__results--selector-sku"
         },
         "children": [
-            "sku-selector#category__results--selector-sku"
+            "product-summary-sku-selector#category__results--selector-sku"
         ]
     },
     "product-summary-name#category__results--name": {
@@ -63,7 +63,7 @@
         }
     },
     // SKU
-    "sku-selector#category__results--selector-sku": {
+    "product-summary-sku-selector#category__results--selector-sku": {
         "props": {
             "displayMode": "default",
             "imageHeight": "18px",

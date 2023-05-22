@@ -67,6 +67,30 @@
     padding: 20px;
 }
 
+.flexColChild--quick-view__modal--info :global(.vtex-add-to-cart-button-0-x-buttonText--home__products--button-buy) {
+    color: #fff;
+}
+
+.flexColChild--quick-view__modal--info :global(.vtex-button) {
+    background-color: #000000;
+    border          : none;
+    margin-top      : 20px;
+    margin-bottom   : 10px;
+}
+
+.flexColChild--quick-view__modal--info :global(.vtex-button):hover {
+    background-color: #e4147e;
+    border          : none;
+}
+
+.flexColChild--quick-view__modal--image :global(.vtex-store-components-3-x-caretIcon) {
+    color: #0f3e99;
+}
+
+.flexColChild--quick-view__modal--image :global(.vtex-store-components-3-x-swiperBullet--active) {
+    color: #0f3e99;
+}
+
 
 @media (max-width: 640px) {
     .flexRowContent--category__container--add-button {

@@ -1,6 +1,16 @@
-.gallery--results__content--gallery-department--general-grid{
+.gallery--results__content--gallery-department--general-grid {
     width: 100%;
 }
-.gallery--results__content--gallery-department--general-list{
+
+.gallery--results__content--gallery-department--general-list {
     width: 100%;
+}
+
+.galleryItem--results__content--gallery-department {
+    position: relative;
+}
+
+.galleryLayoutOptionButton--gallery__option--list {
+    height: 30px;
+    width : 30px;
 }

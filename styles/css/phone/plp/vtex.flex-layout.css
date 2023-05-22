@@ -1,0 +1,4 @@
+.flexRowContent--tablet__category--container-filter-orderby {
+    display  : flex;
+    flex-wrap: nowrap;
+}

@@ -1,0 +1,11 @@
+.label--preview__details--button{
+    font-weight: 600;
+    color: #fff;
+}
+.link--preview__details--button{
+    background-color: #e4147e;
+}
+.link--preview__details--button:hover{
+    background-color: #000000 !important;
+    border: none;
+}

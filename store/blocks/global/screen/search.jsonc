@@ -7,7 +7,7 @@
       "context": {
         "skuFilter": "ALL",
         "orderByField": "OrderByScoreASC",
-        "simulationBehavior": "default"
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -18,7 +18,7 @@
     "props": {
       "context": {
         "skuFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -29,7 +29,7 @@
     "props": {
       "context": {
         "skuFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -40,7 +40,7 @@
     "props": {
       "context": {
         "skuFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "simulationBehavior": "skip"
       }
     }
   },
@@ -51,7 +51,7 @@
     "props": {
       "context": {
         "skuFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "simulationBehavior": "skip"
       }
     }
   }

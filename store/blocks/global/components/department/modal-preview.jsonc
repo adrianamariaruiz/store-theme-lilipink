@@ -6,7 +6,6 @@
       "blockClass": "global__quick-view"
     },
     "children": [
-    //   "rich-text#global__quick-view--text",
         "image#preview__icon",
         "modal-layout#global__quick-view--modal"
     ]
@@ -55,12 +54,15 @@
     ]
   },
   "product-images#quick-view__product--image": {
+    "title": "quick view product image",
     "props": {
-      "displayMode": "carousel",
-      "maxHeight": "600px",
-      "thumbnailVisibility": "hidden" /*para visualizar las imagenes pequeñas*/,
-      "zoomFactor": 2,
-      "zoomMode": "in-place-click"
+        "bloclClass": "quick-view__product--image",
+        "showPaginationDots": true,
+        "maxHeight": 600,
+        "aspectRatio": "1:1",
+        "zoomMode": "in-place-click",
+        "displayMode": "carousel",
+        "thumbnailVisibility": "hidden" /*para visualizar las imagenes pequeñas*/
     }
   },
   "flex-layout.col#quick-view__modal--info": {
@@ -69,18 +71,47 @@
       "blockClass": "quick-view__modal--info"
     },
     "children": [
-      "product-summary-name#category__results--name",
-    "flex-layout.row#category__container--results-prices",
-      "sku-selector#category__results--selector-sku",
+      "vtex.store-components:product-name#product__name--container",  
+      "flex-layout.row#category__container--results-prices",
+      "product-summary-sku-selector#preview__sku",
       "product-quantity#category__result--quantity",
-      "flex-layout.row#category__container--add-button"
+      "add-to-cart-button#pdp__products--add",
+      "flex-layout.row#category__preview--details-button"
     ]
   },
-  "product-quantity#category__result--quantity": {
+  "product-summary-sku-selector#preview__sku": {
     "props": {
-      //   "warningQuantityThreshold": 9999999,
+      "displayMode": "default",
+      "imageHeight": "18px",
+      "imageWidth": "38px",
+      "hideImpossibleCombinations": false,
+      "disableUnavailableSelectOptions": true,
+      "blockClass": "category__preview--sku"
+  }
+  },
+  "product-quantity#category__result--quantity": {
+    "title": "quick view quantity",
+    "props": {
       "showUnit": true,
       "size": "regular"
+    }
+  },
+  "flex-layout.row#category__preview--details-button": {
+    "title": "preview button details product",
+    "props": {
+      "blockClass": "category__preview--details-button"
+    },
+    "children": [
+      "link#preview__details--button"
+    ]
+  },
+  "link#preview__details--button": {
+    "title": "button details product",
+    "props": {
+      "blockClass": "preview__details--button",
+      "href": "#",
+      "label": "Ver Detalles",
+      "displayMode": "button"
     }
   }
 }

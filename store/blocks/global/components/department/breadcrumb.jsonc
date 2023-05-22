@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#department__breadcrumb": {
+        "title": "row epartment breadcrumb",
+        "children": [
+            "flex-layout.col#department__col--breadcrumb"
+        ]
+    },
+    "flex-layout.col#department__col--breadcrumb": {
+        "title": "col epartment breadcrumb",
+        "props": {
+            "blockClass": "department__col--breadcrumb"
+        },
+        "children": [
+            "breadcrumb.search"
+        ]
+    },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true
+        }
+    }
+}

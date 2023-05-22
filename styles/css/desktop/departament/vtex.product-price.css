@@ -1,10 +1,10 @@
-.listPrice--category__results--price-list{
-    color: #828282;
+.listPrice--category__results--price-list {
+    color    : #828282;
     font-size: 16px;
 }
 
-.sellingPrice--category__results--selling-list{
-    color: #2e2e2e;
-    font-size: 20px;
+.sellingPrice--category__results--selling-list {
+    color      : #2e2e2e;
+    font-size  : 20px;
     font-weight: 600;
 }

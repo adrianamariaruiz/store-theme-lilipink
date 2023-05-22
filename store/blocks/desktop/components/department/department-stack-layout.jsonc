@@ -1,0 +1,78 @@
+{
+    //   STACK LAYOUT PREVIEW AND WISHLIST
+    "stack-layout#category__product--preview-wishlist": {
+        "title": "products image and highlights with preview and wishlist heart",
+        "children": [
+            "product-summary-image#category__results--image",
+            "vtex.product-highlights@2.x:product-highlights#category",
+            "flex-layout.col#preview-wishlist"
+        ],
+        "props": {
+            "blockClass": [
+                "category__product--preview-wishlist",
+                "category__product--image-highlights"
+            ]
+        }
+    },
+    // IMAGENES
+    "product-summary-image#category__results--image": {
+        "title": "results category products image",
+        "props": {
+            "showBadge": false,
+            "aspectRatio": "1:1",
+            "maxHeight": 280,
+            "blockClass": "category__results--image"
+        }
+    },
+    "vtex.product-highlights@2.x:product-highlights#category": {
+        "title": "layout highlights with savings price percentage",
+        "children": [
+            "product-highlight-wrapper#category__product--highlights"
+        ],
+        "props": {
+            "blockClass": "category__layout--highlights"
+        }
+    },
+    "product-highlight-wrapper#category__product--highlights": {
+        "title": "products highlights with savings price percentage",
+        "children": [
+            "product-price-savings#product__percentage"
+        ],
+        "props": {
+            "blockClass": "category__product--highlights"
+        }
+    },
+    "flex-layout.col#preview-wishlist": {
+        "title": "layout highlights with preview and wishlist icon",
+        "children": [
+            "flex-layout.row#category__product--preview",
+            "flex-layout.row#category__product--wishlist"
+        ],
+        "props": {
+            "blockClass": "category__layout--preview-wishlist"
+        }
+    },
+    "flex-layout.row#category__product--preview": {
+        "title": "products highlights with preview",
+        "children": [
+            "modal-trigger#global__quick-view"
+        ],
+        "props": {
+            "blockClass": "category__product--preview"
+        }
+    },
+    "flex-layout.row#category__product--wishlist": {
+        "title": "products highlights with wishlist icon",
+        "children": [
+            "add-to-list-btn#myButton"
+        ],
+        "props": {
+            "blockClass": "category__product--wishlist"
+        }
+    },
+    "add-to-list-btn#myButton": {
+        "props": {
+            "blockClass": "category__wishlist--button"
+        }
+    }
+}

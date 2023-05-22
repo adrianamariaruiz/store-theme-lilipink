@@ -1,11 +1,33 @@
 {
-    "responsive-layout.tablet#tablet__department": {
-        "title": "responsive layout tablet",
+    "flex-layout.row#tablet__category--container-filter-orderby": {
+        "title": "tablet category container filter and order by",
+        "children": [
+            "flex-layout.col#tablet__category--filter",
+            "flex-layout.col#desktop__container--order-by"
+        ],
         "props": {
-            "blockClass": "search__layout--tablet"
+            "paddingBottom": 5,
+            "horizontalAlign": "center",
+            "blockClass": "tablet__category--container-filter-orderby"
+        }
+    },
+    "flex-layout.col#tablet__category--filter": {
+        "title": "tablet search results category filter",
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "width": "50%",
+            "blockClass": "tablet__category--filter"
+        }
+    },
+    "flex-layout.row#tablet__category--results-content": {
+        "title": "tablet search results category container",
+        "props": {
+            "blockClass": "tablet__category--results-content"
         },
         "children": [
-            "flex-layout.row#category__results"
+            "search-content#results__content--products"
         ]
     }
 }

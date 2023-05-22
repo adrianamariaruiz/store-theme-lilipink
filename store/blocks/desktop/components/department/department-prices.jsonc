@@ -1,0 +1,34 @@
+{
+    //   PRICES
+    "flex-layout.row#category__container--results-prices": {
+        "title": "categoty results container prices",
+        "props": {
+            "horizontalAlign": "left",
+            "blockClass": "category__container--results-prices"
+        },
+        "children": [
+            "product-selling-price#category__results--selling-list",
+            "product-list-price#category__results--price-list"
+        ]
+    },
+    "product-list-price#category__results--price-list": {
+        "title": "results category products price",
+        "props": {
+            "blockClass": "category__results--price-list"
+        }
+    },
+    "product-selling-price#category__results--selling-list": {
+        "title": "results category products selling price",
+        "props": {
+            "blockClass": "category__results--selling-list"
+        }
+    },
+    // PRICE SAVING %
+    "product-price-savings#product__percentage": {
+        "title": "products percentage savings",
+        "props": {
+            "message": "- {savingsPercentage}",
+            "blockClass": "product__highlights--percentage" /*igual que en home-product-list*/
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "search-result-layout.desktop#department": {
+        "title": "responsive layout desktop",
+        "props": {
+            "pagination": "show-more",
+            // "preventRouteChange": true,
+            "defaultGalleryLayout": "general-grid",
+            "blockClass": "search__layout--desktop"
+        },
+        "children": [
+            "flex-layout.row#department__breadcrumb",
+            "flex-layout.row#category__results"
+        ]
+      }
+}

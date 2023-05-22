@@ -1,17 +1,15 @@
-.stackContainer--category__product--preview-wishlist{
-    height: 285px;
-    display: flex;
+.stackContainer--category__product--preview-wishlist {
+    height     : 285px;
+    display    : flex;
     align-items: center;
 }
 
-.stackItem--category__product--image-highlights--category__layout--preview-wishlist{
-    width: 100%;
-    display: flex;
+.stackItem--category__product--image-highlights--category__layout--preview-wishlist {
+    width     : 100%;
+    display   : flex;
     text-align: right;
 }
 
-.stackItem--category__product--preview-wishlist--category__layout--preview-wishlist{
+.stackItem--category__product--preview-wishlist--category__layout--preview-wishlist {
     display: none;
 }
-
-

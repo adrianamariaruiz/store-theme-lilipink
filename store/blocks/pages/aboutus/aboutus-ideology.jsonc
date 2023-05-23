@@ -1,0 +1,87 @@
+{
+  "flex-layout.row#aboutus__container--title-ideology": {
+    "title": "about us title ideology container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--title",
+        "aboutus__container--title-ideology"
+      ]
+    },
+    "children": [
+      "rich-text#aboutus__title--ideology"
+    ]
+  },
+  "rich-text#aboutus__title--ideology": {
+    "title": "about us title ideology",
+    "props": {
+      "blockClass": [
+        "aboutus",
+        "aboutus__title--ideology"
+      ],
+      "text": "IDEOLOGÍA"
+    }
+  },
+  "flex-layout.row#aboutus__container--ideology-text": {
+    "title": "about us ideology text container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--text",
+        "aboutus__container--ideology-text"
+      ]
+    },
+    "children": [
+      "rich-text#aboutus__ideology--text"
+    ]
+  },
+  "rich-text#aboutus__ideology--text": {
+    "title": "about us ideology text",
+    "props": {
+      "blockClass": [
+        "aboutus__text",
+        "aboutus__ideology--text"
+      ],
+      "text": "Nos comprometemos con la FELICIDAD de las mujeres que piensan en comodidad y que les gusta estar en tendencia, creando y comercializando productos a precios asequibles para demostrar que no es necesario invertir tanto para tener lo mejor de la moda en tus manos."
+    }
+  },
+  "flex-layout.row#aboutus__container--images-ideology": {
+    "title": "about us images  info container",
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": [
+        "aboutus__container--images",
+        "aboutus__container--images-info"
+      ]
+    },
+    "children": [
+      "image#image--three",
+      "image#image--four",
+      "image#image--five"
+    ]
+  },
+  "image#image--three": {
+    "title": "image three",
+    "props": {
+      "blockClass": "image__three",
+      "maxHeight": 250,
+      "src": "assets/img/aboutus/image-three.png"
+    }
+  },
+  "image#image--four": {
+    "title": "image four",
+    "props": {
+      "blockClass": "image__four",
+      "maxHeight": 250,
+      "src": "assets/img/aboutus/image-four.png"
+    }
+  },
+  "image#image--five": {
+    "title": "image five",
+    "props": {
+      "blockClass": "image__five",
+      "maxHeight": 250,
+      "src": "assets/img/aboutus/image-five.png"
+    }
+  }
+}

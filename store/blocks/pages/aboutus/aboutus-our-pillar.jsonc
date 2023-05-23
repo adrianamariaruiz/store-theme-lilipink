@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#aboutus__container--title-ourpillar": {
+    "title": "about us title our pillar container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--title",
+        "aboutus__container--title-ourpillar"
+      ]
+    },
+    "children": [
+      "rich-text#aboutus__title--ourpillar"
+    ]
+  },
+  "rich-text#aboutus__title--ourpillar": {
+    "title": "about us title our pillar",
+    "props": {
+      "blockClass": [
+        "aboutus",
+        "aboutus__title--ourpillar"
+      ],
+      "text": "NUESTRO PILAR"
+    }
+  },
+  "flex-layout.row#aboutus__container--ourpillar-text": {
+    "title": "about us our pillar text container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--text",
+        "aboutus__container--ourpillar-text"
+      ]
+    },
+    "children": [
+      "rich-text#aboutus__ourpillar--text"
+    ]
+  },
+  "rich-text#aboutus__ourpillar--text": {
+    "title": "about us our pillar text",
+    "props": {
+      "blockClass": [
+        "aboutus__text",
+        "aboutus__ourpillar--text"
+      ],
+      "text": "Yo soy Lili…"
+    }
+  }
+}

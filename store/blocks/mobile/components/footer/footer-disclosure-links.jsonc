@@ -1,157 +1,161 @@
 {
-    "disclosure-layout#mobile__interest--links": {
-        "title": "mobile disclosure interest links",
-        "props": {
-            "blockClass": "mobile__disclosure--interest-links"
-        },
-        "children": [
-            "disclosure-trigger#interest__links",
-            "disclosure-content#interest__links"
-        ]
+  "disclosure-layout#mobile__interest--links": {
+    "title": "mobile disclosure interest links",
+    "props": {
+      "blockClass": "mobile__disclosure--interest-links"
     },
-    "disclosure-trigger#interest__links": {
-        "props": {"blockClass": "mobile__disclosure--interest-links"},
-        "children": [
-            "rich-text#interest__links",
-            "disclosure-state-indicator"
-        ]
+    "children": [
+      "disclosure-trigger#interest__links",
+      "disclosure-content#interest__links"
+    ]
+  },
+  "disclosure-trigger#interest__links": {
+    "props": {
+      "blockClass": "mobile__disclosure--interest-links"
     },
-    "rich-text#interest__links": {
-        "title": "texto links de interes",
-        "props": {
-            "blockClass": "mobile__text--interest-links",
-            "text": "LINKS DE INTERÉS",
-            "textColor": "c-on-base--inverted"
-        }
-    },
-    "disclosure-content#interest__links": {
-        "props": {"blockClass": "mobile__content--interest-links"},
-        "children": [ 
-            "menu#interest__links" 
-        ]
-    },
-    "menu#interest__links": {
-        "title": "menu items de links de interes",
-        "children": [
-            "menu-item#who-are-we",
-            "menu-item#work-with-us",
-            "menu-item#frequent-questions",
-            "menu-item#size-guide",
-            "menu-item#digital-business",
-            "menu-item#cyber-monday",
-            "menu-item#day-without-iva",
-            "menu-item#black-days"
-        ],
-        "props": {
-            "blockClass": [
-                "mobile__menu--interest-links", 
-                "desktop__menu--interest-links"
-            ],
-            "orientation": "vertical"
-        }
-    },
-    "menu-item#who-are-we": {
-        "title": "menu item who are we",
-        "props": {
-            "id": "menu-who-are-we",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "tagTittle": "who-are-we",
-                "text": "¿Quiénes somos?"
-            }
-        }
-    },
-    "menu-item#work-with-us": {
-        "title": "menu item work with us",
-        "props": {
-            "id": "menu-work-with-us",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "tagTittle": "work-with-us",
-                "text": "Trabaja con nosotros"
-            }
-        }
-    },
-    "menu-item#frequent-questions": {
-        "title": "menu item frequent questions",
-        "props": {
-            "id": "menu-frequent-questions",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "tagTittle": "frequent-questions",
-                "text": "Preguntas Frecuentes"
-            }
-        }
-    },
-    "menu-item#size-guide": {
-        "title": "menu item size guide",
-        "props": {
-            "id": "menu-size-guide",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "tagTittle": "size-guide",
-                "text": "Guia de tallas"
-            }
-        }
-    },
-    "menu-item#digital-business": {
-        "title": "menu item digital business",
-        "props": {
-            "id": "menu-digital-business",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "tagTittle": "digital-business",
-                "text": "Negocio digital"
-            }
-        }
-    },
-    "menu-item#cyber-monday": {
-        "title": "menu item cyber monday",
-        "props": {
-            "id": "menu-cyber-monday",
-            "type": "custom",
-            "itemProps": {
-               "type": "internal",
-               "href": "/",
-               "tagTittle": "cyber-monday",
-               "text": "Cyber lunes" 
-            }
-        }
-    },
-    "menu-item#day-without-iva": {
-        "title": "menu item day without iva",
-        "props": {
-            "id": "menu-day-without-iva",
-            "type": "custom",
-            "itemProps": {
-              "type": "internal",
-              "href": "/",
-              "tagTittle": "day-without-iva",
-              "text": "Dia sin iva"  
-            }
-        }
-    },
-    "menu-item#black-days": {
-        "title": "menu item black days",
-        "props": {
-            "id": "menu-black-days",
-            "type": "custom",
-            "itemProps": {
-               "type": "internal",
-               "href": "/",
-               "tagTittle": "black-days",
-               "text": "Black days" 
-            }
-        }
+    "children": [
+      "rich-text#interest__links",
+      "disclosure-state-indicator"
+    ]
+  },
+  "rich-text#interest__links": {
+    "title": "texto links de interes",
+    "props": {
+      "blockClass": "mobile__text--interest-links",
+      "text": "LINKS DE INTERÉS",
+      "textColor": "c-on-base--inverted"
     }
+  },
+  "disclosure-content#interest__links": {
+    "props": {
+      "blockClass": "mobile__content--interest-links"
+    },
+    "children": [
+      "menu#interest__links"
+    ]
+  },
+  "menu#interest__links": {
+    "title": "menu items de links de interes",
+    "children": [
+      "menu-item#who-are-we",
+      "menu-item#work-with-us",
+      "menu-item#frequent-questions",
+      "menu-item#size-guide",
+      "menu-item#digital-business",
+      "menu-item#cyber-monday",
+      "menu-item#day-without-iva",
+      "menu-item#black-days"
+    ],
+    "props": {
+      "blockClass": [
+        "mobile__menu--interest-links",
+        "desktop__menu--interest-links"
+      ],
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#who-are-we": {
+    "title": "menu item who are we",
+    "props": {
+      "id": "menu-who-are-we",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "tagTittle": "who-are-we",
+        "text": "¿Quiénes somos?"
+      }
+    }
+  },
+  "menu-item#work-with-us": {
+    "title": "menu item work with us",
+    "props": {
+      "id": "menu-work-with-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTittle": "work-with-us",
+        "text": "Trabaja con nosotros"
+      }
+    }
+  },
+  "menu-item#frequent-questions": {
+    "title": "menu item frequent questions",
+    "props": {
+      "id": "menu-frequent-questions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTittle": "frequent-questions",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#size-guide": {
+    "title": "menu item size guide",
+    "props": {
+      "id": "menu-size-guide",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTittle": "size-guide",
+        "text": "Guia de tallas"
+      }
+    }
+  },
+  "menu-item#digital-business": {
+    "title": "menu item digital business",
+    "props": {
+      "id": "menu-digital-business",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTittle": "digital-business",
+        "text": "Negocio digital"
+      }
+    }
+  },
+  "menu-item#cyber-monday": {
+    "title": "menu item cyber monday",
+    "props": {
+      "id": "menu-cyber-monday",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTittle": "cyber-monday",
+        "text": "Cyber lunes"
+      }
+    }
+  },
+  "menu-item#day-without-iva": {
+    "title": "menu item day without iva",
+    "props": {
+      "id": "menu-day-without-iva",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTittle": "day-without-iva",
+        "text": "Dia sin iva"
+      }
+    }
+  },
+  "menu-item#black-days": {
+    "title": "menu item black days",
+    "props": {
+      "id": "menu-black-days",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTittle": "black-days",
+        "text": "Black days"
+      }
+    }
+  }
 }

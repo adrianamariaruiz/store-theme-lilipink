@@ -1,82 +1,79 @@
 {
-    "flex-layout.row#mobile__container--newsletter": {
-        "title": "mobile container newsletter",
-        "props": {
-            "blockClass": "mobile__container--newsletter",
-            "colSizing": "equal",
-            "horizontalAlign": "center",
-            "marginBottom": 7,
-            "fullWidth": true
-        },
-        "children": [
-            "flex-layout.col#desktop__col--container"
-        ]
+  "flex-layout.row#mobile__container--newsletter": {
+    "title": "mobile container newsletter",
+    "props": {
+      "blockClass": "mobile__container--newsletter",
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "marginBottom": 7,
+      "fullWidth": true
     },
-    "flex-layout.col#desktop__col--container": {
-        "title": "mobile col container newsletter",
-        "props": {
-            "blockClass": "mobile__col--container",
-            "horizontalAlign": "center",
-            "width": "70%"
-        },
-        "children": [
-            "flex-layout.row#desktop__container--subscribe",
-            "flex-layout.row#mobile__container--privacy",
-            "flex-layout.row#mobile__row--container-newsletter"
-        ]
+    "children": [
+      "flex-layout.col#desktop__col--container"
+    ]
+  },
+  "flex-layout.col#desktop__col--container": {
+    "title": "mobile col container newsletter",
+    "props": {
+      "blockClass": "mobile__col--container",
+      "horizontalAlign": "center",
+      "width": "70%"
     },
-
-    "flex-layout.row#mobile__container--privacy": {
-        "title": "mobile container notice privacy",
-        "props": {
-            "blockClass": "global__container--privacy",
-            "marginBottom": 3
-        },
-        "children": [
-            "rich-text#desktop__notice--privacy"
-        ]
+    "children": [
+      "flex-layout.row#desktop__container--subscribe",
+      "flex-layout.row#mobile__container--privacy",
+      "flex-layout.row#mobile__row--container-newsletter"
+    ]
+  },
+  "flex-layout.row#mobile__container--privacy": {
+    "title": "mobile container notice privacy",
+    "props": {
+      "blockClass": "global__container--privacy",
+      "marginBottom": 3
     },
-
-    "flex-layout.row#mobile__row--container-newsletter": {
-        "title": "mobile row container newsletter form",
-        "props": {
-            "marginBottom": 5,
-            "fullWidth": true,
-            "blockClass": "mobile__container--form"
-        },
-        "children": [
-            "flex-layout.col#mobile__container--input-button"
-        ]
+    "children": [
+      "rich-text#desktop__notice--privacy"
+    ]
+  },
+  "flex-layout.row#mobile__row--container-newsletter": {
+    "title": "mobile row container newsletter form",
+    "props": {
+      "marginBottom": 5,
+      "fullWidth": true,
+      "blockClass": "mobile__container--form"
     },
-    "flex-layout.col#mobile__container--input-button":{
-        "title": "mobile col container input and button",
-        "props": {
-            "blockClass": "mobile__footer--container-form"
-        },
-        "children": [
-            "newsletter-form#mobile__footer--newsletter"
-        ]
+    "children": [
+      "flex-layout.col#mobile__container--input-button"
+    ]
+  },
+  "flex-layout.col#mobile__container--input-button": {
+    "title": "mobile col container input and button",
+    "props": {
+      "blockClass": "mobile__footer--container-form"
     },
-    "newsletter-form#mobile__footer--newsletter": {
-        "title": "mobile container newsletter form",
-        "props": {
-            "blockClass": "footer__container--form"
-        },
-        "children": [
-            "flex-layout.row#mobile__container--input-button"
-        ]
+    "children": [
+      "newsletter-form#mobile__footer--newsletter"
+    ]
+  },
+  "newsletter-form#mobile__footer--newsletter": {
+    "title": "mobile container newsletter form",
+    "props": {
+      "blockClass": "footer__container--form"
     },
-    "flex-layout.row#mobile__container--input-button": {
-        "title": "mobile newsletter input and button",
-        "props": {
-            "blockClass": "container__input-button",
-            "preventHorizontalStretch": false,
-            "fullWidth": true
-        },
-        "children": [
-            "newsletter-input-email#footer__form--email",
-            "newsletter-submit#footer__form--button"
-        ]
-    }
-
+    "children": [
+      "flex-layout.row#mobile__container--input-button"
+    ]
+  },
+  "flex-layout.row#mobile__container--input-button": {
+    "title": "mobile newsletter input and button",
+    "props": {
+      "blockClass": "container__input-button",
+      "preventHorizontalStretch": false,
+      "fullWidth": true
+    },
+    "children": [
+      "newsletter-input-email#footer__form--email",
+      "newsletter-submit#footer__form--button"
+    ]
+  }
 }

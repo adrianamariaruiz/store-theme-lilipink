@@ -1,0 +1,19 @@
+.container--aboutus {
+    font-weight    : 800;
+    font-size      : 20px;
+    line-height    : 140%;
+    color          : #0A0A0A;
+    width          : 60%;
+    display        : flex;
+    justify-content: flex-start;
+}
+
+.paragraph--aboutus__text {
+    width      : 100%;
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 140%;
+    color      : rgb(102, 102, 102);
+    text-align : justify;
+}

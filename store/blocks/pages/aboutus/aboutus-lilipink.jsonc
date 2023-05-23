@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#aboutus__container--title-about": {
+    "title": "about us title about lilipink container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--title",
+        "aboutus__container--title-about"
+      ]
+    },
+    "children": [
+      "rich-text#aboutus__title--about"
+    ]
+  },
+  "rich-text#aboutus__title--about": {
+    "title": "about us title about lilipink",
+    "props": {
+      "blockClass": [
+        "aboutus",
+        "aboutus__title--about"
+      ],
+      "text": "SOBRE LILIPINK"
+    }
+  },
+  "flex-layout.row#aboutus__container--about-text": {
+    "title": "about us about lilipink text container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--text",
+        "aboutus__container--about-text"
+      ]
+    },
+    "children": [
+      "rich-text#aboutus__about--text"
+    ]
+  },
+  "rich-text#aboutus__about--text": {
+    "title": "about us our pillar text",
+    "props": {
+      "blockClass": [
+        "aboutus__text",
+        "aboutus__about--text"
+      ],
+      "text": "Estamos ubicados en 6 países con más de 50 tiendas: México, Guatemala, Costa Rica, Panamá, Ecuador y Perú.En Colombia, contamos con más de 200 tiendas propias, más de 100 franquicias y más de 50 tiendas de nuestra marca YOI.."
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "store.custom#aboutus": {
+    "props": {
+      "blockClass": "aboutus__container"
+    },
+    "blocks": [
+      "flex-layout.row#aboutus__container--title",
+      "flex-layout.row#aboutus__container--images",
+      "flex-layout.row#aboutus__container--title-text",
+      "flex-layout.row#aboutus__container--text",
+      "flex-layout.row#aboutus__container--title-ideology",
+      "flex-layout.row#aboutus__container--ideology-text",
+      "flex-layout.row#aboutus__container--images-ideology",
+      "flex-layout.row#aboutus__container--title-ourpillar",
+      "flex-layout.row#aboutus__container--ourpillar-text",
+      "flex-layout.row#aboutus__container--title-about",
+      "flex-layout.row#aboutus__container--about-text",
+      "flex-layout.row#aboutus__container--images-info",
+      "flex-layout.row#aboutus__container--vacancies"
+    ]
+  },
+  "flex-layout.row#aboutus__container--title": {
+    "title": "about us title container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "aboutus__container--title"
+    },
+    "children": [
+      "rich-text#aboutus"
+    ]
+  },
+  "rich-text#aboutus": {
+    "title": "about us title",
+    "props": {
+      "blockClass": "aboutus",
+      "text": "Quienes Somos"
+    }
+  },
+  "flex-layout.row#aboutus__container--images": {
+    "title": "about us images container",
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "aboutus__container--images"
+    },
+    "children": [
+      "image#image__one",
+      "image#image__two",
+      "image#image__one"
+    ]
+  },
+  "image#image__one": {
+    "title": "image one",
+    "props": {
+      "blockClass": "image__one",
+      "maxHeight": 250,
+      "src": "assets/img/aboutus/image-one.png"
+    }
+  },
+  "image#image__two": {
+    "title": "image two",
+    "props": {
+      "blockClass": "image__two",
+      "maxHeight": 250,
+      "src": "assets/img/aboutus/image-two.png"
+    }
+  },
+  "flex-layout.row#aboutus__container--title-text": {
+    "title": "about us title text container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--title",
+        "aboutus__container--title-text"
+      ]
+    },
+    "children": [
+      "rich-text#aboutus__title--text"
+    ]
+  },
+  "rich-text#aboutus__title--text": {
+    "title": "about us title text",
+    "props": {
+      "blockClass": [
+        "aboutus",
+        "aboutus__title--text"
+      ],
+      "text": "QUIENES SOMOS"
+    }
+  },
+  "flex-layout.row#aboutus__container--text": {
+    "title": "about us text container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "aboutus__container--text"
+    },
+    "children": [
+      "rich-text#aboutus__text"
+    ]
+  },
+  "rich-text#aboutus__text": {
+    "title": "about us text",
+    "props": {
+      "blockClass": "aboutus__text",
+      "text": "Somos una marca JOVEN, CREATIVA, FRESCA y DIVERTIDA, pensada en mujeres con estas mismas características. El color, la comodidad y la tecnología son nuestras principales cualidades por las que nuestras consumidoras nos refieren."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#aboutus__container--vacancies": {
+    "title": "about us vacancies container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "aboutus__container--vacancies"
+    },
+    "children": [
+      "flex-layout.col#aboutus__image--vacancies"
+    ]
+  },
+  "flex-layout.col#aboutus__image--vacancies": {
+    "title": "about us images vacancies",
+    "props": {
+      "blockClass": "aboutus__images--vacancies"
+    },
+    "children": [
+      "image#image__vacancies"
+    ]
+  },
+  "image#image__vacancies": {
+    "title": "image vacancies",
+    "props": {
+      "blockClass": "image__vacancies",
+      "maxHeight": 85,
+      "src": "assets/img/aboutus/ourvacancies.png",
+      "href": "/"
+    }
+  }
+}

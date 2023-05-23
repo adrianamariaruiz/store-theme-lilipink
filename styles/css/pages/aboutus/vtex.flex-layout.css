@@ -1,0 +1,39 @@
+.flexRowContent--aboutus__container--images :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+
+.flexRow--aboutus__container--title,
+.flexRow--aboutus__container--text {
+    width : 40%;
+    margin: 0 auto;
+}
+
+.flexColChild--aboutus__images--vacancies {
+    margin : 0 auto;
+    width  : 40%;
+    padding: 20px 0px;
+}
+
+.flexRowContent--aboutus__container--images {
+    display        : flex;
+    justify-content: center;
+    flex-wrap      : nowrap;
+}
+
+
+/* @media (max-width: 768px){} */
+/* @media (max-width: 425px){} */
+@media (max-width: 1024px) {
+
+    .flexRow--aboutus__container--title,
+    .flexRow--aboutus__container--text {
+        width : 80%;
+        margin: 0 auto;
+    }
+
+    .flexColChild--aboutus__images--vacancies {
+        margin : 0 auto;
+        width  : 80%;
+        padding: 20px 0px;
+    }
+}

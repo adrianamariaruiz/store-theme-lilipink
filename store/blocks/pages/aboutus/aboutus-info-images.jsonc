@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#aboutus__container--images-info": {
+    "title": "about us images  info container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "aboutus__container--images",
+        "aboutus__container--images-info"
+      ]
+    },
+    "children": [
+      "image#image--info-shops",
+      "image#image--info-franchise",
+      "image#image--info-yoi",
+      "image#image--info-countries"
+    ]
+  },
+  "image#image--info-shops": {
+    "title": "image info shops",
+    "props": {
+      "blockClass": "image__info-shops",
+      "maxHeight": 160,
+      "src": "assets/img/aboutus/shops.png"
+    }
+  },
+  "image#image--info-franchise": {
+    "title": "image info franchise",
+    "props": {
+      "blockClass": "image__info-franchise",
+      "maxHeight": 160,
+      "src": "assets/img/aboutus/franchise.png"
+    }
+  },
+  "image#image--info-yoi": {
+    "title": "image info yoi",
+    "props": {
+      "blockClass": "image__info-yoi",
+      "maxHeight": 160,
+      "src": "assets/img/aboutus/yoi.png"
+    }
+  },
+  "image#image--info-countries": {
+    "title": "image info countries",
+    "props": {
+      "blockClass": "image__info-countries",
+      "maxHeight": 160,
+      "src": "assets/img/aboutus/countries.png"
+    }
+  }
+}

@@ -102,16 +102,15 @@
       "blockClass": "category__preview--details-button"
     },
     "children": [
-      "link#preview__details--button"
+      "link.product#product-page"
     ]
   },
-  "link#preview__details--button": {
-    "title": "button details product",
+  "link.product#product-page": {
     "props": {
-      "blockClass": "preview__details--button",
-      "href": "#",
+      "href": "/{slug}/p",
       "label": "Ver Detalles",
-      "displayMode": "button"
+      "displayMode": "button",
+      "blockClass": "preview__details--button"
     }
   }
 }

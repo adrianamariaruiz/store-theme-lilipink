@@ -5,3 +5,10 @@
 .flexRow--home__global--text{
     margin: 20px 0px;
 }
+
+/* .flexRow--global__btn--whatsapp .global__whatsapp-btn{
+    z-index: 200;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+} */

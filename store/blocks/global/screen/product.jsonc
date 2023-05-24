@@ -2,6 +2,7 @@
     "store.product": {
         "title": "producto",
         "blocks": [
+            "whatsapp-button",
             "responsive-layout.desktop#desktop__pdp",
             "responsive-layout.mobile#mobile__pdp"
         ]

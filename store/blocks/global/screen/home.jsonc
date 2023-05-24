@@ -6,6 +6,7 @@
       "fullWidth": true
     },
     "blocks": [
+      // "whatsapp-button",
       "responsive-layout.desktop#desktop__home",
       "responsive-layout.mobile#phone__and__tablet"
     ]

@@ -6,9 +6,17 @@
       "fullWidth": true
     },
     "blocks": [
-      // "whatsapp-button",
+      "whatsapp-button",
       "responsive-layout.desktop#desktop__home",
       "responsive-layout.mobile#phone__and__tablet"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/home/Whatsapp-icon.png",
+      "phone": "1231231231",
+      "message": "",
+      "blockClass": "global__btn--whatsapp"
+    }
   }
 }

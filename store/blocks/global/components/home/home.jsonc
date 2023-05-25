@@ -15,8 +15,30 @@
       "blockClass": "home__section--global-col"
     },
     "children": [
+      "list-context.bullets-diagramation#global__bullet",
       "flex-layout.row#global__container--gif",
       "flex-layout.row#home__global--text"
     ]
+  },
+  "list-context.bullets-diagramation#global__bullet": {
+    "title": "list context bullet",
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/header/logo.png",
+          "titleBullet": "lili pink",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home/basicos.png",
+          "titleBullet": "Basicos",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
   }
 }

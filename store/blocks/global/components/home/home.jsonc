@@ -2,8 +2,8 @@
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
     "props": {
-      "blockClass": "home__section--global",
-      "fullWidth": "100%"
+      "horizontalAlign": "center",
+      "blockClass": "home__section--global"
     },
     "children": [
       "flex-layout.col#home__section--global-col"
@@ -15,30 +15,82 @@
       "blockClass": "home__section--global-col"
     },
     "children": [
-      "list-context.bullets-diagramation#global__bullet",
+      "flex-layout.row#global__bullet-diagramation",
       "flex-layout.row#global__container--gif",
       "flex-layout.row#home__global--text"
+    ]
+  },
+  "flex-layout.row#global__bullet-diagramation": {
+    "title": "global layout with bullet diagramation",
+    "props": {
+      "marginTop": 5,
+      "marginBottom": 5,
+      "horizontalAlign": "center",
+      "blockClass": "global__bullet-diagramation"
+    },
+    "children": [
+      "list-context.bullets-diagramation#global__bullet"
     ]
   },
   "list-context.bullets-diagramation#global__bullet": {
     "title": "list context bullet",
     "props": {
+      "blockClass": "global__bullet",
       "bullets": [
         {
-          "image": "assets/img/header/logo.png",
-          "titleBullet": "lili pink",
+          "image": "assets/img/home/mujer.png",
+          "titleBullet": "Mujer clásica",
           "link": {
             "url": "/"
           }
         },
         {
           "image": "assets/img/home/basicos.png",
-          "titleBullet": "Basicos",
+          "titleBullet": "Niñas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/header/logo.png",
+          "titleBullet": "Adolescentes",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home/basicos.png",
+          "titleBullet": "Chicas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/header/logo.png",
+          "titleBullet": "Mujer",
           "link": {
             "url": "/"
           }
         }
       ]
+    },
+    "children": [
+      "slider-layout#home__bullet-group"
+    ]
+  },
+  "slider-layout#home__bullet-group": {
+    "title": "slider list bullet",
+    "props": {
+        "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 4,
+            "mobile": 2
+        },
+        // "infinite": true,
+        "showPaginationDots": false,
+        "blockClass": "home__slider--bullet"
+        // "blockClass": "home__slider--list",
+        // "autoplay": false
     }
   }
 }

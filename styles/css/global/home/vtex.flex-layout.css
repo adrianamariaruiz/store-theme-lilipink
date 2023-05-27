@@ -6,9 +6,17 @@
     margin: 20px 0px;
 }
 
-/* .flexRow--global__btn--whatsapp .global__whatsapp-btn{
-    z-index: 200;
+.flexRow--global__bullet-diagramation{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    padding: 22px 44px;
+    border-radius: 20px;
+    border: 1px solid green
+}
+
+.flexColChild--home__section--global-col{
     display: flex;
-    justify-content: flex-end;
-    width: auto;
-} */
+    justify-content: center;
+    margin: 20px auto;
+}

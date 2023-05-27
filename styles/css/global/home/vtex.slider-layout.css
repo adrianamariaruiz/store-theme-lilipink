@@ -1,0 +1,23 @@
+.bullet__item{
+    border: 1px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 278px;
+    width: 224px;
+}
+
+.bullet__item--title{
+    background: linear-gradient(180deg, rgba(214, 128, 176, .01), rgba(115,48,136, .5), #733088);
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+/* mujer #e6007d */
+/* adolescente  #733088*/
+/* chicas #e64583 */
+/* niñas #ef80b1 */
+/* mujer clasica #af1280 */

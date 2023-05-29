@@ -23,9 +23,11 @@
   "flex-layout.row#global__bullet-diagramation": {
     "title": "global layout with bullet diagramation",
     "props": {
+      // "fullWidth": true,
       "marginTop": 5,
       "marginBottom": 5,
       "horizontalAlign": "center",
+      // "verticalAlign": "center",
       "blockClass": "global__bullet-diagramation"
     },
     "children": [
@@ -38,36 +40,36 @@
       "blockClass": "global__bullet",
       "bullets": [
         {
-          "image": "assets/img/home/mujer.png",
-          "titleBullet": "Mujer clásica",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/home/basicos.png",
+          "image": "assets/img/home/kids.png",
           "titleBullet": "Niñas",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/header/logo.png",
+          "image": "assets/img/home/teen.png",
           "titleBullet": "Adolescentes",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/home/basicos.png",
+          "image": "assets/img/home/girls.png",
           "titleBullet": "Chicas",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/header/logo.png",
+          "image": "assets/img/home/women.png",
           "titleBullet": "Mujer",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home/classic.png",
+          "titleBullet": "Mujer clásica",
           "link": {
             "url": "/"
           }
@@ -86,11 +88,8 @@
             "tablet": 4,
             "mobile": 2
         },
-        // "infinite": true,
         "showPaginationDots": false,
         "blockClass": "home__slider--bullet"
-        // "blockClass": "home__slider--list",
-        // "autoplay": false
     }
   }
 }

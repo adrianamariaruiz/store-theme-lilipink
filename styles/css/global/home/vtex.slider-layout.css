@@ -1,0 +1,63 @@
+.caretIcon--home__slider--bullet {
+    display: none;
+}
+
+.sliderLeftArrow--home__slider--bullet {
+    background         : url("assets/img/home/slider-left-arrow.svg") no-repeat !important;
+    background-size    : 60% !important;
+    background-position: center !important;
+    background-color   : #fff !important;
+    height             : 32px;
+    width              : 32px;
+    transform          : translateX(-35px);
+}
+
+.sliderRightArrow--home__slider--bullet {
+    background         : url("assets/img/home/slider-right-arrow.svg") no-repeat !important;
+    background-size    : 60% !important;
+    background-position: center !important;
+    background-color   : #fff !important;
+    height             : 32px;
+    width              : 32px;
+    transform          : translateX(35px);
+}
+
+.bullet__item {
+    margin       : 0 10px;
+    border-radius: 6px;
+    overflow     : hidden;
+    height       : 278px;
+    width        : 224px;
+}
+
+.bullet__item--image {
+    position  : relative;
+    height    : 100%;
+    object-fit: cover;
+}
+
+.bullet__item--title {
+    position       : absolute;
+    height         : 10.375rem;
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-end;
+    width          : 92%;
+    padding        : 1.375rem 1.6875rem;
+    bottom         : -20px;
+    border-radius  : 14px;
+    background     : linear-gradient(180deg, rgba(214, 128, 176, .01), rgba(230, 69, 131) 50%, #e64583);
+    text-decoration: none;
+    color          : rgb(255, 255, 255);
+    font-weight    : 700;
+    font-size      : 16px;
+    line-height    : 20px;
+    text-transform : capitalize;
+}
+
+
+/* mujer #e6007d */
+/* adolescente  #733088*/
+/* chicas #e64583 */
+/* niñas #ef80b1 */
+/* mujer clasica #af1280 */

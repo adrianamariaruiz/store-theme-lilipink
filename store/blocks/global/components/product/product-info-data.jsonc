@@ -48,7 +48,8 @@
             "sku-selector#product__sku",
             "flex-layout.row#product__size--text",
             "product-quantity",
-            "add-to-cart-button#pdp__products--add"
+            "add-to-cart-button#pdp__products--add",
+            "add-to-cart-info"
         ]
     },
     "flex-layout.col#product__info--wish-share": {

@@ -2,8 +2,8 @@
   "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
     "props": {
-      "blockClass": "home__section--global",
-      "fullWidth": "100%"
+      "horizontalAlign": "center",
+      "blockClass": "home__section--global"
     },
     "children": [
       "flex-layout.col#home__section--global-col"
@@ -15,8 +15,81 @@
       "blockClass": "home__section--global-col"
     },
     "children": [
+      "flex-layout.row#global__bullet-diagramation",
       "flex-layout.row#global__container--gif",
       "flex-layout.row#home__global--text"
     ]
+  },
+  "flex-layout.row#global__bullet-diagramation": {
+    "title": "global layout with bullet diagramation",
+    "props": {
+      // "fullWidth": true,
+      "marginTop": 5,
+      "marginBottom": 5,
+      "horizontalAlign": "center",
+      // "verticalAlign": "center",
+      "blockClass": "global__bullet-diagramation"
+    },
+    "children": [
+      "list-context.bullets-diagramation#global__bullet"
+    ]
+  },
+  "list-context.bullets-diagramation#global__bullet": {
+    "title": "list context bullet",
+    "props": {
+      "blockClass": "global__bullet",
+      "bullets": [
+        {
+          "image": "assets/img/home/kids.png",
+          "titleBullet": "Niñas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home/teen.png",
+          "titleBullet": "Adolescentes",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home/girls.png",
+          "titleBullet": "Chicas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home/women.png",
+          "titleBullet": "Mujer",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/home/classic.png",
+          "titleBullet": "Mujer clásica",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#home__bullet-group"
+    ]
+  },
+  "slider-layout#home__bullet-group": {
+    "title": "slider list bullet",
+    "props": {
+        "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 4,
+            "mobile": 2
+        },
+        "showPaginationDots": false,
+        "blockClass": "home__slider--bullet"
+    }
   }
 }
